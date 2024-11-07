@@ -1,0 +1,155 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_order_link_cost_sheet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:54+0000\n"
+"PO-Revision-Date: 2024-11-01 16:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_order_link_cost_sheet
+#: model_terms:ir.ui.view,arch_db:job_order_link_cost_sheet.job_costsheet_create_production_wiz_view
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: job_order_link_cost_sheet
+#: model_terms:ir.ui.view,arch_db:job_order_link_cost_sheet.view_task_form2_inherit_joborder_link
+msgid "Create / Edit Cost Sheet"
+msgstr "إنشاء / تحرير ورقة التكلفة"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields.selection,name:job_order_link_cost_sheet.selection__jobcostsheet_update_wizard__costsheet_type__create_costsheet
+msgid "Create Job Cost Sheet"
+msgstr "إنشاء ورقة تكاليف الوظيفة"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.actions.act_window,name:job_order_link_cost_sheet.action_create_edit_job_costsheet
+msgid "Create or Edit Job Cost Sheet of Material Planning"
+msgstr "إنشاء أو تحرير ورقة تكاليف العمل للتخطيط المادي"
+
+#. module: job_order_link_cost_sheet
+#: model_terms:ir.ui.view,arch_db:job_order_link_cost_sheet.job_costsheet_create_production_wiz_view
+msgid "Create or Edit Material Planning Job Costsheet."
+msgstr "إنشاء أو تحرير جدول تكاليف وظيفة التخطيط المادي."
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_jobcostsheet_update_wizard__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_jobcostsheet_update_wizard__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_jobcostsheet_update_wizard__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_order_link_cost_sheet
+#: model_terms:ir.ui.view,arch_db:job_order_link_cost_sheet.job_costsheet_create_production_wiz_view
+msgid "Execute"
+msgstr "ينفذ"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_jobcostsheet_update_wizard__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_material_plan__is_material_created
+msgid "Is Created ?"
+msgstr "هل تم خلقه ؟"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model,name:job_order_link_cost_sheet.model_job_cost_line
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_material_plan__custom_material_job_id
+msgid "Job Cost Line"
+msgstr "خط تكلفة الوظيفة"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_jobcostsheet_update_wizard__job_costsheet_id
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_material_plan__custom_job_cost_id
+msgid "Job Cost Sheet"
+msgstr "ورقة تكاليف العمل"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_job_cost_line__custom_material_id
+msgid "Job Material"
+msgstr "مادة العمل"
+
+#. module: job_order_link_cost_sheet
+#. odoo-python
+#: code:addons/job_order_link_cost_sheet/wizard/job_costsheet_update.py:0
+#: code:addons/odoo/const/job_order_link_cost_sheet/wizard/job_costsheet_update.py:0
+#, python-format
+msgid "Job order not on Customer."
+msgstr "طلب العمل غير موجود لدى العميل."
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model,name:job_order_link_cost_sheet.model_jobcostsheet_update_wizard
+msgid "JobCost Sheet Update Wizard"
+msgstr "معالج تحديث ورقة تكاليف العمل"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_jobcostsheet_update_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_jobcostsheet_update_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model,name:job_order_link_cost_sheet.model_material_plan
+msgid "Material Plan"
+msgstr "خطة المواد"
+
+#. module: job_order_link_cost_sheet
+#. odoo-python
+#: code:addons/job_order_link_cost_sheet/wizard/job_costsheet_update.py:0
+#: code:addons/job_order_link_cost_sheet/wizard/job_costsheet_update.py:0
+#: code:addons/odoo/const/job_order_link_cost_sheet/wizard/job_costsheet_update.py:0
+#: code:addons/odoo/const/job_order_link_cost_sheet/wizard/job_costsheet_update.py:0
+#, python-format
+msgid "No Material Line Found."
+msgstr "لم يتم العثور على خط المواد."
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_jobcostsheet_update_wizard__costsheet_type
+msgid "Options"
+msgstr "خيارات"
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields,field_description:job_order_link_cost_sheet.field_jobcostsheet_update_wizard__project_id
+msgid "Project"
+msgstr "مشروع"
+
+#. module: job_order_link_cost_sheet
+#: model_terms:ir.ui.view,arch_db:job_order_link_cost_sheet.job_costsheet_create_production_wiz_view
+msgid ""
+"This wizard will create or edit job cost sheet of material planning on "
+"listed job order."
+msgstr ""
+"سيقوم هذا المعالج بإنشاء أو تحرير ورقة تكلفة الوظيفة الخاصة بتخطيط المواد "
+"على أمر الوظيفة المدرج."
+
+#. module: job_order_link_cost_sheet
+#: model:ir.model.fields.selection,name:job_order_link_cost_sheet.selection__jobcostsheet_update_wizard__costsheet_type__update_costsheet
+msgid "Update Job Cost Sheet"
+msgstr "تحديث جدول تكاليف الوظيفة"
+
+#. module: job_order_link_cost_sheet
+#: model_terms:ir.ui.view,arch_db:job_order_link_cost_sheet.job_costsheet_create_production_wiz_view
+msgid "or"
+msgstr "أو"

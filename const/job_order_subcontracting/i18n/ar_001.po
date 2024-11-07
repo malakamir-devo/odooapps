@@ -1,0 +1,552 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_order_subcontracting
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:13+0000\n"
+"PO-Revision-Date: 2024-11-01 16:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_order_subcontracting
+#: model:mail.template,body_html:job_order_subcontracting.email_subcontractor_template
+msgid ""
+"\n"
+"            <p>Dear <t t-out=\"object.partner_id.name or ''\"></t>,</p>\n"
+"\n"
+"            <p>You have new sub-contract job order.</p>\n"
+"            <p>To see job order please followe below link:</p>\n"
+"            <br/><br/>\n"
+"            <p>\n"
+"              <a style=\"padding: 8px 30px 8px 30px;border-radius: 6px;border: 1px solid #CCCCCC;background-color:#008080;margin-left: 2px;text-decoration: none;color:#FFFFFF;\" t-att-href=\"ctx['url']\">Sub Contract</a>\n"
+"            <p>\n"
+"            If you have any questions, please let us know.\n"
+"            <br/><br/>\n"
+"            Thank you,\n"
+"            <br/>\n"
+"            <t t-if=\"user.signature\">\n"
+"                <br />\n"
+"                <t t-out=\"user.signature or ''\">--<br/>Mitchell Admin</t>\n"
+"            </t>\n"
+"            <!-- FOOTER -->\n"
+"   <!--  <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
+"            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"            <b t-out=\"object.company_id.name or ''\">My Company (San Francisco)</b><br/>\n"
+"            <div style=\"color: #999999;\">\n"
+"                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</t>\n"
+"                <t t-if=\"object.company_id.email\">\n"
+"                    | <a t-attf-href=\"'mailto:%s' % {{ object.company_id.email }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.email or ''\">info@yourcompany.com</a>\n"
+"                </t>\n"
+"                <t t-if=\"object.company_id.website\">\n"
+"                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+"                </t>\n"
+"            </div>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr> -->\n"
+"<!-- POWERED BY -->\n"
+"<!-- <tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"</td></tr>\n"
+"</table> -->\n"
+"        </field>\n"
+"        <!-- <field name=\"lang\">{{ object.partner_id.lang }}</field> -->\n"
+"        <field name=\"auto_delete\" eval=\"True\"/>\n"
+"           \n"
+"           "
+msgstr ""
+"<p>عزيزي <t t-out=\"object.partner_id.name or ''\"></t>,</p>\n"
+"\n"
+"<p>لديك طلب عمل جديد من الباطن.</p>\n"
+"<p>لمشاهدة طلب العمل، يرجى اتباع الرابط أدناه:</p>\n"
+"<br/><br/>\n"
+"<p>\n"
+"<a style=\"padding: 8px 30px 8px 30px;border-radius: 6px;border: 1px solid #CCCCCC;background-color:#008080;margin-left: 2px;text-decoration: none;color:#FFFFFF;\" t-att-href=\"ctx['url']\">عقد من الباطن</a>\n"
+"<p>\n"
+"إذا كان لديك أي أسئلة، يرجى إعلامنا بذلك.\n"
+"<br/><br/>\n"
+"شكرًا لك،\n"
+"<br/>\n"
+"<t t-if=\"user.signature\">\n"
+"<br />\n"
+"<t t-out=\"user.signature or ''\">--<br/>Mitchell Admin</t>\n"
+"</t>\n"
+"<!-- FOOTER -->\n"
+"<!-- <tr>\n"
+"<td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
+"<hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"<b t-out=\"object.company_id.name أو ''\">شركتي (سان فرانسيسكو)</b><br/>\n"
+"<div style=\"color: #999999;\">\n"
+"<t t-out=\"object.company_id.phone أو ''\">+1 650-123-4567</t>\n"
+"<t t-if=\"object.company_id.email\">\n"
+"| <a t-attf-href=\"'mailto:%s' % {{ object.company_id.email }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.email أو ''\">info@yourcompany.com</a>\n"
+"</t>\n"
+"<t t-if=\"object.company_id.website\">\n"
+"| <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website أو ''\">http://www.example.com</a>\n"
+"</t>\n"
+"</div>\n"
+"</td>\n"
+"</tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr> -->\n"
+"<!-- مدعوم بواسطة -->\n"
+"<!-- <tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"مدعوم بواسطة <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"</td></tr>\n"
+"</table> -->\n"
+"</field>\n"
+"<!-- <field name=\"lang\">{{ object.partner_id.lang }}</field> -->\n"
+"<field name=\"auto_delete\" eval=\"True\"/>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<small class=\"text-end\">Stage:</small>"
+msgstr "<small class=\"text-end\">المرحلة:</small>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<strong class=\"d-block mb-2\">Attachments</strong>"
+msgstr "<strong class=\"d-block mb-2\">المرفقات</strong>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<strong class=\"d-block mb-2\">Description:</strong>"
+msgstr "<strong class=\"d-block mb-2\">الوصف:</strong>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<strong>Assignees:</strong>"
+msgstr "<strong>المُخصصون:</strong>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<strong>Customer:</strong>"
+msgstr "<strong>العميل:</strong>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<strong>Date:</strong>"
+msgstr "<strong>التاريخ:</strong>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<strong>Deadline:</strong>"
+msgstr "<strong>الموعد النهائي:</strong>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<strong>Message and communication history</strong>"
+msgstr "<strong>سجل الرسائل والاتصالات</strong>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<strong>Planned Hours:</strong>"
+msgstr "<strong>ساعات العمل المخطط لها:</strong>"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "<strong>Project:</strong>"
+msgstr "<strong>المشروع:</strong>"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "All"
+msgstr "الجميع"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__analytic_account_id
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,help:job_order_subcontracting.field_custom_contract_po_line__analytic_account_id
+msgid ""
+"Analytic account to which this project, its tasks and its timesheets are linked. \n"
+"Track the costs and revenues of your project by setting this analytic account on your related documents (e.g. sales orders, invoices, purchase orders, vendor bills, expenses etc.).\n"
+"This analytic account can be changed on each task individually if necessary.\n"
+"An analytic account is required in order to use timesheets."
+msgstr ""
+"حساب تحليلي يرتبط به هذا المشروع ومهامه وجداول العمل الخاصة به.\n"
+"تتبع تكاليف وإيرادات مشروعك من خلال تعيين هذا الحساب التحليلي على المستندات ذات الصلة (على سبيل المثال، أوامر البيع والفواتير وأوامر الشراء وفواتير الموردين والنفقات وما إلى ذلك).\n"
+"يمكن تغيير هذا الحساب التحليلي في كل مهمة على حدة إذا لزم الأمر.\n"
+"يُطلب حساب تحليلي لاستخدام جداول العمل."
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_subcontractor_wizard
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.subcontractor_purchase_order_wizard
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.actions.act_window,help:job_order_subcontracting.action_subcontractor_vendor
+msgid "Click to add a contact in your address book."
+msgstr "انقر هنا لإضافة جهة اتصال إلى دفتر العناوين الخاص بك."
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "Contact"
+msgstr "اتصال"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_subcontractor_wizard
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.subcontractor_purchase_order_wizard
+msgid "Create"
+msgstr "يخلق"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_sub_contractor_view
+msgid "Create Purchase Order"
+msgstr "إنشاء طلب شراء"
+
+#. module: job_order_subcontracting
+#: model:ir.actions.act_window,name:job_order_subcontracting.action_job_order_subcontractor
+msgid "Create Subcontractor"
+msgstr "إنشاء مقاول فرعي"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_sub_contractor_view
+msgid "Create Subcontractor Job"
+msgstr "إنشاء وظيفة مقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model:ir.actions.act_window,name:job_order_subcontracting.action_subcontractor_purchase_order
+msgid "Create Subcontractor Purchase Order"
+msgstr "إنشاء طلب شراء للمقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__create_uid
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__create_uid
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_subcontractor_purchase_order__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__create_date
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__create_date
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_subcontractor_purchase_order__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractors
+msgid "Current stage of the task"
+msgstr "المرحلة الحالية للمهمة"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor
+msgid "Current stage of this task"
+msgstr "المرحلة الحالية لهذه المهمة"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__description
+msgid "Description"
+msgstr "وصف"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__display_name
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__display_name
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_subcontractor_purchase_order__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__id
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__id
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_subcontractor_purchase_order__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__name
+msgid "Job"
+msgstr "وظيفة"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__job_cost_id
+msgid "Job Cost"
+msgstr "تكلفة الوظيفة"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__job_cost_line_id
+msgid "Job Cost Line"
+msgstr "خط تكلفة الوظيفة"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__description
+msgid "Job Description"
+msgstr "المسمى الوظيفي"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Last Stage Update"
+msgstr "تحديث المرحلة الأخيرة"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__write_uid
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__write_uid
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_subcontractor_purchase_order__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__write_date
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__write_date
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_subcontractor_purchase_order__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_project_task__purchaseorder_line_ids
+msgid "Material Plan"
+msgstr "خطة المواد"
+
+#. module: job_order_subcontracting
+#: model:mail.template,subject:job_order_subcontracting.email_subcontractor_template
+msgid "New Sub Contractor Job: {{object.name}}"
+msgstr "وظيفة مقاول فرعي جديدة: {{object.name}}"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Newest"
+msgstr "الأحدث"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.actions.act_window,help:job_order_subcontracting.action_subcontractor_vendor
+msgid ""
+"Odoo helps you easily track all activities related to\n"
+"            a supplier: discussions, history of purchases,\n"
+"            documents, etc."
+msgstr ""
+"يساعدك Odoo على تتبع جميع الأنشطة المتعلقة بالمورد بسهولة: المناقشات، وسجل "
+"المشتريات، والمستندات، وما إلى ذلك."
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__product_id
+msgid "Product"
+msgstr "منتج"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Project"
+msgstr "مشروع"
+
+#. module: job_order_subcontracting
+#: model:ir.model,name:job_order_subcontracting.model_purchase_order
+msgid "Purchase Order"
+msgstr "أمر شراء"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_sub_contractor_view
+msgid "Purchase Order Lines"
+msgstr "خطوط طلب الشراء"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__is_created
+msgid "Purchase order created"
+msgstr "تم إنشاء أمر الشراء"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__quantity
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__user_id
+msgid "Responsible User/ Subcontractor User"
+msgstr "المستخدم المسؤول/مستخدم المقاول من الباطن"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Search <span class=\"nolabel\"> (in Content)</span>"
+msgstr "البحث <span class=\"nolabel\"> (في المحتوى)</span>"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Search in All"
+msgstr "البحث في الكل"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Search in Customer"
+msgstr "البحث في العميل"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Search in Messages"
+msgstr "البحث في الرسائل"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Search in Project"
+msgstr "البحث في المشروع"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Search in Stages"
+msgstr "البحث في المراحل"
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractors
+#, python-format
+msgid "Stage"
+msgstr "منصة"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__sub_contractor_id
+msgid "Sub Contractor"
+msgstr "مقاول فرعي"
+
+#. module: job_order_subcontracting
+#: model:ir.model,name:job_order_subcontracting.model_sub_contractor
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_purchase_order__subcontractor_id
+msgid "Sub Contractor Job"
+msgstr "وظيفة مقاول فرعي"
+
+#. module: job_order_subcontracting
+#: model:mail.template,name:job_order_subcontracting.email_subcontractor_template
+msgid "Sub Contractor Notification - Send by Email"
+msgstr "إشعار المقاول من الباطن - إرسال عبر البريد الإلكتروني"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_project_task__custom_contractor_partner_id
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_sub_contractor__partner_id
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_subcontractor_wizard
+msgid "Subcontractor"
+msgstr "مقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_sub_contractor_view
+msgid "Subcontractor Details"
+msgstr "تفاصيل المقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_layout_subcontract_task
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractor_joborder
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractors
+msgid "Subcontractor Job Order"
+msgstr "طلب عمل مقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_project_task__is_subcontractor_joborder
+msgid "Subcontractor Job order"
+msgstr "طلب عمل مقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_project_task__subcontractor_id
+msgid "Subcontractor Joborder"
+msgstr "طلب عمل مقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model:ir.actions.act_window,name:job_order_subcontracting.action_subcontractor_job
+#: model:ir.ui.menu,name:job_order_subcontracting.menu_subcontrator_job
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_sub_contractor_view
+msgid "Subcontractor Jobs"
+msgstr "وظائف المقاولين من الباطن"
+
+#. module: job_order_subcontracting
+#: model:ir.model,name:job_order_subcontracting.model_subcontractor_purchase_order
+msgid "Subcontractor Purchase Order"
+msgstr "طلب شراء مقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.subcontractor_purchase_order_wizard
+msgid "Subcontractor Purchase Order wizard"
+msgstr "معالج طلب شراء المقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_sub_contractor_view
+msgid "Subcontractor Purchases"
+msgstr "مشتريات المقاولين من الباطن"
+
+#. module: job_order_subcontracting
+#: model:ir.actions.act_window,name:job_order_subcontracting.action_subcontractor_vendor
+msgid "Subcontractor Vendors"
+msgstr "بائعي الباطن"
+
+#. module: job_order_subcontracting
+#: model:ir.model,name:job_order_subcontracting.model_project_task
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractors
+msgid "Task"
+msgstr "مهمة"
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.portal_my_subcontractors
+msgid "There are no tasks."
+msgstr "لا يوجد مهام."
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.job_order_subcontractor_wizard
+msgid "This wizard will create Job Order for Subcontractor."
+msgstr "سيقوم هذا المعالج بإنشاء طلب عمل للمقاول من الباطن."
+
+#. module: job_order_subcontracting
+#: model_terms:ir.ui.view,arch_db:job_order_subcontracting.subcontractor_purchase_order_wizard
+msgid "This wizard will create purchase order for subcontractor."
+msgstr "سوف يقوم هذا المعالج بإنشاء أمر شراء للمقاول من الباطن."
+
+#. module: job_order_subcontracting
+#. odoo-python
+#: code:addons/job_order_subcontracting/controllers/main.py:0
+#: code:addons/odoo/const/job_order_subcontracting/controllers/main.py:0
+#, python-format
+msgid "Title"
+msgstr "عنوان"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_custom_contract_po_line__uom_id
+msgid "Uom"
+msgstr "أوم"
+
+#. module: job_order_subcontracting
+#: model:ir.model.fields,field_description:job_order_subcontracting.field_subcontractor_purchase_order__partner_id
+msgid "Vendor / Subcontractor"
+msgstr "البائع / المقاول من الباطن"
+
+#. module: job_order_subcontracting
+#: model:ir.model,name:job_order_subcontracting.model_custom_contract_po_line
+msgid "custom.contract.po.line"
+msgstr "عقد مخصص.خط.po."

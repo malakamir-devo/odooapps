@@ -1,0 +1,275 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_job_costing_progress_billing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:42+0000\n"
+"PO-Revision-Date: 2024-11-01 16:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.report_job_costing_inherit_sale_price
+msgid "<strong>Customer Invoice Billable Method</strong>"
+msgstr "<strong>طريقة إصدار الفواتير للعميل</strong>"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields.selection,name:odoo_job_costing_progress_billing.selection__job_costing__billable_method__based_on_apq
+msgid "Based On Actual Purchase Qty"
+msgstr "بناءً على كمية الشراء الفعلية"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields.selection,name:odoo_job_costing_progress_billing.selection__job_costing__billable_method__based_on_avbq
+msgid "Based On Actual Vendor Bill Qty"
+msgstr "بناءً على كمية فاتورة البائع الفعلية"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields.selection,name:odoo_job_costing_progress_billing.selection__job_costing__billable_method__based_on_mi
+msgid "Based On Manual Invoice"
+msgstr "بناءً على الفاتورة اليدوية"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields.selection,name:odoo_job_costing_progress_billing.selection__job_cost_line__billable__billable
+msgid "Billable"
+msgstr "قابلة للفوترة"
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.jobcost_sheet_wiz_form
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.actions.act_window,name:odoo_job_costing_progress_billing.action_job_costing_invoice
+msgid "Create Customer Invoice"
+msgstr "إنشاء فاتورة العميل"
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.billing_job_costing_view
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.jobcost_sheet_wiz_form
+msgid "Create Invoice"
+msgstr "إنشاء فاتورة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__partner_id
+msgid "Customer"
+msgstr "عميل"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_costing__billable_method
+msgid "Customer Invoice Billable Method"
+msgstr "طريقة تحصيل الفواتير من العميل"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_cost_line__invoice_line_ids
+msgid "Customer Invoice Lines"
+msgstr "خطوط فاتورة العميل"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_cost_line__invoice_qty
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.report_job_costing_inherit_sale_price
+msgid "Customer Invoiced Qty"
+msgstr "كمية الفاتورة التي قام العميل بإصدارها"
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.billing_job_costing_view
+msgid "Customer Invoices"
+msgstr "فواتير العملاء"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__labour_invoice
+msgid "Include Labour Lines"
+msgstr "تضمين خطوط العمل"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__material_invoice
+msgid "Include Material Lines"
+msgstr "تضمين خطوط المواد"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__overhead_invoice
+msgid "Include Overhead Lines"
+msgstr "تضمين الخطوط العلوية"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_costing__invoice_ids
+msgid "Invoice"
+msgstr "فاتورة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_costing__invoice_count
+msgid "Invoice Count"
+msgstr "عدد الفواتير"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__invoice_date
+msgid "Invoice Date"
+msgstr "تاريخ الفاتورة"
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.report_job_costing_inherit_sale_price
+msgid "Invoice Hour"
+msgstr "ساعة الفاتورة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_cost_line__invoice_hours
+msgid "Invoiced Hour"
+msgstr "الساعة المفوترة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_cost_line__billable
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.report_job_costing_inherit_sale_price
+msgid "Is Billable"
+msgstr "هل يمكن دفع الفاتورة؟"
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.jobcost_sheet_wiz_form
+msgid "Job Cost Invoice"
+msgstr "فاتورة تكلفة العمل"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model,name:odoo_job_costing_progress_billing.model_job_cost_line
+msgid "Job Cost Line"
+msgstr "خط تكلفة الوظيفة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_account_move_line__job_cost_line_ids
+msgid "Job Cost Lines"
+msgstr "خطوط تكلفة الوظيفة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_account_bank_statement_line__job_cost_id
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_account_move__job_cost_id
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_account_payment__job_cost_id
+msgid "Job Cost Sheet"
+msgstr "ورقة تكاليف العمل"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model,name:odoo_job_costing_progress_billing.model_job_costing
+msgid "Job Costing"
+msgstr "تكلفة الوظيفة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model,name:odoo_job_costing_progress_billing.model_account_move
+msgid "Journal Entry"
+msgstr "القيد اليومي"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model,name:odoo_job_costing_progress_billing.model_account_move_line
+msgid "Journal Item"
+msgstr "بند المجلة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_jobcost_invoice__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_cost_line__manual_invoice_hours
+msgid "Manual Invoiced Hour"
+msgstr "ساعة الفاتورة اليدوية"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_cost_line__manual_invoice_qty
+msgid "Manual Invoiced Qty"
+msgstr "كمية الفاتورة اليدوية"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields.selection,name:odoo_job_costing_progress_billing.selection__job_cost_line__billable__not_billable
+msgid "Not Billable"
+msgstr "غير قابلة للفوترة"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model.fields,field_description:odoo_job_costing_progress_billing.field_job_cost_line__sale_price
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.report_job_costing_inherit_sale_price
+msgid "Sale Price / Unit"
+msgstr "سعر البيع / الوحدة"
+
+#. module: odoo_job_costing_progress_billing
+#. odoo-python
+#: code:addons/odoo/const/odoo_job_costing_progress_billing/wizard/jobcost_invoice.py:0
+#: code:addons/odoo/const/odoo_job_costing_progress_billing/wizard/jobcost_invoice.py:0
+#: code:addons/odoo/const/odoo_job_costing_progress_billing/wizard/jobcost_invoice.py:0
+#: code:addons/odoo_job_costing_progress_billing/wizard/jobcost_invoice.py:0
+#: code:addons/odoo_job_costing_progress_billing/wizard/jobcost_invoice.py:0
+#: code:addons/odoo_job_costing_progress_billing/wizard/jobcost_invoice.py:0
+#, python-format
+msgid ""
+"There is no income account defined for this product: \"%s\". You may have to"
+" install a chart of account from Accounting app, settings menu."
+msgstr ""
+"لا يوجد حساب دخل محدد لهذا المنتج: \"%s\". قد يتعين عليك تثبيت مخطط حسابات "
+"من تطبيق المحاسبة، قائمة الإعدادات."
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.jobcost_sheet_wiz_form
+msgid "This wizard will create customer invoice for selectd customer."
+msgstr "سيقوم هذا المعالج بإنشاء فاتورة عميل للعميل المحدد."
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.jobcost_sheet_wiz_form
+msgid ""
+"Tick the box if you want to include labour uninvoiced lines into customer "
+"invoice."
+msgstr ""
+"قم بتحديد المربع إذا كنت تريد تضمين أسطر العمالة غير المفوترة في فاتورة "
+"العميل."
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.jobcost_sheet_wiz_form
+msgid ""
+"Tick the box if you want to include material uninvoiced lines into customer "
+"invoice."
+msgstr ""
+"قم بتحديد المربع إذا كنت تريد تضمين أسطر المواد غير المفوترة في فاتورة "
+"العميل."
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.jobcost_sheet_wiz_form
+msgid ""
+"Tick the box if you want to include overhead uninvoiced lines into customer "
+"invoice."
+msgstr ""
+"قم بتحديد المربع إذا كنت تريد تضمين خطوط النفقات العامة غير المفوترة في "
+"فاتورة العميل."
+
+#. module: odoo_job_costing_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_job_costing_progress_billing.billing_job_costing_view
+msgid "Total"
+msgstr "المجموع"
+
+#. module: odoo_job_costing_progress_billing
+#: model:ir.model,name:odoo_job_costing_progress_billing.model_jobcost_invoice
+msgid "jobcost.invoice"
+msgstr "تكلفة الوظيفة.الفاتورة"

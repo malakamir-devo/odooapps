@@ -1,0 +1,33 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_issue_capture_photo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:50+0000\n"
+"PO-Revision-Date: 2024-11-01 16:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_issue_capture_photo
+#: model:ir.model.fields,field_description:job_issue_capture_photo.field_construction_ticket__capture_attachment_ids
+#: model:ir.model.fields,field_description:job_issue_capture_photo.field_project_task__capture_attachment_ids
+#: model_terms:ir.ui.view,arch_db:job_issue_capture_photo.view_task_form2_inherit_capture_photo
+msgid "Capture Photos"
+msgstr "التقاط الصور"
+
+#. module: job_issue_capture_photo
+#: model:ir.model,name:job_issue_capture_photo.model_construction_ticket
+msgid "Project Issue"
+msgstr "قضية المشروع"
+
+#. module: job_issue_capture_photo
+#: model:ir.model,name:job_issue_capture_photo.model_project_task
+msgid "Task"
+msgstr "مهمة"

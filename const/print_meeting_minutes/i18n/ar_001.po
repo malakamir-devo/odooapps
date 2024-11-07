@@ -1,0 +1,136 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* print_meeting_minutes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:45+0000\n"
+"PO-Revision-Date: 2024-11-01 16:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "- <span>Meeting Minutes</span><br/>"
+msgstr "- <span>محضر الاجتماع</span><br/>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Action Items</strong>"
+msgstr "<strong>عناصر العمل</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Agenda Topic</strong>"
+msgstr "<strong>موضوع الأجندة</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Conclusion</strong>"
+msgstr "<strong>الخاتمة</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Discussion </strong>"
+msgstr "<strong>المناقشة</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Facilitator</strong>"
+msgstr "<strong>الميسر</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Meeting Attendees</strong>"
+msgstr "<strong>الحاضرون في الاجتماع</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Meeting Called by</strong>"
+msgstr "<strong>الاجتماع الذي دعا إليه</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Meeting Date</strong>"
+msgstr "<strong>تاريخ الاجتماع</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Meeting Location </strong>"
+msgstr "<strong>مكان اللقاء</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Meeting Location</strong>"
+msgstr "<strong>مكان الاجتماع</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Note Taker</strong>"
+msgstr "<strong>مُدوِّن الملاحظات</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Presenter</strong>"
+msgstr "<strong>المقدم</strong>"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_minutes
+msgid "<strong>Timekeeper</strong>"
+msgstr "<strong>حارس الوقت</strong>"
+
+#. module: print_meeting_minutes
+#: model:ir.model.fields,field_description:print_meeting_minutes.field_calendar_event__action_items
+msgid "Action Items"
+msgstr "بنود العمل"
+
+#. module: print_meeting_minutes
+#: model:ir.model.fields,field_description:print_meeting_minutes.field_calendar_event__agenda_topic
+msgid "Agenda Topics"
+msgstr "مواضيع جدول الأعمال"
+
+#. module: print_meeting_minutes
+#: model:ir.model,name:print_meeting_minutes.model_calendar_event
+msgid "Calendar Event"
+msgstr "حدث التقويم"
+
+#. module: print_meeting_minutes
+#: model:ir.model.fields,field_description:print_meeting_minutes.field_calendar_event__conclusion
+msgid "Conclusion"
+msgstr "خاتمة"
+
+#. module: print_meeting_minutes
+#: model:ir.model.fields,field_description:print_meeting_minutes.field_calendar_event__facilitator
+msgid "Facilitator"
+msgstr "مُيسّر"
+
+#. module: print_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:print_meeting_minutes.meeting_form_view_miniutes
+msgid "Meeting Additional Info"
+msgstr "معلومات إضافية عن الاجتماع"
+
+#. module: print_meeting_minutes
+#: model:ir.model.fields,field_description:print_meeting_minutes.field_calendar_event__note_taker
+msgid "Note Taker"
+msgstr "مُدوِّن الملاحظات"
+
+#. module: print_meeting_minutes
+#: model:ir.model.fields,field_description:print_meeting_minutes.field_calendar_event__presenter_id
+msgid "Presenter"
+msgstr "مقدم العرض"
+
+#. module: print_meeting_minutes
+#: model:ir.actions.report,name:print_meeting_minutes.report_meeting_minutes
+msgid "Print Meeting Minutes"
+msgstr "طباعة محاضر الاجتماع"
+
+#. module: print_meeting_minutes
+#: model:ir.model.fields,field_description:print_meeting_minutes.field_calendar_event__time_keeper
+msgid "Time Keeper"
+msgstr "حارس الوقت"

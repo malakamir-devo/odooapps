@@ -1,0 +1,502 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_job_workorder_request
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 17:13+0000\n"
+"PO-Revision-Date: 2024-11-01 17:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_job_workorder_request
+#: model:mail.template,body_html:website_job_workorder_request.custom_wo_email_template_job_order_to_customer
+msgid ""
+"\n"
+"            \n"
+"\n"
+"        <p>Dear <t t-out=\"object.custom_wo_job_partner_id.name\"/>, <br/>\n"
+"\n"
+"      <p> Please find attached Job Order - <t t-out=\"object.custom_wo_number\"/>.<br/> \n"
+"       <p>\n"
+"           <strong>\n"
+"             <t t-out=\"object.company_id.name\"/>\n"
+"           </strong>\n"
+"       </p>\n"
+"   \n"
+"<!--    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
+"            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"            <b><t t-out=\"object.company_id.name\" /></b><br/>\n"
+"            <div style=\"color: #999999;\">\n"
+"                <t t-out=\"object.company_id.phone\" />\n"
+"                <t t-if=\"object.company_id.email\">\n"
+"                |\n"
+"                    <a t-att-href=\"'mailto:%s' % object.company_id.email\" style=\"text-decoration:none; color: #999999;\">\n"
+"                        <t t-out=\"object.company_id.email\" />\n"
+"                    </a>\n"
+"                </t>\n"
+"                <t t-if=\"object.company_id.website\">\n"
+"                |\n"
+"                    <a href=\"'%s' % object.company_id.website\" style=\"text-decoration:none; color: #999999;\">\n"
+"                        <t t-out=\"object.company_id.website\" />\n"
+"                    </a>\n"
+"                </t>\n"
+"            </div>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr> -->\n"
+"<!-- <tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"</td></tr> -->\n"
+"            "
+msgstr ""
+"<p>عزيزي <t t-out=\"object.custom_wo_job_partner_id.name\"/>، <br/>\n"
+"\n"
+"<p>يرجى الاطلاع على أمر العمل المرفق - <t t-out=\"object.custom_wo_number\"/>.<br/> \n"
+"<p>\n"
+"<strong>\n"
+"<t t-out=\"object.company_id.name\"/>\n"
+"</strong>\n"
+"</p>\n"
+"\n"
+"<!-- <tr>\n"
+"<td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
+"<hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; الهامش: 16 بيكسل 0 بيكسل 4 بيكسل 0 بيكسل؛\"/>\n"
+"<b><t t-out=\"object.company_id.name\" /></b><br/>\n"
+"<div style=\"color: #999999;\">\n"
+"<t t-out=\"object.company_id.phone\" />\n"
+"<t t-if=\"object.company_id.email\">\n"
+"|\n"
+"<a t-att-href=\"'mailto:%s' % object.company_id.email\" style=\"text-decoration:none; color: #999999;\">\n"
+"<t t-out=\"object.company_id.email\" />\n"
+"</a>\n"
+"</t>\n"
+"<t t-if=\"object.company_id.website\">\n"
+"|\n"
+"<a href=\"'%s' % object.company_id.website\" style=\"text-decoration:none; color: #999999;\">\n"
+"<t t-out=\"object.company_id.website\" />\n"
+"</a>\n"
+"</t>\n"
+"</div>\n"
+"</td>\n"
+"</tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr> -->\n"
+"<!-- <tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"مدعوم بواسطة <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"</td></tr> -->"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "- <span>Job Order</span><br/>"
+msgstr "- <span>طلب الوظيفة</span><br/>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_website_thanks_mail_send
+msgid ""
+".\n"
+"                                        please note it for further communication and you will also receive email from our\n"
+"                                        support team shortly, Please reply to that email for feature conversation. Project Team."
+msgstr ""
+"يرجى ملاحظة ذلك لمزيد من التواصل وسوف تتلقى أيضًا بريدًا إلكترونيًا من فريق "
+"الدعم الخاص بنا قريبًا، يرجى الرد على هذا البريد الإلكتروني لإجراء محادثة "
+"حول الميزة. فريق المشروع."
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_my_portal_job_order
+msgid "<i class=\"fa fa-tasks\"/>View Job Order"
+msgstr "<i class=\"fa fa-tasks\"/>عرض طلب الوظيفة"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "<option value=\"\">Select category</option>"
+msgstr "<option value=\"\">اختر الفئة</option>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid ""
+"<select class=\"form-control\" name=\"priority\">\n"
+"                                <option value=\"0\" selected=\"selected\">Normal</option>\n"
+"                                <option value=\"1\">High</option>\n"
+"                            </select>"
+msgstr ""
+"<select class=\"form-control\" name=\"priority\">\n"
+"<option value=\"0\" selected=\"selected\">عادي</option>\n"
+"<option value=\"1\">مرتفع</option>\n"
+"</select>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_website_thanks_mail_send
+msgid ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                        <span>We have received your job order request.</span>"
+msgstr ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"<span>لقد تلقينا طلب طلب الوظيفة الخاص بك.</span>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Assignees</strong>"
+msgstr "<strong>المُعيَّنون</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Assigning Date</strong>"
+msgstr "<strong>تعيين التاريخ</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Company</strong>"
+msgstr "<strong>الشركة</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Customer</strong>"
+msgstr "<strong>العميل</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Deadline </strong>"
+msgstr "<strong>الموعد النهائي</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Description</strong>"
+msgstr "<strong>الوصف</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Extra Info</strong>"
+msgstr "<strong>معلومات إضافية</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Job Order Category</strong>"
+msgstr "<strong>فئة طلب الوظيفة</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Last Stage Update</strong>"
+msgstr "<strong>تحديث المرحلة الأخيرة</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_joborder_report_id
+msgid "<strong>Project</strong>"
+msgstr "<strong>المشروع</strong>"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Attach Files"
+msgstr "إرفاق الملفات"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: website_job_workorder_request
+#: model:ir.actions.act_window,name:website_job_workorder_request.custom_action_custom_job_order_category
+msgid "Category"
+msgstr "فئة"
+
+#. module: website_job_workorder_request
+#: model:ir.ui.menu,name:website_job_workorder_request.custom_wo_menu_configuration
+msgid "Configuration"
+msgstr "إعدادات"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Create Job Order request by filling below form and submit it"
+msgstr "قم بإنشاء طلب طلب وظيفة عن طريق ملء النموذج أدناه وإرساله"
+
+#. module: website_job_workorder_request
+#: model:website.menu,name:website_job_workorder_request.custom_wo_job_order_create_menu
+msgid "Create JobOrder"
+msgstr "إنشاء أمر عمل"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_custom_job_order_category__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_custom_job_order_category__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_purchase_requisition_count
+msgid "Custom Wo Purchase Requisition Count"
+msgstr "عدد طلبات الشراء المخصصة"
+
+#. module: website_job_workorder_request
+#. odoo-python
+#: code:addons/odoo/const/website_job_workorder_request/controllers/main.py:0
+#: code:addons/website_job_workorder_request/controllers/main.py:0
+#, python-format
+msgid ""
+"Customer has sent %s attachments to this joborder. Name of attachments are: "
+msgstr "لقد أرسل العميل %s من المرفقات إلى طلب العمل هذا. أسماء المرفقات هي:"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Description"
+msgstr "وصف"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_custom_job_order_category__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_custom_job_order_category__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_is_job_order
+msgid "Is Job Order"
+msgstr "هل هو أمر عمل"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_material_purchase_requisition__custom_wo_joborder_id
+#: model:ir.ui.menu,name:website_job_workorder_request.custom_wo_menu_job_order
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_portal_job_order
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_portal_my_job_order
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_website_job_workorder_request_purchase_requisition_search
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: website_job_workorder_request
+#: model:mail.template,name:website_job_workorder_request.custom_wo_email_template_job_order_to_customer
+msgid "Job Order - Send by Email"
+msgstr "طلب عمل - إرسال عبر البريد الإلكتروني"
+
+#. module: website_job_workorder_request
+#: model:ir.model,name:website_job_workorder_request.model_custom_job_order_category
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_job_category
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_job_category_id
+#: model:ir.ui.menu,name:website_job_workorder_request.menu_custom_joborder_category
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_my_portal_job_order
+msgid "Job Order Category"
+msgstr "فئة طلب العمل"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_custome_client_user_id
+msgid "Job Order Created User"
+msgstr "تم إنشاء طلب وظيفة للمستخدم"
+
+#. module: website_job_workorder_request
+#: model:mail.template,subject:website_job_workorder_request.custom_wo_email_template_job_order_to_customer
+msgid "Job Order [{{object.custom_wo_number}}]"
+msgstr "طلب الوظيفة [{{object.custom_wo_number}}]"
+
+#. module: website_job_workorder_request
+#: model:ir.actions.act_window,name:website_job_workorder_request.custom_wo_action_website_job_workorder_request
+#: model:ir.ui.menu,name:website_job_workorder_request.custom_wo_menu_job_order_child
+#: model:ir.ui.menu,name:website_job_workorder_request.custom_wo_menu_job_order_task
+msgid "Job Orders"
+msgstr "أوامر العمل"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_custom_job_order_category__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_custom_job_order_category__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields.selection,name:website_job_workorder_request.selection__project_task__custom_wo_job_category__maintenance
+msgid "Maintenance"
+msgstr "صيانة"
+
+#. module: website_job_workorder_request
+#: model:website.menu,name:website_job_workorder_request.custom_wo_job_order_list_view
+msgid "My Job Orders"
+msgstr "طلبات العمل الخاصة بي"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_custom_job_order_category__name
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_my_portal_job_order
+msgid "Name"
+msgstr "اسم"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields.selection,name:website_job_workorder_request.selection__project_task__custom_wo_job_category__new_request
+msgid "New Request"
+msgstr "طلب جديد"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_number
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_my_portal_job_order
+msgid "Number"
+msgstr "رقم"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields.selection,name:website_job_workorder_request.selection__project_task__custom_wo_job_category__other
+msgid "Other"
+msgstr "آخر"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Phone"
+msgstr "هاتف"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_my_portal_job_order
+msgid "Print"
+msgstr "مطبعة"
+
+#. module: website_job_workorder_request
+#: model:ir.actions.report,name:website_job_workorder_request.custom_wo_joborder_report
+msgid "Print Job Order"
+msgstr "طباعة أمر العمل"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Priority"
+msgstr "أولوية"
+
+#. module: website_job_workorder_request
+#: model:ir.model,name:website_job_workorder_request.model_project_project
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_material_purchase_requisition__custom_wo_project_id
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_website_job_workorder_request_purchase_requisition_search
+msgid "Project"
+msgstr "مشروع"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Project Code"
+msgstr "كود المشروع"
+
+#. module: website_job_workorder_request
+#: model:ir.ui.menu,name:website_job_workorder_request.custom_wo_menu_projects
+msgid "Projects"
+msgstr "المشاريع"
+
+#. module: website_job_workorder_request
+#: model:ir.model,name:website_job_workorder_request.model_material_purchase_requisition
+msgid "Purchase Requisition"
+msgstr "طلب شراء"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_purchase_requisition_ids
+#: model:ir.ui.menu,name:website_job_workorder_request.custom_wo_menu_purchase_requisitions
+#: model:ir.ui.menu,name:website_job_workorder_request.custom_wo_menu_purchase_requisitions_child
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.website_job_workorder_request_partner_form
+msgid "Purchase Requisitions"
+msgstr "طلبات الشراء"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_project__custome_code
+msgid "Reference"
+msgstr "مرجع"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields.selection,name:website_job_workorder_request.selection__project_task__custom_wo_job_category__repair
+msgid "Repair"
+msgstr "بصلح"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.website_job_workorder_request_partner_form
+msgid "Send by Email"
+msgstr "إرسال عبر البريد الإلكتروني"
+
+#. module: website_job_workorder_request
+#: model:ir.ui.menu,name:website_job_workorder_request.custom_wo_menu_stages
+msgid "Stages"
+msgstr "مراحل"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Subject"
+msgstr "موضوع"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Submit"
+msgstr "يُقدِّم"
+
+#. module: website_job_workorder_request
+#: model:ir.model,name:website_job_workorder_request.model_project_task
+msgid "Task"
+msgstr "مهمة"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields.selection,name:website_job_workorder_request.selection__project_task__custom_wo_job_category__technical
+msgid "Technical"
+msgstr "اِصطِلاحِيّ"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_website_thanks_mail_send
+msgid "Thank You!"
+msgstr "شكرًا لك!"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_my_portal_job_order
+msgid "There are no joborders."
+msgstr "لا توجد أوامر عمل."
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.website_job_workorder_request_partner_form
+msgid "Website"
+msgstr "موقع إلكتروني"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_job_partner_id
+msgid "Website Customer"
+msgstr "موقع العميل"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_job_partner_email
+msgid "Website Customer Email"
+msgstr "البريد الإلكتروني الخاص بالعميل"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_job_partner_name
+msgid "Website Customer Name"
+msgstr "اسم العميل للموقع"
+
+#. module: website_job_workorder_request
+#: model:ir.model.fields,field_description:website_job_workorder_request.field_project_task__custom_wo_job_partner_phone
+msgid "Website Customer Phone"
+msgstr "موقع الويب رقم هاتف العميل"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Your Email"
+msgstr "بريدك الإلكتروني"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_website_thanks_mail_send
+msgid "Your Job Order reference is"
+msgstr "مرجع طلب الوظيفة الخاص بك هو"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Your Name"
+msgstr "اسمك"
+
+#. module: website_job_workorder_request
+#: model_terms:ir.ui.view,arch_db:website_job_workorder_request.custom_wo_job_order
+msgid "Your Phone"
+msgstr "هاتفك"

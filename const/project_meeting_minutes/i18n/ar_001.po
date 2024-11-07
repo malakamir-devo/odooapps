@@ -1,0 +1,115 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_meeting_minutes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:24+0000\n"
+"PO-Revision-Date: 2024-11-01 16:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: project_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:project_meeting_minutes.job_order_meeting_minutes_view
+msgid "<strong>Analytic Account</strong>"
+msgstr "<strong>حساب تحليلي</strong>"
+
+#. module: project_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:project_meeting_minutes.job_order_meeting_minutes_view
+msgid "<strong>Job Cost Sheet Line</strong>"
+msgstr "<strong>خط جدول تكاليف الوظيفة</strong>"
+
+#. module: project_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:project_meeting_minutes.job_order_meeting_minutes_view
+msgid "<strong>Job Cost Sheet</strong>"
+msgstr "<strong>بيان تكلفة الوظيفة</strong>"
+
+#. module: project_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:project_meeting_minutes.job_order_meeting_minutes_view
+msgid "<strong>Job Order</strong>"
+msgstr "<strong>طلب الوظيفة</strong>"
+
+#. module: project_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:project_meeting_minutes.job_order_meeting_minutes_view
+msgid "<strong>Project</strong>"
+msgstr "<strong>المشروع</strong>"
+
+#. module: project_meeting_minutes
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_calendar_event__analytic_id
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: project_meeting_minutes
+#: model:ir.model,name:project_meeting_minutes.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "الخط التحليلي"
+
+#. module: project_meeting_minutes
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_account_analytic_line__calendar_id
+msgid "Calendar"
+msgstr "تقويم"
+
+#. module: project_meeting_minutes
+#: model:ir.model,name:project_meeting_minutes.model_calendar_event
+msgid "Calendar Event"
+msgstr "حدث التقويم"
+
+#. module: project_meeting_minutes
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_job_costing__event_count
+msgid "Event Count"
+msgstr "عدد الأحداث"
+
+#. module: project_meeting_minutes
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_calendar_event__costsheet_id
+msgid "Job Cost Sheet"
+msgstr "ورقة تكاليف العمل"
+
+#. module: project_meeting_minutes
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_calendar_event__costsheet_line_id
+msgid "Job Cost Sheet Line"
+msgstr "خط جدول تكاليف العمل"
+
+#. module: project_meeting_minutes
+#: model:ir.model,name:project_meeting_minutes.model_job_costing
+msgid "Job Costing"
+msgstr "تكلفة الوظيفة"
+
+#. module: project_meeting_minutes
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_calendar_event__task_id
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: project_meeting_minutes
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_project_project__meeting_count
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_project_task__meeting_count
+msgid "Meeting Count"
+msgstr "عدد الاجتماعات"
+
+#. module: project_meeting_minutes
+#: model_terms:ir.ui.view,arch_db:project_meeting_minutes.job_cost_event_smart_button_view
+#: model_terms:ir.ui.view,arch_db:project_meeting_minutes.job_cost_event_smart_button_view_project
+#: model_terms:ir.ui.view,arch_db:project_meeting_minutes.job_cost_event_smart_button_view_task
+msgid "Meetings"
+msgstr "الاجتماعات"
+
+#. module: project_meeting_minutes
+#: model:ir.model,name:project_meeting_minutes.model_project_project
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_calendar_event__project_id
+msgid "Project"
+msgstr "مشروع"
+
+#. module: project_meeting_minutes
+#: model:ir.model,name:project_meeting_minutes.model_project_task
+msgid "Task"
+msgstr "مهمة"
+
+#. module: project_meeting_minutes
+#: model:ir.model.fields,field_description:project_meeting_minutes.field_calendar_event__timesheet_ids
+msgid "Timesheet Line"
+msgstr "خط جدول العمل"

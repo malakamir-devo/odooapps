@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_document_version
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:55+0000\n"
+"PO-Revision-Date: 2024-11-01 16:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_document_version
+#: model:ir.model,name:odoo_document_version.model_ir_attachment
+msgid "Attachment"
+msgstr "مرفق"
+
+#. module: odoo_document_version
+#: model:ir.actions.act_window,name:odoo_document_version.action_document_versioning
+#: model:ir.ui.menu,name:odoo_document_version.menu_item_document_versioning
+msgid "Attachments Version Restriction Config"
+msgstr "تكوين تقييد إصدار المرفقات"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_reduce_model_versioning__company_id
+#: model_terms:ir.ui.view,arch_db:odoo_document_version.document_versioning_search_view
+msgid "Company"
+msgstr "شركة"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_reduce_model_versioning__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_reduce_model_versioning__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_ir_attachment__custom_display_name
+#: model:ir.model.fields,field_description:odoo_document_version.field_product_document__custom_display_name
+#: model:ir.model.fields,field_description:odoo_document_version.field_reduce_model_versioning__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: odoo_document_version
+#: model:ir.model,name:odoo_document_version.model_reduce_model_versioning
+#: model:ir.model.fields,field_description:odoo_document_version.field_ir_attachment__custom_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_product_document__custom_version
+msgid "Document Version"
+msgstr "نسخة الوثيقة"
+
+#. module: odoo_document_version
+#: model:ir.ui.menu,name:odoo_document_version.menu_document_versioning
+msgid "Document Versioning"
+msgstr "إصدارات المستندات"
+
+#. module: odoo_document_version
+#: model:ir.model,name:odoo_document_version.model_mail_thread
+msgid "Email Thread"
+msgstr "سلسلة البريد الإلكتروني"
+
+#. module: odoo_document_version
+#: model_terms:ir.ui.view,arch_db:odoo_document_version.document_versioning_search_view
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: odoo_document_version
+#: model_terms:ir.actions.act_window,help:odoo_document_version.action_document_versioning
+msgid "Help for Action"
+msgstr "المساعدة من أجل العمل"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_reduce_model_versioning__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_reduce_model_versioning__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_reduce_model_versioning__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_reduce_model_versioning__res_model_ids
+msgid "Models"
+msgstr "نماذج"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_reduce_model_versioning__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_ir_attachment__new_attachment_id
+#: model:ir.model.fields,field_description:odoo_document_version.field_product_document__new_attachment_id
+msgid "New Version Document"
+msgstr "وثيقة الإصدار الجديد"
+
+#. module: odoo_document_version
+#: model_terms:ir.ui.view,arch_db:odoo_document_version.view_attachment_form_inherit_version
+msgid "Next Version"
+msgstr "النسخة القادمة"
+
+#. module: odoo_document_version
+#: model_terms:ir.ui.view,arch_db:odoo_document_version.view_attachment_form_inherit_version
+msgid "Previous Version"
+msgstr "النسخة السابقة"
+
+#. module: odoo_document_version
+#: model:ir.model.fields,field_description:odoo_document_version.field_ir_attachment__prev_attachment_id
+#: model:ir.model.fields,field_description:odoo_document_version.field_product_document__prev_attachment_id
+msgid "Previous Version Document"
+msgstr "النسخة السابقة من الوثيقة"
+
+#. module: odoo_document_version
+#: model_terms:ir.ui.view,arch_db:odoo_document_version.document_versioning_form_view
+msgid "Restricted Models/Forms"
+msgstr "النماذج/الأشكال المقيدة"
+
+#. module: odoo_document_version
+#: model_terms:ir.ui.view,arch_db:odoo_document_version.view_attachment_form_inherit_version
+msgid "Version"
+msgstr "إصدار"
+
+#. module: odoo_document_version
+#: model_terms:ir.ui.view,arch_db:odoo_document_version.view_document_file_kanban_inherit_version
+msgid "Version:"
+msgstr "إصدار:"

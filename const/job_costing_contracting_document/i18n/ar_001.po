@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_costing_contracting_document
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:04+0000\n"
+"PO-Revision-Date: 2024-11-01 16:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_costing_contracting_document
+#. odoo-python
+#: code:addons/job_costing_contracting_document/models/job_costsheet.py:0
+#: code:addons/odoo/const/job_costing_contracting_document/models/job_costsheet.py:0
+#, python-format
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                        Documents are attached to the job costing.</p><p>\n"
+"                        Send messages or log internal notes with attachments to link\n"
+"                        documents to your Job Cost Sheet.\n"
+"                    </p>"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"يتم إرفاق المستندات ببيان تكلفة الوظيفة.</p><p>\n"
+"\n"
+"إرسال رسائل أو تسجيل ملاحظات داخلية مع المرفقات لربط المستندات ببيان تكلفة الوظيفة.\n"
+"</p>"
+
+#. module: job_costing_contracting_document
+#. odoo-python
+#: code:addons/job_costing_contracting_document/models/project.py:0
+#: code:addons/odoo/const/job_costing_contracting_document/models/project.py:0
+#, python-format
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                        Documents are attached to the job order / task project.</p><p>\n"
+"                        Send messages or log internal notes with attachments to link\n"
+"                        documents to your project.\n"
+"                    </p>"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"يتم إرفاق المستندات بمشروع أمر العمل/المهمة.</p><p>\n"
+"أرسل رسائل أو سجل ملاحظات داخلية مع المرفقات لربط المستندات بمشروعك.\n"
+"</p>"
+
+#. module: job_costing_contracting_document
+#: model:ir.ui.menu,name:job_costing_contracting_document.menu_jobcost_document_under
+msgid "All Documents"
+msgstr "جميع المستندات"
+
+#. module: job_costing_contracting_document
+#. odoo-python
+#: code:addons/job_costing_contracting_document/models/job_costsheet.py:0
+#: code:addons/job_costing_contracting_document/models/project.py:0
+#: code:addons/odoo/const/job_costing_contracting_document/models/job_costsheet.py:0
+#: code:addons/odoo/const/job_costing_contracting_document/models/project.py:0
+#, python-format
+msgid "Attachments"
+msgstr "المرفقات"
+
+#. module: job_costing_contracting_document
+#: model_terms:ir.actions.act_window,help:job_costing_contracting_document.action_menu_document_display
+msgid "Create Document Directory"
+msgstr "إنشاء دليل المستندات"
+
+#. module: job_costing_contracting_document
+#: model:ir.actions.act_window,name:job_costing_contracting_document.action_menu_document_display
+#: model:ir.ui.menu,name:job_costing_contracting_document.menu_jobcost_document_directories
+#: model:ir.ui.menu,name:job_costing_contracting_document.menu_jobcost_document_directory
+msgid "Directories"
+msgstr "الدلائل"
+
+#. module: job_costing_contracting_document
+#: model:ir.ui.menu,name:job_costing_contracting_document.menu_doc_dir_tags
+msgid "Directory Tags"
+msgstr "علامات الدليل"
+
+#. module: job_costing_contracting_document
+#: model:ir.ui.menu,name:job_costing_contracting_document.menu_doc_attch_tags
+msgid "Document Tags"
+msgstr "علامات المستند"
+
+#. module: job_costing_contracting_document
+#: model:ir.ui.menu,name:job_costing_contracting_document.menu_job_costsheet_document
+#: model:ir.ui.menu,name:job_costing_contracting_document.menu_jobcost_documents_configuration
+#: model_terms:ir.ui.view,arch_db:job_costing_contracting_document.view_task_form2_inherit_documents
+msgid "Documents"
+msgstr "وثائق"
+
+#. module: job_costing_contracting_document
+#: model_terms:ir.ui.view,arch_db:job_costing_contracting_document.job_costing_form_view_inherit_documents
+msgid "Documnts"
+msgstr "المستندات"
+
+#. module: job_costing_contracting_document
+#: model:ir.model,name:job_costing_contracting_document.model_job_costing
+msgid "Job Costing"
+msgstr "تكلفة الوظيفة"
+
+#. module: job_costing_contracting_document
+#: model:ir.ui.menu,name:job_costing_contracting_document.jobcost_emp_documents_menu
+msgid "My Documents"
+msgstr "مستنداتي"
+
+#. module: job_costing_contracting_document
+#: model:ir.model.fields,field_description:job_costing_contracting_document.field_job_costing__doc_count
+#: model:ir.model.fields,field_description:job_costing_contracting_document.field_project_task__doc_count
+msgid "Number of documents attached"
+msgstr "عدد الوثائق المرفقة"
+
+#. module: job_costing_contracting_document
+#: model:ir.actions.act_window,name:job_costing_contracting_document.action_document_tree_hierarchy
+#: model:ir.ui.menu,name:job_costing_contracting_document.menu_parent_directory
+msgid "Parent Directories"
+msgstr "الدلائل الرئيسية"
+
+#. module: job_costing_contracting_document
+#: model:ir.model,name:job_costing_contracting_document.model_project_task
+msgid "Task"
+msgstr "مهمة"

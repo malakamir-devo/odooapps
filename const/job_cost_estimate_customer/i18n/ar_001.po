@@ -1,0 +1,885 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_cost_estimate_customer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:38+0000\n"
+"PO-Revision-Date: 2024-11-01 16:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_cost_estimate_customer
+#: model:mail.template,body_html:job_cost_estimate_customer.email_template_estimate_job
+msgid ""
+"<!-- <![CDATA[ -->\n"
+"                <div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"<p>Dear <t t-out=\"object.partner_id.name or ''\"></t>,</p>\n"
+"\n"
+"<p>\n"
+"Here is your estimate of <strong><t t-out=\"object.number or ''\"></t></strong><!--  <strong><t t-out=\"object.display_name\"/></strong> --> \n"
+"\n"
+"<strong> Material Estimate </strong> amounting in <strong> <t t-out=\"object.total\"></t> <t t-out=\"object.pricelist_id.currency_id.name\"></t> </strong> <strong> Labour Estimate </strong> amounting in \n"
+"\n"
+"<strong> <t t-out=\"object.labour_total\"></t>  <t t-out=\"object.pricelist_id.currency_id.name\"></t> </strong> <strong> Overhead Estimate </strong> amounting in \n"
+"<strong>  <t t-out=\"object.overhead_total\"></t>\n"
+"<t t-out=\"object.pricelist_id.currency_id.name\"></t> </strong> <strong> Total Job Estimate       </strong> amounting in <strong> <t t-out=\"object.estimate_total\"></t> <t t-out=\"object.pricelist_id.currency_id.name\"></t> </strong>\n"
+"from <strong> <t t-out=\"object.company_id.name\"></t></strong>.\n"
+"</p>\n"
+"\n"
+"    <!-- <br/><br/>\n"
+"<t t-if=\"is_online\">\n"
+"    <center>\n"
+"        <a t-attf-href=\"{{ access_url }}\" style=\"background-color: #1abc9c; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;\" class=\"o_default_snippet_text\"> <t t-esc=\"access_name\"/> </a>\n"
+"        <br/><br/>\n"
+"        <span style=\"color:#888888\">(or view attached PDF)</span>\n"
+"    </center>\n"
+"    <br/> -->\n"
+"<!-- % endif -->\n"
+"<!-- </t> -->\n"
+"\n"
+"<!-- <p>You can reply to this email if you have any questions.</p>\n"
+"<p>Thank you,</p>\n"
+"\n"
+"<p style=\"color:#eeeeee;\">\n"
+"% if object.user_id and object.user_id.signature:\n"
+"    <strong> <t t-out=\"object.user_id.signature | safe\"/></strong>\n"
+"% endif\n"
+"</p> -->\n"
+"\n"
+"<br><br>\n"
+"        Do not hesitate to contact us if you have any questions.\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
+"            <br><br>\n"
+"            <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell Admin</t>\n"
+"        </t>\n"
+"        <br><br>\n"
+"</p></div>\n"
+"\n"
+"<!-- ]]> -->"
+msgstr ""
+"<!-- <![CDATA[ -->\n"
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"<p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"<p>عزيزي <t t-out=\"object.partner_id.name أو ''\"></t>،</p>\n"
+"\n"
+"<p>\n"
+"إليك تقديرك لـ <strong><t t-out=\"object.number أو ''\"></t></strong><!-- <strong><t t-out=\"object.display_name\"/></strong> --> \n"
+"\n"
+"<strong>تقدير المواد </strong> بقيمة <strong> <t t-out=\"object.total\"></t> <t t-out=\"object.pricelist_id.currency_id.name\"></t> </strong> <strong>تقدير العمالة </strong> بقيمة\n"
+"\n"
+"<strong> <t t-out=\"object.labour_total\"></t> <t t-out=\"object.pricelist_id.currency_id.name\"></t> </strong> <strong> تقدير النفقات العامة </strong> بقيمة\n"
+"<strong> <t t-out=\"object.overhead_total\"></t>\n"
+"<t t-out=\"object.pricelist_id.currency_id.name\"></t> </strong> <strong> تقدير إجمالي الوظائف </strong> بقيمة <strong> <t t-out=\"object.estimate_total\"></t> <t t-out=\"object.pricelist_id.currency_id.name\"></t> </strong>\n"
+"من <strong> <t t-out=\"object.company_id.name\"></t></strong>.\n"
+"</p>\n"
+"\n"
+"<!-- <br/><br/>\n"
+"<t t-if=\"is_online\">\n"
+"<center>\n"
+"<a t-attf-href=\"{{ access_url }}\" style=\"background-color: #1abc9c; padding: 20px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;\" class=\"o_default_snippet_text\"> <t t-esc=\"access_name\"/> </a>\n"
+"<br/><br/>\n"
+"<span style=\"color:#888888\">(أو عرض ملف PDF المرفق)</span>\n"
+"</center>\n"
+"<br/> -->\n"
+"<!-- % endif -->\n"
+"<!-- </t> -->\n"
+"\n"
+"<!-- <p>يمكنك الرد على هذا البريد الإلكتروني إذا كان لديك أي أسئلة.</p>\n"
+"<p>شكرًا لك،</p>\n"
+"\n"
+"<p style=\"color:#eeeeee;\">\n"
+"% if object.user_id and object.user_id.signature:\n"
+"<strong> <t t-out=\"object.user_id.signature | safe\"/></strong>\n"
+"% endif\n"
+"</p> -->\n"
+"\n"
+"<br><br>\n"
+"لا تتردد في الاتصال بنا إذا كان لديك أي أسئلة.\n"
+"<t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
+"<br><br>\n"
+"<t t-out=\"object.user_id.signature or ''\">--<br>Mitchell Admin</t>\n"
+"</t>\n"
+"<br><br>\n"
+"</p></div>\n"
+"\n"
+"<!-- ]]> -->"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "<strong>Job Types</strong>"
+msgstr "<strong>أنواع الوظائف</strong>"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "<strong>Payment Terms </strong>"
+msgstr "<strong>شروط الدفع</strong>"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "<strong>Sales Person</strong>"
+msgstr "<strong>مندوب المبيعات</strong>"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "<strong>Sales Team</strong>"
+msgstr "<strong>فريق المبيعات</strong>"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "<strong>Total Job Estimate</strong>"
+msgstr "<strong>تقدير إجمالي الوظيفة</strong>"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "<strong>Total Labour Estimate</strong>"
+msgstr "<strong>تقدير إجمالي العمالة</strong>"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "<strong>Total Material Estimate</strong>"
+msgstr "<strong>تقدير المواد الإجمالية</strong>"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "<strong>Total Overhead Estimate</strong>"
+msgstr "<strong>تقدير إجمالي النفقات العامة</strong>"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "<strong>Your Reference </strong>"
+msgstr "<strong>مرجعك</strong>"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__access_warning
+msgid "Access warning"
+msgstr "تحذير الوصول"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_needaction
+msgid "Action Needed"
+msgstr "مطلوب اتخاذ إجراء"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "رمز نوع النشاط"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Aditional Notes"
+msgstr "ملاحظات إضافية"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__analytic_id
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__analytic_id
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__analytic_id
+msgid ""
+"Analytic account to which this project, its tasks and its timesheets are linked. \n"
+"Track the costs and revenues of your project by setting this analytic account on your related documents (e.g. sales orders, invoices, purchase orders, vendor bills, expenses etc.).\n"
+"This analytic account can be changed on each task individually if necessary.\n"
+"An analytic account is required in order to use timesheets."
+msgstr ""
+"حساب تحليلي يرتبط به هذا المشروع ومهامه وجداول العمل الخاصة به.\n"
+"تتبع تكاليف وإيرادات مشروعك من خلال تعيين هذا الحساب التحليلي على المستندات ذات الصلة (على سبيل المثال، أوامر البيع والفواتير وأوامر الشراء وفواتير الموردين والنفقات وما إلى ذلك).\n"
+"يمكن تغيير هذا الحساب التحليلي في كل مهمة على حدة إذا لزم الأمر.\n"
+"يُطلب حساب تحليلي لاستخدام جداول العمل."
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Approve"
+msgstr "يعتمد"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_job__state__approve
+msgid "Approved"
+msgstr "موافقة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_job__state__cancel
+msgid "Cancelled"
+msgstr "تم الإلغاء"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_estimate_job_type__code
+msgid "Code"
+msgstr "شفرة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__company_id
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__company_id
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Company"
+msgstr "شركة"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Confirm"
+msgstr "يتأكد"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_job__state__confirm
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Create Quotation"
+msgstr "إنشاء عرض أسعار"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_estimate_job_type__create_uid
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__create_uid
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_estimate_job_type__create_date
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__create_date
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__currency_id
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Currency"
+msgstr "عملة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__partner_id
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Customer"
+msgstr "عميل"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__access_url
+msgid "Customer Portal URL"
+msgstr "رابط بوابة العميل"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__reference
+msgid "Customer Reference"
+msgstr "مرجع العميل"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__estimate_date
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Date  ____________________________"
+msgstr "تاريخ  ____________________________"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Date of Estimate"
+msgstr "تاريخ التقدير"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__product_description
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Description"
+msgstr "وصف"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Description of Job Estimate"
+msgstr "وصف تقدير الوظيفة"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Description of Jobs Estimate"
+msgstr "وصف تقدير الوظائف"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__description
+msgid "Description of Work"
+msgstr "وصف العمل"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Discount"
+msgstr "تخفيض"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__discount
+msgid "Discount (%)"
+msgstr "تخفيض (٪)"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_estimate_job_type__display_name
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__display_name
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_job__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_tree_job
+msgid "Estimate"
+msgstr "تقدير"
+
+#. module: job_cost_estimate_customer
+#: model:mail.template,name:job_cost_estimate_customer.email_template_estimate_job
+msgid "Estimate - Send by Email"
+msgstr "تقدير - إرسال عبر البريد الإلكتروني"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Estimate Approved By  ____________________________"
+msgstr "تمت الموافقة على التقدير بواسطة _____________________________"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Estimate Date"
+msgstr "تاريخ التقدير"
+
+#. module: job_cost_estimate_customer
+#: model:ir.actions.act_window,name:job_cost_estimate_customer.action_estimate_job_type
+#: model:ir.model,name:job_cost_estimate_customer.model_estimate_job_type
+msgid "Estimate Job Type"
+msgstr "تقدير نوع الوظيفة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__estimate_ids
+msgid "Estimate Lines"
+msgstr "خطوط التقدير"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_job__state__sent
+msgid "Estimate Sent"
+msgstr "تم إرسال التقدير"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط رائعة مثل fa-tasks"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_estimate_job_type__id
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__id
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_exception_icon
+msgid "Icon"
+msgstr "رمز"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثناء."
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديد هذا المربع، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__message_has_error
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديد هذا المربع، فقد يكون لبعض الرسائل خطأ في التسليم."
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو تابع"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Job Estimate"
+msgstr "تقدير الوظيفة"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Job Estimate # -"
+msgstr "تقدير الوظيفة # -"
+
+#. module: job_cost_estimate_customer
+#: model:ir.actions.act_window,name:job_cost_estimate_customer.action_estimate_job
+#: model:ir.ui.menu,name:job_cost_estimate_customer.menu_sale_estimate_job
+msgid "Job Estimates"
+msgstr "تقديرات الوظائف"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_job_type_form_view
+msgid "Job Type form"
+msgstr "نموذج نوع الوظيفة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__job_type_ids
+#: model:ir.ui.menu,name:job_cost_estimate_customer.menu_estimate_job_type
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_job_type_tree_view
+msgid "Job Types"
+msgstr "أنواع الوظائف"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__estimate_job_type__job_type__labour
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_line_job__job_type__labour
+msgid "Labour"
+msgstr "تَعَب"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__labour_estimate_line_ids
+msgid "Labour Estimate Line"
+msgstr "خط تقدير العمالة"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Labour Estimation"
+msgstr "تقدير العمالة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_estimate_job_type__write_uid
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__write_uid
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_estimate_job_type__write_date
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__write_date
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__estimate_job_type__job_type__material
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_line_job__job_type__material
+msgid "Material"
+msgstr "مادة"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Material Estimation"
+msgstr "تقدير المواد"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_estimate_job_type__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "تقويم النشاط القادم"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__note
+msgid "Note"
+msgstr "ملحوظة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__number
+msgid "Number"
+msgstr "رقم"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Other Info"
+msgstr "معلومات أخرى"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__estimate_job_type__job_type__overhead
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_line_job__job_type__overhead
+msgid "Overhead"
+msgstr "النفقات العامة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__overhead_estimate_line_ids
+msgid "Overhead Estimate Line"
+msgstr "خط تقدير النفقات العامة"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Overhead Estimation"
+msgstr "تقدير النفقات العامة"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Payment Term"
+msgstr "مدة الدفع"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__payment_term_id
+msgid "Payment Terms"
+msgstr "شروط الدفع"
+
+#. module: job_cost_estimate_customer
+#. odoo-python
+#: code:addons/job_cost_estimate_customer/models/sale_estimate.py:0
+#: code:addons/job_cost_estimate_customer/models/sale_estimate.py:0
+#: code:addons/odoo/const/job_cost_estimate_customer/models/sale_estimate.py:0
+#: code:addons/odoo/const/job_cost_estimate_customer/models/sale_estimate.py:0
+#, python-format
+msgid "Please enter Estimation Lines!"
+msgstr "الرجاء إدخال خطوط التقدير!"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__access_url
+msgid "Portal Access URL"
+msgstr "عنوان URL للوصول إلى البوابة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__pricelist_id
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Pricelist"
+msgstr "قائمة الأسعار"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__pricelist_id
+msgid "Pricelist for current sales estimate."
+msgstr "قائمة الأسعار لتقدير المبيعات الحالية."
+
+#. module: job_cost_estimate_customer
+#: model:ir.actions.report,name:job_cost_estimate_customer.report_estimate_information_job
+msgid "Print Job Estimate"
+msgstr "تقدير تكلفة طباعة المهمة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__product_id
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Product"
+msgstr "منتج"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__project_id
+msgid "Project"
+msgstr "مشروع"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__product_uom_qty
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Quotation"
+msgstr "اقتباس"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_job__state__quotesend
+msgid "Quotation Created"
+msgstr "تم إنشاء الاقتباس"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Reject"
+msgstr "يرفض"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields.selection,name:job_cost_estimate_customer.selection__sale_estimate_job__state__reject
+msgid "Rejected"
+msgstr "مرفوض"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Reset to Draft"
+msgstr "إعادة التعيين إلى المسودة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__estimate_id
+msgid "Sale Estimate"
+msgstr "تقدير البيع"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model,name:job_cost_estimate_customer.model_sale_estimate_line_job
+msgid "Sale Estimate line Job"
+msgstr "خط تقدير المبيعات"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Sale Estimate search"
+msgstr "بحث تقدير المبيعات"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model,name:job_cost_estimate_customer.model_sale_estimate_job
+msgid "Sales Estimate Job"
+msgstr "وظيفة تقدير المبيعات"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__user_id
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Sales Person"
+msgstr "موظف المبيعات"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__quotation_id
+msgid "Sales Quotation"
+msgstr "عرض أسعار المبيعات"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__team_id
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "Sales Team"
+msgstr "فريق المبيعات"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__access_token
+msgid "Security Token"
+msgstr "رمز الأمان"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Send by Email"
+msgstr "إرسال عبر البريد الإلكتروني"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "Setup default Jobs Estimate Content."
+msgstr "إعداد تقدير محتوى الوظائف الافتراضية."
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Signature  ____________________________"
+msgstr "إمضاء  ____________________________"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__source
+msgid "Source Document"
+msgstr "الوثيقة المصدرية"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__state
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.sale_estimate_search_view_job
+msgid "State"
+msgstr "ولاية"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد انقضى بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط له: الأنشطة المستقبلية."
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Sub Total"
+msgstr "المجموع الفرعي"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__price_subtotal
+msgid "Subtotal"
+msgstr "المجموع الفرعي"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__tax_id
+msgid "Taxes"
+msgstr "الضرائب"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__estimate_total
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Total Job Estimate"
+msgstr "تقدير إجمالي للوظيفة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__labour_total
+msgid "Total Labour Estimate"
+msgstr "تقدير إجمالي العمالة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__total
+msgid "Total Material Estimate"
+msgstr "تقدير إجمالي المواد"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__overhead_total
+msgid "Total Overhead Estimate"
+msgstr "تقدير إجمالي النفقات العامة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_estimate_job_type__job_type
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__job_type
+msgid "Type"
+msgstr "يكتب"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__price_unit
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_line_job__product_uom
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.estimate_print
+msgid "Unit of Measure"
+msgstr "وحدة القياس"
+
+#. module: job_cost_estimate_customer
+#. odoo-python
+#: code:addons/job_cost_estimate_customer/models/sale_estimate_lines.py:0
+#: code:addons/odoo/const/job_cost_estimate_customer/models/sale_estimate_lines.py:0
+#, python-format
+msgid "Warning for %s"
+msgstr "تحذير لـ %s"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,field_description:job_cost_estimate_customer.field_sale_estimate_job__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: job_cost_estimate_customer
+#: model:ir.model.fields,help:job_cost_estimate_customer.field_sale_estimate_job__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصالات الموقع"
+
+#. module: job_cost_estimate_customer
+#: model_terms:ir.ui.view,arch_db:job_cost_estimate_customer.view_sale_estimate_form_job
+msgid "confirm"
+msgstr "يتأكد"
+
+#. module: job_cost_estimate_customer
+#: model:mail.template,subject:job_cost_estimate_customer.email_template_estimate_job
+msgid ""
+"{{object.company_id.name}} {{object.state in ('draft', 'sent') and "
+"'Estimate' or 'Order'}} (Ref {{object.number or 'n/a' }})"
+msgstr ""
+"{{object.company_id.name}} {{object.state in ('draft', 'sent') and "
+"'Estimate' or 'Order'}} (مرجع {{object.number or 'n/a' }})"

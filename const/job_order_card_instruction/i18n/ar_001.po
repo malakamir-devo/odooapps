@@ -1,0 +1,549 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_order_card_instruction
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 17:12+0000\n"
+"PO-Revision-Date: 2024-11-01 17:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<span><strong>Job Instruction </strong></span>"
+msgstr "<span><strong>تعليمات الوظيفة</strong></span>"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<strong>Date</strong>"
+msgstr "<strong>التاريخ</strong>"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<strong>Description</strong>"
+msgstr "<strong>الوصف</strong>"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<strong>Instruction Photo 1</strong>"
+msgstr "<strong>صورة التعليمات 1</strong>"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<strong>Instruction Photos</strong>"
+msgstr "<strong>صور التعليمات</strong>"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<strong>Job Instruction</strong>"
+msgstr "<strong>تعليمات الوظيفة</strong>"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<strong>Job</strong>"
+msgstr "<strong>الوظيفة</strong>"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<strong>Quality Checklist</strong>"
+msgstr "<strong>قائمة التحقق من الجودة</strong>"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<strong>Responsible User/Person</strong>"
+msgstr "<strong>المستخدم/الشخص المسؤول</strong>"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "<strong>Supervisor</strong>"
+msgstr "<strong>المشرف</strong>"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__access_warning
+msgid "Access warning"
+msgstr "تحذير الوصول"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_needaction
+msgid "Action Needed"
+msgstr "مطلوب اتخاذ إجراء"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "رمز نوع النشاط"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_display_form
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields.selection,name:job_order_card_instruction.selection__job_instruction__state__cancel
+msgid "Cancelled"
+msgstr "تم الإلغاء"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__code
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_quality_checklist__code
+msgid "Code"
+msgstr "شفرة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__create_uid
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__create_uid
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_quality_checklist__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__create_date
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__create_date
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_quality_checklist__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__access_url
+msgid "Customer Portal URL"
+msgstr "رابط بوابة العميل"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__instruction_date
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__description
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_display_form
+msgid "Description"
+msgstr "وصف"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__display_name
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__display_name
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_quality_checklist__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields.selection,name:job_order_card_instruction.selection__job_instruction__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_display_form
+msgid "Finish"
+msgstr "ينهي"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields.selection,name:job_order_card_instruction.selection__job_instruction__state__done
+msgid "Finished"
+msgstr "انتهى"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط رائعة مثل fa-tasks"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_search_display
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__id
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__id
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_quality_checklist__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_exception_icon
+msgid "Icon"
+msgstr "رمز"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثناء."
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديد هذا المربع، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__message_has_error
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديد هذا المربع، فقد يكون لبعض الرسائل خطأ في التسليم."
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_search_display
+msgid "Instruction Date"
+msgstr "تاريخ التعليمات"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "Instruction Photo 2"
+msgstr "صورة التعليمات 2"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "Instruction Photo 3"
+msgstr "صورة التعليمات 3"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "Instruction Photo 4"
+msgstr "صورة التعليمات رقم 4"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "Instruction Photo 5"
+msgstr "صورة التعليمات رقم 5"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__image_1
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__image_1
+msgid "Instruction Photo1"
+msgstr "صورة التعليمات 1"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__image_2
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__image_2
+msgid "Instruction Photo2"
+msgstr "صورة التعليمات 2"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__image_3
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__image_3
+msgid "Instruction Photo3"
+msgstr "صورة التعليمات 3"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__image_4
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__image_4
+msgid "Instruction Photo4"
+msgstr "صورة التعليمات رقم 4"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__image_5
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__image_5
+msgid "Instruction Photo5"
+msgstr "صورة التعليمات رقم 5"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_display_form
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_form
+msgid "Instruction Photos"
+msgstr "صور التعليمات"
+
+#. module: job_order_card_instruction
+#: model:ir.model,name:job_order_card_instruction.model_instruction_type
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_search_display
+msgid "Instruction Type"
+msgstr "نوع التعليمات"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_project_task__instruction_ids
+#: model:ir.ui.menu,name:job_order_card_instruction.menu_instruction_type
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_order_instruction_form
+msgid "Instructions"
+msgstr "تعليمات"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو تابع"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__job_id
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_search_display
+msgid "Job"
+msgstr "وظيفة"
+
+#. module: job_order_card_instruction
+#: model:ir.model,name:job_order_card_instruction.model_job_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__instruction_type
+msgid "Job Instruction"
+msgstr "تعليمات العمل"
+
+#. module: job_order_card_instruction
+#: model:ir.actions.report,name:job_order_card_instruction.job_instruction_information
+msgid "Job Instruction Report"
+msgstr "تقرير تعليمات الوظيفة"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_search_display
+msgid "Job Instruction search"
+msgstr "البحث عن تعليمات الوظيفة"
+
+#. module: job_order_card_instruction
+#: model:ir.actions.act_window,name:job_order_card_instruction.action_instruction_type
+#: model:ir.actions.act_window,name:job_order_card_instruction.action_job_instruction_display
+#: model:ir.ui.menu,name:job_order_card_instruction.menu_job_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_order_instruction_form
+msgid "Job Instructions"
+msgstr "تعليمات الوظيفة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__write_uid
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__write_uid
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_quality_checklist__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__write_date
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__write_date
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_quality_checklist__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_instruction_type__name
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_quality_checklist__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "تقويم النشاط القادم"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__name
+msgid "Number"
+msgstr "رقم"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.actions.act_window,help:job_order_card_instruction.action_view_quality_checklist
+msgid ""
+"Odoo's project management allows you to manage the pipeline of your tasks "
+"efficiently. You can track progress, discuss on tasks, attach documents, "
+"etc."
+msgstr ""
+"تتيح لك إدارة المشاريع في Odoo إدارة خط أنابيب مهامك بكفاءة. يمكنك تتبع "
+"التقدم ومناقشة المهام وإرفاق المستندات وما إلى ذلك."
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_display_form
+msgid "Pause"
+msgstr "يوقف"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields.selection,name:job_order_card_instruction.selection__job_instruction__state__post
+msgid "Paused"
+msgstr "متوقف مؤقتا"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_print
+msgid "Photo"
+msgstr "صورة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__access_url
+msgid "Portal Access URL"
+msgstr "عنوان URL للوصول إلى البوابة"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_display_form
+msgid "Print"
+msgstr "مطبعة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__quality_checklist_ids
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.view_quality_checklist_tree
+msgid "Quality Checklist"
+msgstr "قائمة التحقق من الجودة"
+
+#. module: job_order_card_instruction
+#: model:ir.actions.act_window,name:job_order_card_instruction.action_view_quality_checklist
+#: model:ir.ui.menu,name:job_order_card_instruction.menu_quality_checklist
+msgid "Quality Checklists"
+msgstr "قوائم التحقق من الجودة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_display_form
+msgid "Reset To Draft"
+msgstr "إعادة التعيين إلى المسودة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__activity_user_id
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_search_display
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__user_id
+msgid "Responsible User/Person"
+msgstr "المستخدم/الشخص المسؤول"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__access_token
+msgid "Security Token"
+msgstr "رمز الأمان"
+
+#. module: job_order_card_instruction
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_display_form
+msgid "Start"
+msgstr "يبدأ"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields.selection,name:job_order_card_instruction.selection__job_instruction__state__start
+msgid "Started"
+msgstr "بدأت"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__state
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_search_display
+msgid "State"
+msgstr "ولاية"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد انقضى بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط له: الأنشطة المستقبلية."
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__supervisor_id
+#: model_terms:ir.ui.view,arch_db:job_order_card_instruction.job_instruction_type_search_display
+msgid "Supervisor"
+msgstr "مشرف"
+
+#. module: job_order_card_instruction
+#: model:ir.model,name:job_order_card_instruction.model_project_task
+msgid "Task"
+msgstr "مهمة"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,field_description:job_order_card_instruction.field_job_instruction__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: job_order_card_instruction
+#: model:ir.model.fields,help:job_order_card_instruction.field_job_instruction__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصالات الموقع"
+
+#. module: job_order_card_instruction
+#: model:ir.model,name:job_order_card_instruction.model_quality_checklist
+msgid "quality.checklist"
+msgstr "قائمة التحقق من الجودة"

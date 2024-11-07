@@ -1,0 +1,864 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_inspection
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:11+0000\n"
+"PO-Revision-Date: 2024-11-01 16:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<span>Job Inspection: </span> -"
+msgstr "<span>تفتيش الوظائف:</span> -"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid ""
+"<strong style=\"padding-left:5px;\">Authorised's "
+"Signature:____________________</strong>"
+msgstr ""
+"<strong style=\"padding-left:5px;\">توقيع "
+"المفوض:____________________</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong style=\"padding-left:5px;\">Date:____________________</strong>"
+msgstr "<strong style=\"padding-left:5px;\">التاريخ:____________________</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid ""
+"<strong style=\"padding-left:5px;\">Inspector's "
+"Signature:____________________</strong>"
+msgstr ""
+"<strong style=\"padding-left:5px;\">توقيع "
+"المفتش:____________________</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Analytic Account</strong>"
+msgstr "<strong>حساب تحليلي</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Cancelled By</strong>"
+msgstr "<strong>تم الإلغاء بواسطة</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Cancelled Date</strong>"
+msgstr "<strong>تاريخ الإلغاء</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Company</strong>"
+msgstr "<strong>الشركة</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Completed By</strong>"
+msgstr "<strong>تم الانتهاء منه</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Completed Date</strong>"
+msgstr "<strong>تاريخ الانتهاء</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Confirmed By</strong>"
+msgstr "<strong>تم التأكيد بواسطة</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Confirmed Date</strong>"
+msgstr "<strong>تاريخ مؤكد</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Create Date</strong>"
+msgstr "<strong>تاريخ الإنشاء</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Date:____________________</strong>"
+msgstr "<strong>التاريخ:____________________</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Description</strong>"
+msgstr "<strong>الوصف</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Inspection End Date</strong>"
+msgstr "<strong>تاريخ انتهاء التفتيش</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Inspection Location</strong>"
+msgstr "<strong>مكان التفتيش</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Inspection Responsible</strong>"
+msgstr "<strong>مسؤول التفتيش</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Inspection Result</strong>"
+msgstr "<strong>نتيجة التفتيش</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Inspection Start Date</strong>"
+msgstr "<strong>تاريخ بدء التفتيش</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Inspection Type</strong>"
+msgstr "<strong>نوع التفتيش</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Inspection</strong>"
+msgstr "<strong>التفتيش</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Job Cost Sheet Line</strong>"
+msgstr "<strong>خط جدول تكاليف الوظيفة</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Job Cost Sheet</strong>"
+msgstr "<strong>بيان تكلفة الوظيفة</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Job Order</strong>"
+msgstr "<strong>طلب الوظيفة</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Processed By</strong>"
+msgstr "<strong>تمت معالجته بواسطة</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Processed Date</strong>"
+msgstr "<strong>تاريخ المعالجة</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Project</strong>"
+msgstr "<strong>المشروع</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Reference Specification</strong>"
+msgstr "<strong>المواصفات المرجعية</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Responsible User</strong>"
+msgstr "<strong>المستخدم المسؤول</strong>"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "<strong>Subcontractor</strong>"
+msgstr "<strong>مقاول من الباطن</strong>"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__access_warning
+msgid "Access warning"
+msgstr "تحذير الوصول"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_needaction
+msgid "Action Needed"
+msgstr "مطلوب اتخاذ إجراء"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "رمز نوع النشاط"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__analytic_account_id
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: job_inspection
+#: model:ir.model.fields.selection,name:job_inspection.selection__job_order_inspection__state__cancel
+msgid "Cancelled"
+msgstr "تم الإلغاء"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__cancel_by_id
+msgid "Cancelled By"
+msgstr "تم الإلغاء بواسطة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__cancel_date
+msgid "Cancelled Date"
+msgstr "تاريخ الإلغاء"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_record__code
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_result__code
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_type__code
+msgid "Code"
+msgstr "شفرة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__company_id
+msgid "Company"
+msgstr "شركة"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Complete"
+msgstr "مكتمل"
+
+#. module: job_inspection
+#: model:ir.model.fields.selection,name:job_inspection.selection__job_order_inspection__state__complet
+msgid "Completed"
+msgstr "مكتمل"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__done_by_id
+msgid "Completed By"
+msgstr "تم الانتهاء منه بواسطة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__done_date
+msgid "Completed Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Confirm"
+msgstr "يتأكد"
+
+#. module: job_inspection
+#: model:ir.model.fields.selection,name:job_inspection.selection__job_order_inspection__state__confirm
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__confirm_by_id
+msgid "Confirmed By"
+msgstr "تم التأكيد بواسطة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__confirm_date
+msgid "Confirmed Date"
+msgstr "تاريخ مؤكد"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Cost Sheet"
+msgstr "ورقة التكاليف"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Cost Sheet Line"
+msgstr "خط جدول التكاليف"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__country_id
+msgid "Country"
+msgstr "دولة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__create_date
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Create Date"
+msgstr "إنشاء التاريخ"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_record__create_uid
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_result__create_uid
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_type__create_uid
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__create_uid
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_record__create_date
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_result__create_date
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_type__create_date
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__access_url
+msgid "Customer Portal URL"
+msgstr "رابط بوابة العميل"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__description
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_line_form_view
+msgid "Description"
+msgstr "وصف"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_record__display_name
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_result__display_name
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_type__display_name
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__display_name
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_inspection
+#: model:ir.model.fields.selection,name:job_inspection.selection__job_order_inspection__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط رائعة مثل fa-tasks"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_line_search_view
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_record__id
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_result__id
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_type__id
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__id
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_exception_icon
+msgid "Icon"
+msgstr "رمز"
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثناء."
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديد هذا المربع، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__message_has_error
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديد هذا المربع، فقد يكون لبعض الرسائل خطأ في التسليم."
+
+#. module: job_inspection
+#: model:ir.actions.report,name:job_inspection.inspection_report
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__inspection_record
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_button_costsheet_view
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_button_project_view
+#: model_terms:ir.ui.view,arch_db:job_inspection.view_order_form_inherit_register_rac
+msgid "Inspection"
+msgstr "تقتيش"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__inspection_end
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Inspection End Date"
+msgstr "تاريخ انتهاء التفتيش"
+
+#. module: job_inspection
+#: model:ir.actions.act_window,name:job_inspection.action_job_order_inspection_line
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__inspection_line
+msgid "Inspection Line"
+msgstr "خط التفتيش"
+
+#. module: job_inspection
+#: model_terms:ir.actions.act_window,help:job_inspection.action_job_order_inspection_line
+msgid "Inspection Line Tree."
+msgstr "شجرة خط التفتيش."
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Inspection Lines"
+msgstr "خطوط التفتيش"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__inspection_location
+msgid "Inspection Location"
+msgstr "مكان التفتيش"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Inspection Photos"
+msgstr "صور التفتيش"
+
+#. module: job_inspection
+#: model:ir.model,name:job_inspection.model_inspection_record
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_line_search_view
+msgid "Inspection Record"
+msgstr "سجل التفتيش"
+
+#. module: job_inspection
+#: model_terms:ir.actions.act_window,help:job_inspection.action_inspection_record
+msgid "Inspection Record Tree."
+msgstr "شجرة سجل التفتيش."
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__inspector_id
+msgid "Inspection Responsible"
+msgstr "مسئول التفتيش"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__inspection_result
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__inspection_result
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Inspection Result"
+msgstr "نتيجة التفتيش"
+
+#. module: job_inspection
+#: model:ir.actions.act_window,name:job_inspection.action_inspection_result
+#: model:ir.ui.menu,name:job_inspection.sub_menu_inspection_result
+msgid "Inspection Results"
+msgstr "نتائج التفتيش"
+
+#. module: job_inspection
+#: model_terms:ir.actions.act_window,help:job_inspection.action_inspection_result
+msgid "Inspection Results Tree."
+msgstr "شجرة نتائج التفتيش."
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__inspection_start
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Inspection Start Date"
+msgstr "تاريخ بدء التفتيش"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__inspection_type_id
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Inspection Type"
+msgstr "نوع التفتيش"
+
+#. module: job_inspection
+#: model:ir.actions.act_window,name:job_inspection.action_inspection_type
+#: model:ir.ui.menu,name:job_inspection.sub_menu_inspection_type
+msgid "Inspection Types"
+msgstr "أنواع التفتيش"
+
+#. module: job_inspection
+#: model_terms:ir.actions.act_window,help:job_inspection.action_inspection_type
+msgid "Inspection Types Tree."
+msgstr "شجرة أنواع التفتيش."
+
+#. module: job_inspection
+#: model:ir.actions.act_window,name:job_inspection.action_inspection_record
+#: model:ir.ui.menu,name:job_inspection.sub_menu_inspection_record
+msgid "Inspection Values"
+msgstr "قيم التفتيش"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Inspection subject..."
+msgstr "موضوع التفتيش..."
+
+#. module: job_inspection
+#: model:ir.ui.menu,name:job_inspection.sub_main_menu_job_inspection
+msgid "Inspections"
+msgstr "التفتيشات"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__internal_note
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Internal Note"
+msgstr "ملاحظة داخلية"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو تابع"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__costsheet_id
+msgid "Job Cost Sheet"
+msgstr "ورقة تكاليف العمل"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__costsheet_line_id
+msgid "Job Cost Sheet Line"
+msgstr "خط جدول تكاليف العمل"
+
+#. module: job_inspection
+#: model:ir.model,name:job_inspection.model_job_costing
+msgid "Job Costing"
+msgstr "تكلفة الوظيفة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_project_task__job_insp_ids
+msgid "Job Insp"
+msgstr "وظيفة المفتش"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__job_inspection_id
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_line_search_view
+msgid "Job Inspection"
+msgstr "تفتيش الوظائف"
+
+#. module: job_inspection
+#: model:ir.actions.act_window,name:job_inspection.action_job_order_inspection
+#: model:ir.ui.menu,name:job_inspection.sub_menu_job_inspection
+msgid "Job Inspections"
+msgstr "عمليات تفتيش الوظائف"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__task_id
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: job_inspection
+#: model:ir.model,name:job_inspection.model_job_order_inspection_line
+msgid "Job Order Inspection Line"
+msgstr "خط فحص طلب العمل"
+
+#. module: job_inspection
+#: model_terms:ir.actions.act_window,help:job_inspection.action_job_order_inspection
+msgid "Job Order Inspection Tree."
+msgstr "شجرة فحص أوامر العمل."
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_record__write_uid
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_result__write_uid
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_type__write_uid
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__write_uid
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_record__write_date
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_result__write_date
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_type__write_date
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__write_date
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection_line__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_record__name
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_result__name
+#: model:ir.model.fields,field_description:job_inspection.field_inspection_type__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "تقويم النشاط القادم"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__name
+msgid "Number"
+msgstr "رقم"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Other Info"
+msgstr "معلومات أخرى"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "Other Information"
+msgstr "معلومات اخرى"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__image1
+msgid "Photo 1"
+msgstr "الصورة 1"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__image2
+msgid "Photo 2"
+msgstr "الصورة 2"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__image3
+msgid "Photo 3"
+msgstr "الصورة 3"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__image4
+msgid "Photo 4"
+msgstr "الصورة رقم 4"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__image5
+msgid "Photo 5"
+msgstr "الصورة رقم 5"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__access_url
+msgid "Portal Access URL"
+msgstr "عنوان URL للوصول إلى البوابة"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Process"
+msgstr "عملية"
+
+#. module: job_inspection
+#: model:ir.model.fields.selection,name:job_inspection.selection__job_order_inspection__state__process
+msgid "Processed"
+msgstr "تمت معالجته"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__process_by_id
+msgid "Processed By"
+msgstr "تمت معالجته بواسطة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__process_date
+msgid "Processed Date"
+msgstr "تاريخ المعالجة"
+
+#. module: job_inspection
+#: model:ir.model,name:job_inspection.model_project_project
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__project_id
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Project"
+msgstr "مشروع"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__reference_drawing
+msgid "Reference Drawing"
+msgstr "رسم مرجعي"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__reference
+msgid "Reference Specification"
+msgstr "المواصفات المرجعية"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__activity_user_id
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__user_id
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__result_description
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Result Description"
+msgstr "وصف النتيجة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__access_token
+msgid "Security Token"
+msgstr "رمز الأمان"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_form_view
+msgid "Set to Draft"
+msgstr "تعيين على المسودة"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__state
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "State"
+msgstr "ولاية"
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد انقضى بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط له: الأنشطة المستقبلية."
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__subcontractor_id
+#: model_terms:ir.ui.view,arch_db:job_inspection.job_order_inspection_search_view
+msgid "Subcontractor"
+msgstr "مقاول من الباطن"
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__subject
+msgid "Subject"
+msgstr "موضوع"
+
+#. module: job_inspection
+#: model:ir.model,name:job_inspection.model_project_task
+msgid "Task"
+msgstr "مهمة"
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__company_id
+msgid "The default company for this user."
+msgstr "الشركة الافتراضية لهذا المستخدم."
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: job_inspection
+#: model:ir.model.fields,field_description:job_inspection.field_job_order_inspection__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: job_inspection
+#: model:ir.model.fields,help:job_inspection.field_job_order_inspection__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصالات الموقع"
+
+#. module: job_inspection
+#. odoo-python
+#: code:addons/job_inspection/models/job_inspection.py:0
+#: code:addons/odoo/const/job_inspection/models/job_inspection.py:0
+#, python-format
+msgid "You can not delete this record."
+msgstr "لا يمكنك حذف هذا السجل."
+
+#. module: job_inspection
+#: model:ir.model,name:job_inspection.model_inspection_result
+msgid "inspection.result"
+msgstr "نتيجة التفتيش"
+
+#. module: job_inspection
+#: model:ir.model,name:job_inspection.model_inspection_type
+msgid "inspection.type"
+msgstr "نوع التفتيش"
+
+#. module: job_inspection
+#: model:ir.model,name:job_inspection.model_job_order_inspection
+msgid "job.order.inspection"
+msgstr "تفتيش.طلب.وظيفة"
+
+#. module: job_inspection
+#: model_terms:ir.ui.view,arch_db:job_inspection.inspection_print
+msgid "set company logo"
+msgstr "وضع شعار الشركة"

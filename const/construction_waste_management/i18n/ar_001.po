@@ -1,0 +1,208 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* construction_waste_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 15:57+0000\n"
+"PO-Revision-Date: 2024-11-01 15:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__company_id
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_construction_management_search
+msgid "Company"
+msgstr "شركة"
+
+#. module: construction_waste_management
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_project_task_id
+msgid "Create"
+msgstr "يخلق"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__dest_location_id
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_construction_management_search
+msgid "Destination Location"
+msgstr "موقع الوجهة"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: construction_waste_management
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_construction_management_search
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__is_waste_created
+msgid "Is Waste Created ?"
+msgstr "هل النفايات مصنوعة؟"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__task_id
+#: model:ir.model.fields,field_description:construction_waste_management.field_stock_picking__custom_task_id
+#: model:ir.model.fields,field_description:construction_waste_management.field_stock_scrap__custom_task_id
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: construction_waste_management
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_construction_management_search
+msgid "Location"
+msgstr "موقع"
+
+#. module: construction_waste_management
+#: model:ir.actions.act_window,name:construction_waste_management.action_construction_waste_materials
+#: model:ir.model,name:construction_waste_management.model_construction_waste_management
+#: model:ir.ui.menu,name:construction_waste_management.menu_construction_waste_management
+msgid "Material Wastes"
+msgstr "نفايات المواد"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__internal_picking_id
+msgid "Picking"
+msgstr "اختيار"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__picking_type_id
+msgid "Picking Type"
+msgstr "نوع القطاف"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__product_id
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_construction_management_search
+msgid "Product"
+msgstr "منتج"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__project_id
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_construction_management_search
+msgid "Project"
+msgstr "مشروع"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__qty
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: construction_waste_management
+#: model:ir.model.fields.selection,name:construction_waste_management.selection__construction_waste_management__type__reused
+msgid "Reuse Material"
+msgstr "إعادة استخدام المواد"
+
+#. module: construction_waste_management
+#: model:ir.model,name:construction_waste_management.model_stock_scrap
+msgid "Scrap"
+msgstr "خردة"
+
+#. module: construction_waste_management
+#: model:ir.model.fields.selection,name:construction_waste_management.selection__construction_waste_management__type__scrap
+msgid "Scrap Material"
+msgstr "مواد الخردة"
+
+#. module: construction_waste_management
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_project_task_id
+msgid "Scraps"
+msgstr "قصاصات"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__location_id
+msgid "Source Location"
+msgstr "موقع المصدر"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__stock_scrap_id
+msgid "Stock Scrap"
+msgstr "خردة الأسهم"
+
+#. module: construction_waste_management
+#: model:ir.model,name:construction_waste_management.model_project_task
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_construction_management_search
+msgid "Task"
+msgstr "مهمة"
+
+#. module: construction_waste_management
+#: model:ir.model,name:construction_waste_management.model_stock_picking
+msgid "Transfer"
+msgstr "تحويل"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__uom_id
+msgid "UOM"
+msgstr "وحدة القياس"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__user_id
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_construction_management_search
+msgid "User"
+msgstr "مستخدم"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_project_task__waste_management_ids
+msgid "Waste Management"
+msgstr "إدارة النفايات"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_stock_picking__waste_management_id
+#: model:ir.model.fields,field_description:construction_waste_management.field_stock_scrap__waste_management_id
+msgid "Waste Material"
+msgstr "مواد النفايات"
+
+#. module: construction_waste_management
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_project_task_id
+msgid "Waste Materials"
+msgstr "مواد النفايات"
+
+#. module: construction_waste_management
+#: model:ir.model.fields,field_description:construction_waste_management.field_construction_waste_management__type
+msgid "Waste Method"
+msgstr "طريقة التخلص من النفايات"
+
+#. module: construction_waste_management
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_construction_management_search
+#: model_terms:ir.ui.view,arch_db:construction_waste_management.view_project_task_id
+msgid "Waste Picking"
+msgstr "إلتقاط النفايات"
+
+#. module: construction_waste_management
+#: model:ir.ui.menu,name:construction_waste_management.menu_waste_management
+msgid "Waste Reporting"
+msgstr "الإبلاغ عن النفايات"

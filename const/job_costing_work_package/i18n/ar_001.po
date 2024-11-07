@@ -1,0 +1,546 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_costing_work_package
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:07+0000\n"
+"PO-Revision-Date: 2024-11-01 16:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_costing_work_package
+#: model:mail.template,body_html:job_costing_work_package.email_work_packages_templates_custom_new
+msgid ""
+"<!-- <![CDATA[\n"
+"            <![CDATA[ -->\n"
+"            <!-- <div style=\"font-family: 'Lucida Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \"> -->\n"
+"            <div style=\"margin: 0px; padding: 0px;\">\n"
+"                <p>Dear <t t-out=\"object.partner_id.name\"></t>,</p>\n"
+"                <p>We are sending here with work package - <t t-out=\"object.name\"></t>.</p> \n"
+"                <p>Please find attached document.</p> \n"
+"                <p>If you have any questions, please do not hesitate to contact us.</p>\n"
+"                <p>Best regards,</p> \n"
+"                <br>\n"
+"            </div>\n"
+"           <!--<tr>-->\n"
+"        <!-- FOOTER -->\n"
+"    <!--<tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
+"            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"            <b t-out=\"object.company_id.name or ''\">My Company (San Francisco)</b><br/>\n"
+"            <div style=\"color: #999999;\">\n"
+"                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</t>\n"
+"                <t t-if=\"object.company_id.email\">\n"
+"                    | <a t-attf-href=\"'mailto:%s' % {{ object.company_id.email }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.email or ''\">info@yourcompany.com</a>\n"
+"                </t>\n"
+"                <t t-if=\"object.company_id.website\">\n"
+"                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
+"                </t>\n"
+"            </div>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>-->\n"
+"<!-- POWERED BY -->\n"
+"<!--<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"</td></tr>\n"
+"</table>\n"
+"        </field>\n"
+"        <field name=\"lang\">{{object.partner_id.lang}}</field>\n"
+"        <field name=\"auto_delete\" eval=\"True\"/>-->\n"
+"   <!-- ]]> -->\n"
+"            "
+msgstr ""
+"<!-- <![CDATA[\n"
+"<![CDATA[ -->\n"
+"<!-- <div style=\"font-family: 'Lucida Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \"> -->\n"
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"<p>عزيزي <t t-out=\"object.partner_id.name\"></t>,</p>\n"
+"<p>نرسل إليك مع حزمة العمل - <t t-out=\"object.name\"></t>.</p> \n"
+"<p>يرجى الاطلاع على المستند المرفق.</p> \n"
+"<p>إذا كانت لديك أي أسئلة، فلا تتردد في الاتصال بنا.</p>\n"
+"<p>مع أطيب التحيات،</p> \n"
+"<br>\n"
+"</div>\n"
+"<!--<tr>-->\n"
+"<!-- FOOTER -->\n"
+"<!--<tr>\n"
+"<td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
+"<hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"<b t-out=\"object.company_id.name or ''\">My Company (سان فرانسيسكو)</b><br/>\n"
+"<div style=\"color: #999999;\">\n"
+"<t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</t>\n"
+"<t t-if=\"object.company_id.email\">\n"
+"| <a t-attf-href=\"'mailto:%s' % {{ object.company_id.email }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.email or ''\">info@yourcompany.com</a>\n"
+"</t>\n"
+"<t t-if=\"object.company_id.website\">\n"
+"| <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website أو ''\">http://www.example.com</a>\n"
+"</t>\n"
+"</div>\n"
+"</td>\n"
+"</tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>-->\n"
+"<!-- مدعوم بواسطة -->\n"
+"<!--<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"مدعوم بواسطة <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"</td></tr>\n"
+"</table>\n"
+"</field>\n"
+"<field name=\"lang\">{{object.partner_id.lang}</field>\n"
+"<field name=\"auto_delete\" eval=\"True\"/>-->\n"
+"<!-- ]]> -->"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "<strong>Authorized signature:</strong>"
+msgstr "<strong>التوقيع المعتمد:</strong>"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "<strong>Company</strong>"
+msgstr "<strong>الشركة</strong>"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "<strong>Customer Signature:</strong>"
+msgstr "<strong>توقيع العميل:</strong>"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "<strong>Customer</strong>"
+msgstr "<strong>العميل</strong>"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "<strong>Date:</strong>"
+msgstr "<strong>التاريخ:</strong>"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "<strong>Date</strong>"
+msgstr "<strong>التاريخ</strong>"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "<strong>Name</strong>"
+msgstr "<strong>الاسم</strong>"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "<strong>Project</strong>"
+msgstr "<strong>المشروع</strong>"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "<strong>Responsible User</strong>"
+msgstr "<strong>المستخدم المسؤول</strong>"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__access_warning
+msgid "Access warning"
+msgstr "تحذير الوصول"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_needaction
+msgid "Action Needed"
+msgstr "مطلوب اتخاذ إجراء"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "رمز نوع النشاط"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "Assigned To"
+msgstr "مُخصص لـ"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_form_view_custom_1
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields.selection,name:job_costing_work_package.selection__project_work_package__state__cancel
+msgid "Cancelled"
+msgstr "تم الإلغاء"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__company_id
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_search_view_custom
+msgid "Company"
+msgstr "شركة"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_form_view_custom_1
+msgid "Confirm"
+msgstr "يتأكد"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields.selection,name:job_costing_work_package.selection__project_work_package__state__confirm
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__partner_id
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_search_view_custom
+msgid "Customer"
+msgstr "عميل"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__access_url
+msgid "Customer Portal URL"
+msgstr "رابط بوابة العميل"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__date
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_search_view_custom
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields.selection,name:job_costing_work_package.selection__project_work_package__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "End Date"
+msgstr "تاريخ النهاية"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط رائعة مثل fa-tasks"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_exception_icon
+msgid "Icon"
+msgstr "رمز"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثناء."
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديد هذا المربع، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__message_has_error
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديد هذا المربع، فقد يكون لبعض الرسائل خطأ في التسليم."
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__internal_notes
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_form_view_custom_1
+msgid "Internal Notes"
+msgstr "ملاحظات داخلية"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو تابع"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "Job"
+msgstr "وظيفة"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__name
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_search_view_custom
+msgid "Name"
+msgstr "اسم"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "تقويم النشاط القادم"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__number
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "Number"
+msgstr "رقم"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.edit_project_inherit_work_packages_custom
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.view_task_form2_inherit_work_packages_custom
+msgid "Packages"
+msgstr "الحزم"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "Planned Hours"
+msgstr "الساعات المخطط لها"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__access_url
+msgid "Portal Access URL"
+msgstr "عنوان URL للوصول إلى البوابة"
+
+#. module: job_costing_work_package
+#: model:ir.model,name:job_costing_work_package.model_project_project
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__project_id
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_search_view_custom
+msgid "Project"
+msgstr "مشروع"
+
+#. module: job_costing_work_package
+#: model:mail.template,name:job_costing_work_package.email_work_packages_templates_custom_new
+msgid "Project Work Packages - Send by Email"
+msgstr "حزم عمل المشروع - إرسال عبر البريد الإلكتروني"
+
+#. module: job_costing_work_package
+#: model:mail.template,subject:job_costing_work_package.email_work_packages_templates_custom_new
+msgid "Project Work Packages - {{object.number}} - {{object.name}}"
+msgstr "حزم عمل المشروع - {{object.number}} - {{object.name}}"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_form_view_custom_1
+msgid "Project Work packages"
+msgstr "حزم عمل المشروع"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "Remaining Hours"
+msgstr "الساعات المتبقية"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_form_view_custom_1
+msgid "Reset to Draft"
+msgstr "إعادة التعيين إلى المسودة"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__activity_user_id
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__user_id
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_search_view_custom
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_search_view_custom
+msgid "Search Name"
+msgstr "اسم البحث"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__access_token
+msgid "Security Token"
+msgstr "رمز الأمان"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_form_view_custom_1
+msgid "Send by Email"
+msgstr "إرسال عبر البريد الإلكتروني"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields.selection,name:job_costing_work_package.selection__project_work_package__state__sent
+msgid "Sent"
+msgstr "مرسل"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__state
+msgid "Stage"
+msgstr "منصة"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#. module: job_costing_work_package
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_search_view_custom
+msgid "State"
+msgstr "ولاية"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد انقضى بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط له: الأنشطة المستقبلية."
+
+#. module: job_costing_work_package
+#: model:ir.model,name:job_costing_work_package.model_project_task
+msgid "Task"
+msgstr "مهمة"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,help:job_costing_work_package.field_project_work_package__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصالات الموقع"
+
+#. module: job_costing_work_package
+#: model:ir.actions.report,name:job_costing_work_package.report_work_package
+msgid "Work Package"
+msgstr "حزمة العمل"
+
+#. module: job_costing_work_package
+#: model:ir.model.fields,field_description:job_costing_work_package.field_project_work_package__task_ids
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.project_work_package_form_view_custom_1
+#: model_terms:ir.ui.view,arch_db:job_costing_work_package.report_project_work_template
+msgid "Work Package Lines"
+msgstr "خطوط حزمة العمل"
+
+#. module: job_costing_work_package
+#: model:ir.actions.act_window,name:job_costing_work_package.project_work_pacakges_action_custom
+#: model:ir.model,name:job_costing_work_package.model_project_work_package
+#: model:ir.ui.menu,name:job_costing_work_package.menu_project_work_package
+msgid "Work Packages"
+msgstr "حزم العمل"

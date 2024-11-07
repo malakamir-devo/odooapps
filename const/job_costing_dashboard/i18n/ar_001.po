@@ -1,0 +1,116 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_costing_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:05+0000\n"
+"PO-Revision-Date: 2024-11-01 16:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span style=\"color:#006400;\">Material Cost Lines</span>"
+msgstr "<span style=\"color:#006400;\">أسطر تكلفة المواد</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span style=\"color:#006400;\">Timesheets</span>"
+msgstr "<span style=\"color:#006400;\">جداول العمل</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span style=\"color:#800000;\">Overhead Cost Lines</span>"
+msgstr "<span style=\"color:#800000;\">خطوط التكاليف العامة</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span style=\"color:#800000;\">Vendor Invoices</span>"
+msgstr "<span style=\"color:#800000;\">فواتير البائعين</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span style=\"color:#800080;\">Labour Cost Lines</span>"
+msgstr "<span style=\"color:#800080;\">خطوط تكلفة العمالة</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span style=\"color:#800080;\">Purchase Orders</span>"
+msgstr "<span style=\"color:#800080;\">أوامر الشراء</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span style=\"color:#DC143C;\">Job Cost Sheets</span>"
+msgstr "<span style=\"color:#DC143C;\">بيانات تكاليف العمل</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span style=\"color:#DC143C;\">Job Orders</span>"
+msgstr "<span style=\"color:#DC143C;\">أوامر العمل</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span style=\"margin-top:10px;\">Documents</span>"
+msgstr "<span style=\"margin-top:10px;\">المستندات</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span>New Job Cost Sheets</span>"
+msgstr "<span>بيانات تكاليف الوظائف الجديدة</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "<span>New Job Orders</span>"
+msgstr "<span>أوامر العمل الجديدة</span>"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.actions.act_window,help:job_costing_dashboard.job_cost_sheet_dashboard_action
+msgid "Click to create a new project.<br>"
+msgstr "انقر هنا لإنشاء مشروع جديد.<br>"
+
+#. module: job_costing_dashboard
+#: model:ir.ui.menu,name:job_costing_dashboard.job_cost_sheet_dashboard_menu
+msgid "Dashboard"
+msgstr "لوحة القيادة"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "Dropdown menu"
+msgstr "القائمة المنسدلة"
+
+#. module: job_costing_dashboard
+#: model:ir.actions.act_window,name:job_costing_dashboard.action_labour_cost_sheet_line
+msgid "Labour Cost Lines"
+msgstr "خطوط تكلفة العمالة"
+
+#. module: job_costing_dashboard
+#: model:ir.actions.act_window,name:job_costing_dashboard.action_material_cost_sheet_line
+msgid "Material Cost Lines"
+msgstr "خطوط تكلفة المواد"
+
+#. module: job_costing_dashboard
+#: model:ir.actions.act_window,name:job_costing_dashboard.action_overhead_cost_sheet_line
+msgid "Overhead Cost Lines"
+msgstr "خطوط التكاليف العامة"
+
+#. module: job_costing_dashboard
+#: model:ir.model,name:job_costing_dashboard.model_project_project
+msgid "Project"
+msgstr "مشروع"
+
+#. module: job_costing_dashboard
+#: model:ir.actions.act_window,name:job_costing_dashboard.job_cost_sheet_dashboard_action
+msgid "Project Dashboard"
+msgstr "لوحة معلومات المشروع"
+
+#. module: job_costing_dashboard
+#: model_terms:ir.ui.view,arch_db:job_costing_dashboard.view_jobcostsheet_dashboard_kanban
+msgid "Settings"
+msgstr "إعدادات"

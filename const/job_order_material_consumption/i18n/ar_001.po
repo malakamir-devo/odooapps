@@ -1,0 +1,120 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_order_material_consumption
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 17:09+0000\n"
+"PO-Revision-Date: 2024-11-01 17:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_order_material_consumption
+#: model_terms:ir.ui.view,arch_db:job_order_material_consumption.task_report_id_inherit_report_view
+msgid "Consumed Materials"
+msgstr "المواد المستهلكة"
+
+#. module: job_order_material_consumption
+#: model:ir.model,name:job_order_material_consumption.model_consumption_type
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_stock_move__consumption_type_id
+msgid "Consumption Type"
+msgstr "نوع الاستهلاك"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_consumption_type__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_consumption_type__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_order_material_consumption
+#: model_terms:ir.ui.view,arch_db:job_order_material_consumption.task_report_id_inherit_report_view
+msgid "Description"
+msgstr "وصف"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_consumption_type__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_consumption_type__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_stock_move__task_id
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_stock_picking__task_id
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_consumption_type__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_consumption_type__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_order_material_consumption
+#: model:ir.actions.act_window,name:job_order_material_consumption.action_consumption_type
+#: model:ir.ui.menu,name:job_order_material_consumption.menu_consumption_type
+msgid "Material Consumption Types"
+msgstr "أنواع استهلاك المواد"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_project_task__stock_move_id
+msgid "Move Ids"
+msgstr "معرفات الحركة"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_consumption_type__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: job_order_material_consumption
+#: model_terms:ir.ui.view,arch_db:job_order_material_consumption.task_report_id_inherit_report_view
+msgid "Product"
+msgstr "منتج"
+
+#. module: job_order_material_consumption
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_stock_move__cust_project_id
+#: model:ir.model.fields,field_description:job_order_material_consumption.field_stock_picking__project_id
+msgid "Project"
+msgstr "مشروع"
+
+#. module: job_order_material_consumption
+#: model_terms:ir.ui.view,arch_db:job_order_material_consumption.task_report_id_inherit_report_view
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: job_order_material_consumption
+#: model:ir.model,name:job_order_material_consumption.model_stock_move
+msgid "Stock Move"
+msgstr "تحرك الأسهم"
+
+#. module: job_order_material_consumption
+#: model:ir.model,name:job_order_material_consumption.model_project_task
+msgid "Task"
+msgstr "مهمة"
+
+#. module: job_order_material_consumption
+#: model:ir.model,name:job_order_material_consumption.model_stock_picking
+msgid "Transfer"
+msgstr "تحويل"
+
+#. module: job_order_material_consumption
+#: model_terms:ir.ui.view,arch_db:job_order_material_consumption.task_report_id_inherit_report_view
+msgid "Unit of Measure"
+msgstr "وحدة القياس"

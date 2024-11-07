@@ -1,0 +1,1862 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* machine_repair_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 17:07+0000\n"
+"PO-Revision-Date: 2024-11-01 17:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_res_partner__request_count
+#: model:ir.model.fields,field_description:machine_repair_management.field_res_users__request_count
+msgid "# of Machine Repair"
+msgstr "# إصلاح الآلات"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.external_layout_footer_machine_req
+msgid "&amp;bull;"
+msgstr "&الثور؛"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_invalid
+msgid "&amp;times;"
+msgstr "& مرات؛"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_invalid
+msgid ""
+",<br/>\n"
+"                                        Partner not exists for entered email. Please enter valid email or contact administrator to create new partner with this email!\n"
+"                                        <br/><br/>\n"
+"                                        Thanks"
+msgstr ""
+",<br/>\n"
+"لا يوجد شريك للبريد الإلكتروني المدخل. يُرجى إدخال بريد إلكتروني صالح أو الاتصال بالمسؤول لإنشاء شريك جديد بهذا البريد الإلكتروني!\n"
+"<br/><br/>\n"
+"شكرًا"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.thanks_mail_send
+msgid ""
+".\n"
+"                                            Please note it for further communication and you will also receive email from our\n"
+"                                            repair team shortly, Please reply to that\n"
+"                                            email for feature conversation.\n"
+"                                            <br/><br/>\n"
+"                                            Thank you, <br/>"
+msgstr ""
+".\n"
+"يرجى ملاحظة ذلك لمزيد من التواصل وسوف تتلقى أيضًا بريدًا إلكترونيًا من فريق الإصلاح الخاص بنا قريبًا، يرجى الرد على هذا البريد الإلكتروني لإجراء محادثة حول الميزة.\n"
+"<br/><br/>\n"
+"شكرًا لك، <br/>"
+
+#. module: machine_repair_management
+#: model:mail.template,body_html:machine_repair_management.email_template_machine_ticket
+msgid ""
+"<!-- <![CDATA[ -->\n"
+"            <div style=\"margin: 0px; padding: 0px;\">\n"
+"<p>Dear <t t-out=\"object.partner_id.name\"></t>, <br></p>\n"
+"\n"
+"<!-- <t t-set=\"is_online\" t-value=\"access_action and access_action['type'] == 'ir.actions.act_url'\"/>\n"
+"<t t-set=\"access_action\" t-value=\"object.get_access_action()\"/>\n"
+"<t t-set=\"custom_access_url\" t-value=\"access_action['type'] == 'ir.actions.act_url' and access_action['url'] or '/machine_repair_email/feedback/'+str(object.id)\"/> -->\n"
+"\n"
+" <t t-set=\"is_online\" t-value=\"access_action and access_action['type'] == 'ir.actions.act_url'\"></t>\n"
+"            <t t-set=\"access_action\" t-value=\"object.get_access_action()\"></t>\n"
+"            <t t-set=\"custom_access_url\" t-value=\"object.get_access_action()\"></t>\n"
+"\n"
+"<p>We have closed your ticket for now, if you want to reopen please do not hesitate contact us. </p>\n"
+"\n"
+"<p><a style=\"padding: 8px 30px 8px 30px;border-radius: 6px;border: 1px solid #CCCCCC;background-color:#008080;margin-left: 2px;text-decoration: none;color:#FFFFFF;\" t-attf-href=\"{{custom_access_url}}\">Please give your feedback</a> <br></p>\n"
+"\n"
+"<p>Thanks for your participation!  </p>   \n"
+"        <p>Thank you for choosing <!-- {{object.company_id.name or 'us'}} --><t t-out=\"object.company_id.name\"></t>!</p>\n"
+"        \n"
+"  <!--  </div>\n"
+"   </div>\n"
+"   </div> -->\n"
+"           <!--  ]]> -->\n"
+"        </div>"
+msgstr ""
+"<!-- <![CDATA[ -->\n"
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"<p>عزيزي <t t-out=\"object.partner_id.name\"></t>، <br></p>\n"
+"\n"
+"<!-- <t t-set=\"is_online\" t-value=\"access_action and access_action['type'] == 'ir.actions.act_url'\"/>\n"
+"<t t-set=\"access_action\" t-value=\"object.get_access_action()\"/>\n"
+"<t t-set=\"custom_access_url\" t-value=\"access_action['type'] == 'ir.actions.act_url' and access_action['url'] or '/machine_repair_email/feedback/'+str(object.id)\"/> -->\n"
+"\n"
+"<t t-set=\"is_online\" t-value=\"access_action and access_action['type'] == 'ir.actions.act_url'\"></t>\n"
+"<t t-set=\"access_action\" t-value=\"object.get_access_action()\"></t>\n"
+"<t t-set=\"custom_access_url\" t-value=\"object.get_access_action()\"></t>\n"
+"\n"
+"<p>لقد أغلقنا تذكرتك الآن، إذا كنت تريد إعادة فتحها فلا تتردد في الاتصال بنا. </p>\n"
+"\n"
+"<p><a style=\"padding: 8px 30px 8px 30px;border-radius: 6px;border: 1px solid #CCCCCC;background-color:#008080;margin-left: 2px;text-decoration: none;color:#FFFFFF;\" t-attf-href=\"{{custom_access_url}}\">يرجى تقديم ملاحظاتك</a> <br></p>\n"
+"\n"
+"<p>شكرًا لمشاركتك! </p> \n"
+"<p>شكرًا لاختيارك <!-- {{object.company_id.name or 'us'}} --><t t-out=\"object.company_id.name\"></t>!</p>\n"
+"\n"
+"<!-- </div>\n"
+"</div>\n"
+"</div> -->\n"
+"<!-- ]]> -->\n"
+"</div>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<b>Client Information</b>"
+msgstr "<b>معلومات العميل</b>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<b>Machine Information</b>"
+msgstr "<b>معلومات الجهاز</b>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<b>Other Information</b>"
+msgstr "<b>معلومات أخرى</b>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.report_machine_repair_req_lable
+msgid ""
+"<br/>\n"
+"                                <strong>Date: </strong>"
+msgstr ""
+"<br/>\n"
+"<strong>التاريخ: </strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.report_machine_repair_req_lable
+msgid ""
+"<br/>\n"
+"                                <strong>Description: </strong>"
+msgstr ""
+"<br/>\n"
+"<strong>الوصف: </strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.report_machine_repair_req_lable
+msgid ""
+"<br/>\n"
+"                                <strong>Model: </strong>"
+msgstr ""
+"<br/>\n"
+"<strong>النموذج: </strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_feedback
+msgid ""
+"<font color=\"#00A09D\">\n"
+"                                Rating</font>"
+msgstr ""
+"<font color=\"#00A09D\">\n"
+"التقييم</font>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_feedback
+msgid ""
+"<font color=\"#00A09D\">Comment\n"
+"                                </font>"
+msgstr ""
+"<font color=\"#00A09D\">التعليق\n"
+"</font>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "<option value=\"\">Select Services...</option>"
+msgstr "<option value=\"\">حدد الخدمات...</option>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid ""
+"<select class=\"form-control\" name=\"priority\">\n"
+"                                                <option value=\"0\" selected=\"selected\">Low</option>\n"
+"                                                <option value=\"1\">Middle</option>\n"
+"                                                <option value=\"2\">High</option>\n"
+"                                            </select>"
+msgstr ""
+"<select class=\"form-control\" name=\"priority\">\n"
+"<option value=\"0\" selected=\"selected\">منخفض</option>\n"
+"<option value=\"1\">متوسط</option>\n"
+"<option value=\"2\">مرتفع</option>\n"
+"</select>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<small class=\"text-right\">Status:</small>"
+msgstr "<small class=\"text-right\">الحالة:</small>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.successful_feedback
+msgid ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                    <span>Your feedback has been successfully submitted</span>"
+msgstr ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"<span>تم إرسال تعليقك بنجاح</span>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.successful_ticket_send
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_invalid
+msgid ""
+"<span class=\"hidden-xs\">Go Back</span><span class=\"fa fa-long-arrow-"
+"left\"/>"
+msgstr ""
+"<span class=\"hidden-xs\">العودة</span><span class=\"fa fa-long-arrow-"
+"left\"/>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Accompanying Items</strong>"
+msgstr "<strong>العناصر المصاحبة</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Analytic Account  :</strong>"
+msgstr "<strong>الحساب التحليلي:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.report_machine_repair_req_lable
+msgid "<strong>Brand: </strong>"
+msgstr "<strong>العلامة التجارية:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Brand</strong>"
+msgstr "<strong>العلامة التجارية</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.report_machine_repair_req_lable
+msgid "<strong>Client: </strong>"
+msgstr "<strong>العميل:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Client</strong>"
+msgstr "<strong>العميل</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Close Date:</strong>"
+msgstr "<strong>تاريخ الإغلاق:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Color</strong>"
+msgstr "<strong>اللون</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Company</strong>"
+msgstr "<strong>الشركة</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Customer:</strong>"
+msgstr "<strong>العميل:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Department  :</strong>"
+msgstr "<strong>القسم :</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Email :</strong>"
+msgstr "<strong>البريد الإلكتروني:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Email</strong>"
+msgstr "<strong>البريد الإلكتروني</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Is Repaired ?</strong>"
+msgstr "<strong>هل تم إصلاحه؟</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>List of Damage :</strong>"
+msgstr "<strong>قائمة الأضرار:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Lot:</strong>"
+msgstr "<strong>القطعة:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Machine Brand :</strong>"
+msgstr "<strong>ماركة الماكينة:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Machine Category</strong>"
+msgstr "<strong>فئة الآلة</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Machine Manufacturing Year :</strong>"
+msgstr "<strong>سنة تصنيع الآلة:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Machine Model :</strong>"
+msgstr "<strong>نموذج الماكينة:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Machine Repair Team     :</strong>"
+msgstr "<strong>فريق إصلاح الآلات:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Machine</strong>"
+msgstr "<strong>آلة</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Message and communication history</strong>"
+msgstr "<strong>سجل الرسائل والاتصالات</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Model</strong>"
+msgstr "<strong>النموذج</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Nature of Service :</strong>"
+msgstr "<strong>طبيعة الخدمة:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Phone :</strong>"
+msgstr "<strong>الهاتف :</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Phone</strong>"
+msgstr "<strong>الهاتف</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Priority:</strong>"
+msgstr "<strong>الأولوية:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Problem:</strong>"
+msgstr "<strong>المشكلة:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Project:</strong>"
+msgstr "<strong>المشروع:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Reason for Repair in Details :</strong>"
+msgstr "<strong>سبب الإصلاح بالتفصيل:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Repair Date</strong>"
+msgstr "<strong>تاريخ الإصلاح</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Repair Request Date:</strong>"
+msgstr "<strong>تاريخ طلب الإصلاح:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Repairing Duration :</strong>"
+msgstr "<strong>مدة الإصلاح:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Request Date</strong>"
+msgstr "<strong>تاريخ الطلب</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Team Leader :</strong>"
+msgstr "<strong>قائد الفريق:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "<strong>Technician :</strong>"
+msgstr "<strong>الفني :</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Technician</strong>"
+msgstr "<strong>فني</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Total Hours Spent Repair</strong>"
+msgstr "<strong>إجمالي الساعات التي تم قضاؤها في الإصلاح</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Warranty</strong>"
+msgstr "<strong>الضمان</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.report_machine_repair_req_lable
+msgid "<strong>Year: </strong>"
+msgstr "<strong>السنة:</strong>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "<strong>Year</strong>"
+msgstr "<strong>السنة</strong>"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__access_warning
+msgid "Access warning"
+msgstr "تحذير الوصول"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__accompanying_items
+msgid "Accompanying Items"
+msgstr "العناصر المصاحبة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_needaction
+msgid "Action Needed"
+msgstr "مطلوب اتخاذ إجراء"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "رمز نوع النشاط"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Add an internal note..."
+msgstr "أضف ملاحظة داخلية..."
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__analytic_account_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__analytic_account_id
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "الخط التحليلي"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__state__assigned
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__state__assigned
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Assigned"
+msgstr "مُكَلَّف"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Assigned To"
+msgstr "مُخصص لـ"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__user_id
+msgid "Assigned to"
+msgstr "مُخصص لـ"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Attach Files"
+msgstr "إرفاق الملفات"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__rating__average
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_feedback
+msgid "Average"
+msgstr "متوسط"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_account_analytic_line__billable
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "Billable"
+msgstr "قابلة للفوترة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__brand
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_product__brand
+msgid "Brand"
+msgstr "ماركة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__category
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__category
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Category"
+msgstr "فئة"
+
+#. module: machine_repair_management
+#: model_terms:ir.actions.act_window,help:machine_repair_management.action_product_machine
+#: model_terms:ir.actions.act_window,help:machine_repair_management.action_product_machine_parts
+msgid "Click to define a new product."
+msgstr "انقر هنا لتحديد منتج جديد."
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__close_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__close_date
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Close Date"
+msgstr "تاريخ الإغلاق"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__state__closed
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__state__closed
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Closed"
+msgstr "مغلق"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_type__code
+msgid "Code"
+msgstr "شفرة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__color
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_product__color_custom
+msgid "Color"
+msgstr "لون"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__company_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__company_id
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Company"
+msgstr "شركة"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.menu_machine_repair_configuration
+msgid "Configuration"
+msgstr "إعدادات"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_res_partner
+msgid "Contact"
+msgstr "اتصال"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__request_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__request_date
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Create Date"
+msgstr "إنشاء التاريخ"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Create Machine Diagnosys"
+msgstr "إنشاء تشخيصات الآلة"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.help_desk_view_task_form
+msgid "Create Quotation"
+msgstr "إنشاء عرض أسعار"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Create Work Order"
+msgstr "إنشاء أمر العمل"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__create_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__create_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__create_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__create_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_type__create_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_service_nature__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__create_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__create_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__create_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__create_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_type__create_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_service_nature__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "Current stage of this task"
+msgstr "المرحلة الحالية لهذه المهمة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__partner_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__partner_id
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Customer"
+msgstr "عميل"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__comment
+msgid "Customer Comment"
+msgstr "تعليق العميل"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__access_url
+msgid "Customer Portal URL"
+msgstr "رابط بوابة العميل"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__rating
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Customer Rating"
+msgstr "تقييم العملاء"
+
+#. module: machine_repair_management
+#. odoo-python
+#: code:addons/machine_repair_management/controllers/main.py:0
+#: code:addons/machine_repair_management/controllers/mainold.py:0
+#: code:addons/odoo/const/machine_repair_management/controllers/main.py:0
+#: code:addons/odoo/const/machine_repair_management/controllers/mainold.py:0
+#, python-format
+msgid ""
+"Customer has sent %s attachments to this Machine repair ticket. Name of "
+"attachments are: "
+msgstr ""
+"لقد أرسل العميل %s من المرفقات إلى تذكرة إصلاح هذه الآلة. أسماء المرفقات هي:"
+
+#. module: machine_repair_management
+#. odoo-python
+#: code:addons/machine_repair_management/controllers/main.py:0
+#: code:addons/machine_repair_management/controllers/mainold.py:0
+#: code:addons/odoo/const/machine_repair_management/controllers/main.py:0
+#: code:addons/odoo/const/machine_repair_management/controllers/mainold.py:0
+#, python-format
+msgid ""
+"Customer has sent %s attachments to this machine repair ticket. Name of "
+"attachments are: "
+msgstr ""
+"لقد أرسل العميل %s من المرفقات إلى تذكرة إصلاح هذه الآلة. أسماء المرفقات هي:"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__damage
+msgid "Damage"
+msgstr "ضرر"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_invalid
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.thanks_mail_send
+msgid "Dear"
+msgstr "عزيزي"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__department_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__department_id
+msgid "Department"
+msgstr "قسم"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__description
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__notes
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "Description"
+msgstr "وصف"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_view_task_diagnosis
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__project_task__task_type__diagnosys
+msgid "Diagnosys"
+msgstr "التشخيص"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__display_name
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__display_name
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__display_name
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__display_name
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__display_name
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_type__display_name
+#: model:ir.model.fields,field_description:machine_repair_management.field_service_nature__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__email
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.external_layout_footer_machine_req
+msgid "Email:"
+msgstr "بريد إلكتروني:"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__email
+msgid "Emails"
+msgstr "رسائل البريد الإلكتروني"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.help_desk_view_task_form
+msgid "Estimation Repair"
+msgstr "تقدير الإصلاح"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__rating__excellent
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_feedback
+msgid "Excellent"
+msgstr "ممتاز"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط رائعة مثل fa-tasks"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__category__functional
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__category__functional
+msgid "Functional"
+msgstr "وظيفية"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "General Information"
+msgstr "معلومات عامة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__rating__good
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_feedback
+msgid "Good"
+msgstr "جيد"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__priority__2
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__priority__2
+msgid "High"
+msgstr "عالي"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "Hours"
+msgstr "ساعات"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__id
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__id
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__id
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__id
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__id
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_type__id
+#: model:ir.model.fields,field_description:machine_repair_management.field_service_nature__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_exception_icon
+msgid "Icon"
+msgstr "رمز"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثناء."
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديد هذا المربع، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__message_has_error
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديد هذا المربع، فقد يكون لبعض الرسائل خطأ في التسليم."
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Image 1"
+msgstr "الصورة 1"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Image 2"
+msgstr "الصورة 2"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Image 3"
+msgstr "الصورة 3"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Image 4"
+msgstr "الصورة رقم 4"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Image 5"
+msgstr "الصورة رقم 5"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__img1
+msgid "Images1"
+msgstr "صور1"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__img2
+msgid "Images2"
+msgstr "صور2"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__img3
+msgid "Images3"
+msgstr "صور3"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__img4
+msgid "Images4"
+msgstr "صور4"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__img5
+msgid "Images5"
+msgstr "صور5"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__is_team
+msgid "Is Default Team?"
+msgstr "هل هو فريق افتراضي؟"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو تابع"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_product__is_machine
+msgid "Is Machine"
+msgstr "هل هي آلة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__is_task_created
+msgid "Is Task Created ?"
+msgstr "هل تم إنشاء المهمة؟"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__is_close
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__is_close
+msgid "Is Ticket Closed ?"
+msgstr "هل تم إغلاق التذكرة؟"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__journal_id
+msgid "Journal"
+msgstr "مجلة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__write_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__write_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__write_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__write_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_type__write_uid
+#: model:ir.model.fields,field_description:machine_repair_management.field_service_nature__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__write_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__write_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__write_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__write_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_type__write_date
+#: model:ir.model.fields,field_description:machine_repair_management.field_service_nature__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__leader_id
+msgid "Leader"
+msgstr "قائد"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "List of Damage"
+msgstr "قائمة الأضرار"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.external_layout_header_machine_req
+msgid "Logo"
+msgstr "الشعار"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__lot_id
+msgid "Lot"
+msgstr "كثير"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__priority__0
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__priority__0
+msgid "Low"
+msgstr "قليل"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Machine Brand"
+msgstr "ماركة الماكينة"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Machine Category"
+msgstr "فئة الآلة"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.menu_diagnosys_action
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Machine Diagnosys"
+msgstr "تشخيص الآلات"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Machine Images"
+msgstr "صور الآلات"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Machine Information"
+msgstr "معلومات عن الماكينة"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Machine Manufacturing Year"
+msgstr "سنة تصنيع الماكينة"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Machine Model"
+msgstr "نموذج الآلة"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_product_machine_parts
+#: model:ir.ui.menu,name:machine_repair_management.menu_machine_part_product_action
+msgid "Machine Parts"
+msgstr "أجزاء الآلة"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_machine_repair_support
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_calendar
+msgid "Machine Repair"
+msgstr "إصلاح الآلات"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_machine_user_tree
+msgid "Machine Repair Analysis"
+msgstr "تحليل إصلاح الآلات"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.help_desk_view_task_form
+msgid "Machine Repair Estimation"
+msgstr "تقدير تكلفة إصلاح الماكينة"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_machine_repair_report
+msgid "Machine Repair Report"
+msgstr "تقرير إصلاح الماكينة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_product__machine_repair_ids
+#: model:website.menu,name:machine_repair_management.support_page_add
+msgid "Machine Repair Request"
+msgstr "طلب إصلاح الماكينة"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_machine_repair_support
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__machine_id
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "Machine Repair Support"
+msgstr "دعم إصلاح الآلات"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Machine Repair Support Subject"
+msgstr "موضوع دعم إصلاح الآلات"
+
+#. module: machine_repair_management
+#: model_terms:ir.actions.act_window,help:machine_repair_management.action_machine_repair_support
+msgid "Machine Repair Support Tree."
+msgstr "شجرة دعم إصلاح الآلات."
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_machine_support_team
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__team_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__team_id
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Machine Repair Team"
+msgstr "فريق إصلاح الآلات"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.menu_item_machine_support_team
+msgid "Machine Repair Teams"
+msgstr "فرق إصلاح الآلات"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_project_task__machine_ticket_id
+msgid "Machine Repair Ticket"
+msgstr "تذكرة إصلاح الماكينة"
+
+#. module: machine_repair_management
+#: model:mail.template,name:machine_repair_management.email_template_machine_ticket
+msgid "Machine Repair Ticket - Send by Email"
+msgstr "تذكرة إصلاح الماكينة - إرسال عبر البريد الإلكتروني"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.menu_item_machine_repair_support
+msgid "Machine Repair Tickets"
+msgstr "تذاكر إصلاح الآلات"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.menu_machine_repair_support
+msgid "Machine Repairs"
+msgstr "إصلاح الآلات"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Machine Work Orders"
+msgstr "أوامر عمل الآلة"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.menu_workorder_action
+msgid "Machine WorkOrders"
+msgstr "أوامر عمل الآلة"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Machine/Equipment Repair Details"
+msgstr "تفاصيل إصلاح الآلات/المعدات"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_product_machine
+#: model:ir.ui.menu,name:machine_repair_management.menu_machine_product_action
+#: model:ir.ui.menu,name:machine_repair_management.menu_machine_product_main
+msgid "Machines"
+msgstr "الآلات"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__priority__1
+msgid "Middle"
+msgstr "وسط"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__model
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_product__model
+msgid "Model"
+msgstr "نموذج"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Multiple files can be attach"
+msgstr "يمكن إرفاق ملفات متعددة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: machine_repair_management
+#: model:website.menu,name:machine_repair_management.support_page_my_request
+msgid "My Repair Request"
+msgstr "طلب الإصلاح الخاص بي"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__name
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_type__name
+#: model:ir.model.fields,field_description:machine_repair_management.field_service_nature__name
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "Name"
+msgstr "اسم"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_nature_of_service
+msgid "Nature Of Service"
+msgstr "طبيعة الخدمة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__nature_of_service_id
+msgid "Nature Of service"
+msgstr "طبيعة الخدمة"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Nature of Service"
+msgstr "طبيعة الخدمة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__state__needs_more_info
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__state__needs_more_info
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Needs More Info"
+msgstr "بحاجة الى مزيد من المعلومات"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__state__needs_reply
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__state__needs_reply
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Needs Reply"
+msgstr "يحتاج إلى رد"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__state__new
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__state__new
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "New"
+msgstr "جديد"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "تقويم النشاط القادم"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "No"
+msgstr "لا"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__priority__1
+msgid "Normal"
+msgstr "طبيعي"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__name
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__name
+msgid "Number"
+msgstr "رقم"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.external_layout_footer_machine_req
+msgid "Page:"
+msgstr "صفحة:"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Personal Details"
+msgstr "التفاصيل الشخصية"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__phone
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__phone
+msgid "Phone"
+msgstr "هاتف"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.external_layout_footer_machine_req
+msgid "Phone:"
+msgstr "هاتف:"
+
+#. module: machine_repair_management
+#. odoo-python
+#: code:addons/machine_repair_management/models/ticket_task.py:0
+#: code:addons/odoo/const/machine_repair_management/models/ticket_task.py:0
+#, python-format
+msgid "Please add Estimation detail to create quotation!"
+msgstr "يرجى إضافة تفاصيل التقدير لإنشاء عرض الأسعار!"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__rating__poor
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_feedback
+msgid "Poor"
+msgstr "فقير"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__access_url
+msgid "Portal Access URL"
+msgstr "عنوان URL للوصول إلى البوابة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__price
+msgid "Price"
+msgstr "سعر"
+
+#. module: machine_repair_management
+#: model:ir.actions.report,name:machine_repair_management.repair_request_lable_report
+msgid "Print Label"
+msgstr "طباعة الملصق"
+
+#. module: machine_repair_management
+#: model:ir.actions.report,name:machine_repair_management.print_support_request
+msgid "Print Machine Repair Request"
+msgstr "طلب إصلاح ماكينة الطباعة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__priority
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__priority
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Priority"
+msgstr "أولوية"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__problem
+msgid "Problem"
+msgstr "مشكلة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__cosume_part_ids
+msgid "Produ Ctconsume Part"
+msgstr "جزء استهلاك المنتج"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__product_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__product_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__product_id
+msgid "Product"
+msgstr "منتج"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__product_category
+msgid "Product Category"
+msgstr "فئة المنتج"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_product_consume_part
+#: model:ir.model,name:machine_repair_management.model_product_consume_part
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Product Consume Part"
+msgstr "جزء استهلاك المنتج"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_product_product
+msgid "Product Variant"
+msgstr "متغير المنتج"
+
+#. module: machine_repair_management
+#. odoo-python
+#: code:addons/machine_repair_management/models/ticket_task.py:0
+#: code:addons/odoo/const/machine_repair_management/models/ticket_task.py:0
+#, python-format
+msgid "Product not defined on Estimation Repair Lines!"
+msgstr "المنتج غير محدد في خطوط إصلاح التقدير!"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__project_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__project_id
+msgid "Project"
+msgstr "مشروع"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "Project Details"
+msgstr "تفاصيل المشروع"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.view_machine_repair_graph
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.view_machine_repair_pivot
+msgid "Project Tasks"
+msgstr "مهام المشروع"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__qty
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__qty
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.help_desk_view_task_form
+msgid "Quotation"
+msgstr "اقتباس"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Re Open"
+msgstr "إعادة فتح"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Reason for Repair"
+msgstr "سبب الإصلاح"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Reason for Repair in Details"
+msgstr "سبب الإصلاح بالتفصيل"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__state__reopened
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__state__reopened
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Reopened"
+msgstr "أعيد فتحه"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.main_machine_repair_support_main
+msgid "Repair"
+msgstr "بصلح"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_repair_estimation_lines
+#: model:ir.model,name:machine_repair_management.model_repair_estimation_lines
+#: model:ir.model.fields,field_description:machine_repair_management.field_project_task__repair_estimation_line_ids
+msgid "Repair Estimation Lines"
+msgstr "خطوط تقدير الإصلاح"
+
+#. module: machine_repair_management
+#: model:res.groups,name:machine_repair_management.group_machine_repair_manager
+msgid "Repair Manager"
+msgstr "مدير الإصلاح"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_account_analytic_line__repair_request_id
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.product_normal_form_view_inherit_is_machine
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.view_partner_form_inherit_view
+msgid "Repair Request"
+msgstr "طلب إصلاح"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Repair Request Date"
+msgstr "تاريخ طلب الإصلاح"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.my_repair_requests_page
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.portal_my_repair_request
+msgid "Repair Requests"
+msgstr "طلبات الإصلاح"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_repair_type
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__repair_types_ids
+msgid "Repair Type"
+msgstr "نوع الإصلاح"
+
+#. module: machine_repair_management
+#: model:res.groups,name:machine_repair_management.group_machine_repair_user
+msgid "Repair User/Technician"
+msgstr "إصلاح المستخدم/الفني"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Repaired?"
+msgstr "تم إصلاحه؟"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Repairing Duration"
+msgstr "مدة الإصلاح"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.menu_machine_repair_report
+msgid "Reports"
+msgstr "التقارير"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "Request Details"
+msgstr "تفاصيل الطلب"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Request No"
+msgstr "رقم الطلب"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_sale_order
+msgid "Sales Order"
+msgstr "طلب المبيعات"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__access_token
+msgid "Security Token"
+msgstr "رمز الأمان"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_type__service_id
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Service"
+msgstr "خدمة"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_service_nature
+msgid "Service Nature"
+msgstr "طبيعة الخدمة"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_repair_type
+msgid "Service Type"
+msgstr "نوع الخدمة"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.menu_item_repair_type
+msgid "Service Types"
+msgstr "أنواع الخدمة"
+
+#. module: machine_repair_management
+#: model:ir.ui.menu,name:machine_repair_management.menu_item_nature_of_service
+msgid "Services"
+msgstr "خدمات"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+msgid "Set To Close"
+msgstr "تم ضبطه للإغلاق"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__state__solution_suggested
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__state__solution_suggested
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Solution Suggested"
+msgstr "الحل المقترح"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Stage"
+msgstr "منصة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__state
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__state
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "State"
+msgstr "ولاية"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد انقضى بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط له: الأنشطة المستقبلية."
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__subject
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__subject
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Subject"
+msgstr "موضوع"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_feedback
+msgid "Submit"
+msgstr "يُقدِّم"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid ""
+"Submit\n"
+"                                                <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+"إرسال\n"
+"<span class=\"fa fa-long-arrow-right\"/>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Submit your Machine/Equipment repair request by feeling below form."
+msgstr ""
+"قم بإرسال طلب إصلاح الآلة/المعدات الخاصة بك عن طريق ملء النموذج أدناه."
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__category__support
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__category__support
+msgid "Support"
+msgstr "يدعم"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_machine_support_team
+msgid "Support Team"
+msgstr "فريق الدعم"
+
+#. module: machine_repair_management
+#: model:ir.model,name:machine_repair_management.model_project_task
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__task_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__task_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_sale_order__task_id
+msgid "Task"
+msgstr "مهمة"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "Team Details"
+msgstr "تفاصيل الفريق"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_report__team_leader_id
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__team_leader_id
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Team Leader"
+msgstr "قائد الفريق"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_support_team__team_ids
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_team_form_view
+msgid "Team Members"
+msgstr "أعضاء الفريق"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__category__technical
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__category__technical
+msgid "Technical"
+msgstr "اِصطِلاحِيّ"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__user_id
+msgid "Technician"
+msgstr "فني"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.successful_feedback
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.thanks_mail_send
+msgid "Thank You!"
+msgstr "شكرًا لك!"
+
+#. module: machine_repair_management
+#: model_terms:ir.actions.act_window,help:machine_repair_management.action_product_machine
+#: model_terms:ir.actions.act_window,help:machine_repair_management.action_product_machine_parts
+msgid ""
+"The product form contains information to simplify the sale\n"
+"                process: price, notes in the quotation, accounting data,\n"
+"                procurement methods, etc."
+msgstr ""
+"يحتوي نموذج المنتج على معلومات لتبسيط عملية البيع: السعر، والملاحظات في عرض "
+"الأسعار، والبيانات المحاسبية، وطرق الشراء، وما إلى ذلك."
+
+#. module: machine_repair_management
+#: model_terms:ir.actions.act_window,help:machine_repair_management.action_machine_user_tree
+msgid "This report show machine repair analysis data."
+msgstr "يعرض هذا التقرير بيانات تحليل إصلاح الماكينة."
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_support_team__is_team
+msgid ""
+"Tick this box to set this team as default support team when request come "
+"from website"
+msgstr ""
+"حدد هذا المربع لتعيين هذا الفريق كفريق دعم افتراضي عندما يأتي الطلب من موقع "
+"الويب"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_search_view
+msgid "Ticket"
+msgstr "تذكرة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__custome_client_user_id
+msgid "Ticket Created User"
+msgstr "المستخدم الذي تم إنشاء التذكرة له"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__timesheet_line_ids
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_support_form_view
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "Timesheets"
+msgstr "جداول العمل"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Title"
+msgstr "عنوان"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__total_consumed_hours
+msgid "Total Consumed Hours"
+msgstr "إجمالي الساعات المستهلكة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__total_spend_hours
+msgid "Total Hours Spent"
+msgstr "إجمالي الساعات المستغرقة"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_project_task__task_type
+msgid "Type"
+msgstr "يكتب"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_consume_part__product_uom
+#: model:ir.model.fields,field_description:machine_repair_management.field_repair_estimation_lines__product_uom
+msgid "UOM"
+msgstr "وحدة القياس"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__rating__very_good
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_feedback
+msgid "Very Good"
+msgstr "جيد جدًا"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__warranty
+msgid "Warranty"
+msgstr "ضمان"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__website_brand
+msgid "Website Brand"
+msgstr "العلامة التجارية للموقع"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__website_model
+msgid "Website Model"
+msgstr "نموذج الموقع"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__website_year
+msgid "Website Year"
+msgstr "سنة الموقع"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,help:machine_repair_management.field_machine_repair_support__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصالات الموقع"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.external_layout_footer_machine_req
+msgid "Website:"
+msgstr "موقع إلكتروني:"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__project_task__task_type__work_order
+msgid "Work Order"
+msgstr "أمر العمل"
+
+#. module: machine_repair_management
+#: model:ir.actions.act_window,name:machine_repair_management.action_view_task_workorder
+msgid "Work Orders"
+msgstr "أوامر العمل"
+
+#. module: machine_repair_management
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_report__state__work_in_progress
+#: model:ir.model.fields.selection,name:machine_repair_management.selection__machine_repair_support__state__work_in_progress
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_requests
+msgid "Work in Progress"
+msgstr "العمل قيد التقدم"
+
+#. module: machine_repair_management
+#: model:ir.model.fields,field_description:machine_repair_management.field_machine_repair_support__year
+#: model:ir.model.fields,field_description:machine_repair_management.field_product_product__year
+msgid "Year"
+msgstr "سنة"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.support_report
+msgid "Yes"
+msgstr "نعم"
+
+#. module: machine_repair_management
+#. odoo-python
+#: code:addons/machine_repair_management/models/machine_repair_support.py:0
+#: code:addons/odoo/const/machine_repair_management/models/machine_repair_support.py:0
+#, python-format
+msgid "You can not delete record which are not in draft state."
+msgstr "لا يمكنك حذف السجل الذي ليس في حالة المسودة."
+
+#. module: machine_repair_management
+#: model_terms:ir.actions.act_window,help:machine_repair_management.action_product_machine
+#: model_terms:ir.actions.act_window,help:machine_repair_management.action_product_machine_parts
+msgid ""
+"You must define a product for everything you sell, whether it's\n"
+"                a physical product, a consumable or a service you offer to\n"
+"                customers."
+msgstr ""
+"يجب عليك تحديد منتج لكل ما تبيعه، سواء كان منتجًا ماديًا أو سلعة استهلاكية "
+"أو خدمة تقدمها إلى العملاء."
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.machine_repair_feedback
+msgid "Your Comment....."
+msgstr "تعليقك....."
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.display_repair_request_from
+msgid "Your Details"
+msgstr "تفاصيلك"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Your Email"
+msgstr "بريدك الإلكتروني"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.successful_ticket_send
+msgid ""
+"Your Message/Attachments have been sent successfully.<br/><br/>\n"
+"                Thank you,<br/><br/>"
+msgstr ""
+"لقد تم إرسال رسالتك/المرفقات بنجاح.<br/><br/>\n"
+"شكرا لك،<br/><br/>"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Your Name"
+msgstr "اسمك"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.website_machine_repair_support_ticket
+msgid "Your Phone"
+msgstr "هاتفك"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.thanks_mail_send
+msgid "Your request number is"
+msgstr "رقم طلبك هو"
+
+#. module: machine_repair_management
+#. odoo-python
+#: code:addons/machine_repair_management/controllers/main.py:0
+#: code:addons/machine_repair_management/controllers/mainold.py:0
+#: code:addons/odoo/const/machine_repair_management/controllers/main.py:0
+#: code:addons/odoo/const/machine_repair_management/controllers/mainold.py:0
+#, python-format
+msgid "has send this feedback rating is %s and comment is %s"
+msgstr "تم إرسال هذا التقييم وهو %s والتعليق هو %s"
+
+#. module: machine_repair_management
+#: model_terms:ir.ui.view,arch_db:machine_repair_management.successful_ticket_send
+msgid "show ticket"
+msgstr "تذكرة العرض"
+
+#. module: machine_repair_management
+#: model:res.groups,comment:machine_repair_management.group_machine_repair_user
+msgid "the user will have access to his own data in the repair application."
+msgstr "سيكون للمستخدم إمكانية الوصول إلى بياناته الخاصة في تطبيق الإصلاح."
+
+#. module: machine_repair_management
+#: model:mail.template,subject:machine_repair_management.email_template_machine_ticket
+msgid "{{object.name}} - {{object.subject}} (Closed)"
+msgstr "{{object.name}} - {{object.subject}} (مغلق)"

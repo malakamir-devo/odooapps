@@ -1,0 +1,152 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* document_directory_extension_security
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 17:04+0000\n"
+"PO-Revision-Date: 2024-11-01 17:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: document_directory_extension_security
+#: model:ir.model,name:document_directory_extension_security.model_ir_attachment
+msgid "Attachment"
+msgstr "مرفق"
+
+#. module: document_directory_extension_security
+#: model:ir.model,name:document_directory_extension_security.model_attachment_tag
+msgid "Attachment Tag"
+msgstr "علامة المرفقات"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_ir_attachment__tag_ids
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_product_document__tag_ids
+msgid "Attachment Tags"
+msgstr "علامات المرفقات"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_attachment_tag__color
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_directory_tag__color
+msgid "Color Index"
+msgstr "مؤشر الألوان"
+
+#. module: document_directory_extension_security
+#: model:ir.ui.menu,name:document_directory_extension_security.menu_document_config
+msgid "Configuration"
+msgstr "إعدادات"
+
+#. module: document_directory_extension_security
+#: model_terms:ir.actions.act_window,help:document_directory_extension_security.action_dir_tags
+msgid "Create Directory Tags"
+msgstr "إنشاء علامات الدليل"
+
+#. module: document_directory_extension_security
+#: model_terms:ir.actions.act_window,help:document_directory_extension_security.action_attachment_tags
+msgid "Create Document Tags"
+msgstr "إنشاء علامات المستند"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_attachment_tag__create_uid
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_directory_tag__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_attachment_tag__create_date
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_directory_tag__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: document_directory_extension_security
+#: model:ir.model,name:document_directory_extension_security.model_document_directory
+msgid "Directory"
+msgstr "دليل"
+
+#. module: document_directory_extension_security
+#: model_terms:ir.ui.view,arch_db:document_directory_extension_security.attachment_tag_search_view
+#: model_terms:ir.ui.view,arch_db:document_directory_extension_security.document_directory_tag_search_view
+msgid "Directory Tag search"
+msgstr "البحث عن علامة الدليل"
+
+#. module: document_directory_extension_security
+#: model:ir.actions.act_window,name:document_directory_extension_security.action_dir_tags
+#: model:ir.model,name:document_directory_extension_security.model_directory_tag
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_ir_attachment__dirctory_tag_ids
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_product_document__dirctory_tag_ids
+#: model:ir.ui.menu,name:document_directory_extension_security.menu_dir_tags
+msgid "Directory Tags"
+msgstr "علامات الدليل"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_attachment_tag__display_name
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_directory_tag__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: document_directory_extension_security
+#: model:ir.actions.act_window,name:document_directory_extension_security.action_attachment_tags
+#: model:ir.ui.menu,name:document_directory_extension_security.menu_attch_tags
+msgid "Document Tags"
+msgstr "علامات المستند"
+
+#. module: document_directory_extension_security
+#: model:res.groups,name:document_directory_extension_security.group_document_user
+msgid "Document User/Officer"
+msgstr "مستخدم/مسؤول الوثيقة"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_attachment_tag__id
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_directory_tag__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_attachment_tag__write_uid
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_directory_tag__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_attachment_tag__write_date
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_directory_tag__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: document_directory_extension_security
+#: model:ir.actions.act_window,name:document_directory_extension_security.action_emp_document_display_all
+#: model:ir.ui.menu,name:document_directory_extension_security.emp_documents_menu
+#: model:ir.ui.menu,name:document_directory_extension_security.emp_documents_parent_menu
+msgid "My Documents"
+msgstr "مستنداتي"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_attachment_tag__name
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_directory_tag__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_document_directory__tag_ids
+msgid "Tags"
+msgstr "العلامات"
+
+#. module: document_directory_extension_security
+#: model_terms:ir.ui.view,arch_db:document_directory_extension_security.document_directory_form_view_inherit_tags
+#: model_terms:ir.ui.view,arch_db:document_directory_extension_security.view_attachment_form_inherit_tags
+msgid "Tags..."
+msgstr "العلامات..."
+
+#. module: document_directory_extension_security
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_document_directory__user_ids
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_ir_attachment__user_ids
+#: model:ir.model.fields,field_description:document_directory_extension_security.field_product_document__user_ids
+#: model_terms:ir.ui.view,arch_db:document_directory_extension_security.document_directory_form_view_inherit_tags
+msgid "Users"
+msgstr "المستخدمون"

@@ -1,0 +1,129 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_cost_and_estimate_relation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:36+0000\n"
+"PO-Revision-Date: 2024-11-01 16:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_cost_and_estimate_relation
+#: model_terms:ir.ui.view,arch_db:job_cost_and_estimate_relation.create_estimation_form_view
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: job_cost_and_estimate_relation
+#: model_terms:ir.ui.view,arch_db:job_cost_and_estimate_relation.job_costing_form_view_inherit_create_estimate
+msgid "Create Estimation"
+msgstr "إنشاء تقدير"
+
+#. module: job_cost_and_estimate_relation
+#: model_terms:ir.ui.view,arch_db:job_cost_and_estimate_relation.create_estimation_form_view
+msgid "Create Estimiation"
+msgstr "إنشاء تقدير"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.actions.act_window,name:job_cost_and_estimate_relation.action_create_estimation
+msgid "Create Job Estimation"
+msgstr "إنشاء تقدير الوظيفة"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_job_cost_estimate__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_job_cost_estimate__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_job_cost_estimate__partner_id
+msgid "Customer"
+msgstr "عميل"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_job_cost_estimate__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_job_costing__cost_estimate_ids
+msgid "Estimations"
+msgstr "التقديرات"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_job_cost_estimate__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model,name:job_cost_and_estimate_relation.model_job_cost_estimate
+msgid "Job Cost Estimate"
+msgstr "تقدير تكلفة العمل"
+
+#. module: job_cost_and_estimate_relation
+#: model_terms:ir.ui.view,arch_db:job_cost_and_estimate_relation.job_inherit_estimate_form_view
+msgid "Job Cost Sheet"
+msgstr "ورقة تكاليف العمل"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model,name:job_cost_and_estimate_relation.model_job_costing
+msgid "Job Costing"
+msgstr "تكلفة الوظيفة"
+
+#. module: job_cost_and_estimate_relation
+#: model_terms:ir.ui.view,arch_db:job_cost_and_estimate_relation.job_costing_form_view_inherit_create_estimate
+msgid "Job Estimations"
+msgstr "تقديرات الوظائف"
+
+#. module: job_cost_and_estimate_relation
+#: model_terms:ir.ui.view,arch_db:job_cost_and_estimate_relation.create_estimation_form_view
+msgid "Jobcost Estimation"
+msgstr "تقدير تكلفة العمل"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_sale_estimate_job__jobcost_id
+msgid "Jobcost Sheet"
+msgstr "ورقة تكاليف العمل"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_job_cost_estimate__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_job_cost_estimate__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model.fields,field_description:job_cost_and_estimate_relation.field_job_cost_estimate__price_list_id
+msgid "Price List"
+msgstr "قائمة الاسعار"
+
+#. module: job_cost_and_estimate_relation
+#: model:ir.model,name:job_cost_and_estimate_relation.model_sale_estimate_job
+msgid "Sales Estimate Job"
+msgstr "وظيفة تقدير المبيعات"
+
+#. module: job_cost_and_estimate_relation
+#: model_terms:ir.ui.view,arch_db:job_cost_and_estimate_relation.create_estimation_form_view
+msgid ""
+"This wizard will help you to create job Estimation for the Current Job Cost "
+"Sheet."
+msgstr ""
+"سيساعدك هذا المعالج على إنشاء تقدير وظيفي لجدول تكلفة الوظيفة الحالية."
+
+#. module: job_cost_and_estimate_relation
+#: model_terms:ir.ui.view,arch_db:job_cost_and_estimate_relation.create_estimation_form_view
+msgid "or"
+msgstr "أو"

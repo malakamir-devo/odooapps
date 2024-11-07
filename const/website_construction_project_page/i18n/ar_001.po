@@ -1,0 +1,333 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_construction_project_page
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:32+0000\n"
+"PO-Revision-Date: 2024-11-01 16:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid ""
+"<br/>\n"
+"                                                                    <i class=\"fa fa-arrow-circle-o-down\" title=\"Download this Attachement\" aria-hidden=\"true\"/>"
+msgstr ""
+"<br/>\n"
+"<i class=\"fa fa-arrow-circle-o-down\" title=\"تنزيل هذا المرفق\" aria-hidden=\"true\"/>"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "<span aria-hidden=\"true\"/><span class=\"sr-only\">Close</span>"
+msgstr "<span aria-hidden=\"true\"/><span class=\"sr-only\">إغلاق</span>"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__project_brochure_ids
+msgid "Attachement"
+msgstr "المرفق"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Brochure"
+msgstr "كتيب"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+msgid "Brochures"
+msgstr "كتيبات"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__project_category_id
+msgid "Category"
+msgstr "فئة"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_categary
+msgid ""
+"Click <i>'New'</i> in the top-right corner to create your first Category."
+msgstr "انقر فوق \"جديد\" في الزاوية اليمنى العليا لإنشاء فئتك الأولى."
+
+#. module: website_construction_project_page
+#: model:ir.model,name:website_construction_project_page.model_res_partner
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Contact"
+msgstr "اتصال"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__create_uid
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_floor_plan__create_uid
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__create_uid
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_image__create_uid
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_location_plan__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__create_date
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_floor_plan__create_date
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__create_date
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_image__create_date
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_location_plan__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__html_content_five
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__html_content_four
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__html_content_one
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__html_content_three
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__html_content_two
+msgid "Description"
+msgstr "وصف"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__display_name
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_floor_plan__display_name
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__display_name
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_image__display_name
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_location_plan__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Document"
+msgstr "وثيقة"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Enquiry Now"
+msgstr "الاستعلام الآن"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+msgid "Five Html Content"
+msgstr "خمسة محتويات HTML"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Floor Plan"
+msgstr "مخطط الطابق"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+msgid "Four Html Content"
+msgstr "أربعة محتويات HTML"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Gallary Image"
+msgstr "معرض الصور"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Gallery"
+msgstr "المعرض"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+msgid "Gallery Images"
+msgstr "معرض الصور"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Google Maps"
+msgstr "خرائط جوجل"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__id
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_floor_plan__id
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__id
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_image__id
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_location_plan__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__image
+msgid "Image"
+msgstr "صورة"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__image1
+msgid "Image 1"
+msgstr "الصورة 1"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__write_uid
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_floor_plan__write_uid
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__write_uid
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_image__write_uid
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_location_plan__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__write_date
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_floor_plan__write_date
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__write_date
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_image__write_date
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_location_plan__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Location"
+msgstr "موقع"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Location Plan"
+msgstr "خطة الموقع"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+msgid "More Project Images"
+msgstr "المزيد من صور المشروع"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__name
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_floor_plan__name
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__name
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_image__name
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_location_plan__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_categary
+msgid "No Projects For"
+msgstr "لا يوجد مشاريع ل"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_floor_plan__image
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__image
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_image__image
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_location_plan__image
+msgid "Photo"
+msgstr "صورة"
+
+#. module: website_construction_project_page
+#: model:ir.model,name:website_construction_project_page.model_project_project
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_floor_plan__project_id
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__project_id
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_image__project_id
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_location_plan__project_id
+msgid "Project"
+msgstr "مشروع"
+
+#. module: website_construction_project_page
+#: model:ir.actions.act_window,name:website_construction_project_page.action_project_category
+#: model:ir.ui.menu,name:website_construction_project_page.menu_project_category
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_categ
+msgid "Project Categories"
+msgstr "فئات المشروع"
+
+#. module: website_construction_project_page
+#: model:ir.model,name:website_construction_project_page.model_project_category
+#: model_terms:ir.actions.act_window,help:website_construction_project_page.action_project_category
+msgid "Project Category"
+msgstr "فئة المشروع"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_categary
+msgid "Project Details"
+msgstr "تفاصيل المشروع"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+msgid "Project Features And Amenties"
+msgstr "مميزات المشروع والمرافق"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Project Features and Amenties"
+msgstr "مميزات المشروع والمرافق"
+
+#. module: website_construction_project_page
+#: model:ir.model,name:website_construction_project_page.model_project_floor_plan
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+msgid "Project Floor Plan"
+msgstr "مخطط طابق المشروع"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__project_floor_plan_ids
+msgid "Project Floor Plans"
+msgstr "مخططات طوابق المشروع"
+
+#. module: website_construction_project_page
+#: model:ir.model,name:website_construction_project_page.model_project_gallary
+msgid "Project Gallary"
+msgstr "معرض المشروع"
+
+#. module: website_construction_project_page
+#: model:ir.model,name:website_construction_project_page.model_project_image
+msgid "Project Image"
+msgstr "صورة المشروع"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__project_gallary_ids
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__project_image_ids
+msgid "Project Images"
+msgstr "صور المشروع"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Project Location"
+msgstr "موقع المشروع"
+
+#. module: website_construction_project_page
+#: model:ir.model,name:website_construction_project_page.model_project_location_plan
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_project__project_location_plan_ids
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+msgid "Project Location Plan"
+msgstr "خطة موقع المشروع"
+
+#. module: website_construction_project_page
+#: model:website.menu,name:website_construction_project_page.menu_website_projects
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_categ
+msgid "Projects"
+msgstr "المشاريع"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_categary
+msgid "Search"
+msgstr "يبحث"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_categary
+msgid "Search..."
+msgstr "يبحث..."
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__website_size_x
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__website_size_x
+msgid "Size X"
+msgstr "المقاس اكس"
+
+#. module: website_construction_project_page
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_category__website_size_y
+#: model:ir.model.fields,field_description:website_construction_project_page.field_project_gallary__website_size_y
+msgid "Size Y"
+msgstr "المقاس Y"
+
+#. module: website_construction_project_page
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.construction_project_inherit_form_view
+#: model_terms:ir.ui.view,arch_db:website_construction_project_page.project_description_full
+msgid "Specification"
+msgstr "مواصفة"

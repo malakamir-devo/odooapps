@@ -1,0 +1,109 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_drawing_construction_contracting
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:09+0000\n"
+"PO-Revision-Date: 2024-11-01 16:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_drawing_construction_contracting
+#: model_terms:ir.ui.view,arch_db:job_drawing_construction_contracting.portal_my_subcontractor_joborder_drawing_document
+msgid "<i class=\"fa fa-arrow-circle-right\" style=\"font-size:1em;\"/>  Open"
+msgstr "<i class=\"fa fa-arrow-circle-right\" style=\"font-size:1em;\"/> مفتوح"
+
+#. module: job_drawing_construction_contracting
+#: model_terms:ir.ui.view,arch_db:job_drawing_construction_contracting.view_task_form2_inherit_job_drawing
+msgid "Create a Google Drawings"
+msgstr "إنشاء رسومات Google"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__description
+msgid "Description"
+msgstr "وصف"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_drawing_construction_contracting
+#: model_terms:ir.ui.view,arch_db:job_drawing_construction_contracting.portal_my_subcontractor_joborder_drawing_document
+msgid "Drawing Description"
+msgstr "وصف الرسم"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__name
+#: model_terms:ir.ui.view,arch_db:job_drawing_construction_contracting.portal_my_subcontractor_joborder_drawing_document
+msgid "Drawing Name"
+msgstr "اسم الرسم"
+
+#. module: job_drawing_construction_contracting
+#: model_terms:ir.ui.view,arch_db:job_drawing_construction_contracting.portal_my_subcontractor_joborder_drawing_document
+#: model_terms:ir.ui.view,arch_db:job_drawing_construction_contracting.view_task_form2_inherit_job_drawing
+msgid "Drawings"
+msgstr "رسومات"
+
+#. module: job_drawing_construction_contracting
+#: model_terms:ir.ui.view,arch_db:job_drawing_construction_contracting.view_task_form2_inherit_job_drawing
+msgid "Google Drawing Document"
+msgstr "مستند رسم جوجل"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model,name:job_drawing_construction_contracting.model_google_drawing_link
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_project_task__google_drawing_link_ids
+msgid "Google Drawing Link"
+msgstr "رابط الرسم على جوجل"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__url
+msgid "Google Drawing Url"
+msgstr "رابط رسم جوجل"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__job_card_id
+msgid "Job Card"
+msgstr "بطاقة العمل"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model.fields,field_description:job_drawing_construction_contracting.field_google_drawing_link__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_drawing_construction_contracting
+#: model_terms:ir.ui.view,arch_db:job_drawing_construction_contracting.view_task_form2_inherit_job_drawing
+msgid "Open"
+msgstr "يفتح"
+
+#. module: job_drawing_construction_contracting
+#: model:ir.model,name:job_drawing_construction_contracting.model_project_task
+msgid "Task"
+msgstr "مهمة"

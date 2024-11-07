@@ -1,0 +1,840 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* construction_contracting_change_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 15:30+0000\n"
+"PO-Revision-Date: 2024-11-01 17:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Approved By</strong>"
+msgstr "<strong>تمت الموافقة عليها</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Approved Date</strong>"
+msgstr "<strong>تاريخ الموافقة</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Authorised Signature</strong>"
+msgstr "<strong>التوقيع المعتمد</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Closed By</strong>"
+msgstr "<strong>مغلق بواسطة</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Closed Date</strong>"
+msgstr "<strong>تاريخ الإغلاق</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Company</strong>"
+msgstr "<strong>الشركة</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Confirmed By</strong>"
+msgstr "<strong>تم التأكيد بواسطة</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Confirmed Date</strong>"
+msgstr "<strong>تاريخ مؤكد</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Contract/Analytic Account</strong>"
+msgstr "<strong>حساب العقد/التحليلي</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Create Date</strong>"
+msgstr "<strong>تاريخ الإنشاء</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Currency</strong>"
+msgstr "<strong>العملة</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Customer Approved Date</strong>"
+msgstr "<strong>تاريخ موافقة العميل</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Customer Approved</strong>"
+msgstr "<strong>تمت الموافقة عليه من قبل العميل</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Customer Signature</strong>"
+msgstr "<strong>توقيع العميل</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Customer</strong>"
+msgstr "<strong>العميل</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Description</strong>"
+msgstr "<strong>الوصف</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Guarantor One</strong>"
+msgstr "<strong>الضامن الأول</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Guarantor Two</strong>"
+msgstr "<strong>الضامن الثاني</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Job Order</strong>"
+msgstr "<strong>طلب الوظيفة</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>New Estimation Completion Date</strong>"
+msgstr "<strong>تاريخ الانتهاء التقديري الجديد</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Original Contract Amount</strong>"
+msgstr "<strong>مبلغ العقد الأصلي</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Original Job Completion Date</strong>"
+msgstr "<strong>تاريخ الانتهاء الأصلي للوظيفة</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Product</strong>"
+msgstr "<strong>المنتج</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Project</strong>"
+msgstr "<strong>المشروع</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Quantity</strong>"
+msgstr "<strong>الكمية</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Responsible User / Person</strong>"
+msgstr "<strong>المستخدم/الشخص المسؤول</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Sale Price</strong>"
+msgstr "<strong>سعر البيع</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Sub Total</strong>"
+msgstr "<strong>المجموع الفرعي</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Taxes</strong>"
+msgstr "<strong>الضرائب</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Total Contract Amount All Change</strong>"
+msgstr "<strong>إجمالي مبلغ العقد مع جميع التغييرات</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Total</strong>"
+msgstr "<strong>المجموع</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Untaxed Amount</strong>"
+msgstr "<strong>المبلغ غير الخاضع للضريبة</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>Uom</strong>"
+msgstr "<strong>أوم</strong>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>____________________</strong><br/>"
+msgstr "<strong>____________________</strong><br/>"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "<strong>________________________</strong><br/>"
+msgstr "<strong>________________________</strong><br/>"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__access_warning
+msgid "Access warning"
+msgstr "تحذير الوصول"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_needaction
+msgid "Action Needed"
+msgstr "مطلوب اتخاذ إجراء"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "رمز نوع النشاط"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Additional Information"
+msgstr "معلومات إضافية"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__price_tax
+msgid "Amount Taxes"
+msgstr "مبلغ الضرائب"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__amount_total
+msgid "Amount Total"
+msgstr "المبلغ الإجمالي"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Approve"
+msgstr "يعتمد"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields.selection,name:construction_contracting_change_order.selection__construction_change_order__state__approved_hr_manager
+msgid "Approved"
+msgstr "موافقة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__approve_by
+msgid "Approved By"
+msgstr "تمت الموافقة عليها من قبل"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__approve_date
+msgid "Approved Date"
+msgstr "تاريخ الموافقة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields.selection,name:construction_contracting_change_order.selection__construction_change_order__state__cancel
+msgid "Cancelled"
+msgstr "تم الإلغاء"
+
+#. module: construction_contracting_change_order
+#: model:ir.model,name:construction_contracting_change_order.model_construction_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+msgid "Change Order"
+msgstr "تغيير الطلب"
+
+#. module: construction_contracting_change_order
+#: model:ir.model,name:construction_contracting_change_order.model_construction_change_order_line
+msgid "Change Order Line"
+msgstr "تغيير خط الطلب"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Change Order Lines"
+msgstr "تغيير خطوط الطلب"
+
+#. module: construction_contracting_change_order
+#: model:ir.actions.act_window,name:construction_contracting_change_order.action_construction_contract_change_order
+#: model:ir.ui.menu,name:construction_contracting_change_order.menu_construction_contract_change_order
+#: model:ir.ui.menu,name:construction_contracting_change_order.menu_construction_contract_change_order_child
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_order_change_project_form
+msgid "Change Orders"
+msgstr "أوامر التغيير"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_order_change_partner_form
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_order_change_task_form
+msgid "Change order"
+msgstr "تغيير الترتيب"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__order_line_ids
+msgid "Change order line"
+msgstr "تغيير خط الطلب"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__done_by
+msgid "Closed By"
+msgstr "تم إغلاقه بواسطة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__done_date
+msgid "Closed Date"
+msgstr "تاريخ الإغلاق"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__company_id
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_search_view
+msgid "Company"
+msgstr "شركة"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Confirm"
+msgstr "يتأكد"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields.selection,name:construction_contracting_change_order.selection__construction_change_order__state__confirm
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__confirm_by
+msgid "Confirmed By"
+msgstr "تم التأكيد بواسطة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__confirm_date
+msgid "Confirmed Date"
+msgstr "تاريخ مؤكد"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__change_order_id
+msgid "Construction Change"
+msgstr "تغيير البناء"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_search_view
+msgid "Construction order change searh"
+msgstr "البحث عن تغيير أمر البناء"
+
+#. module: construction_contracting_change_order
+#: model:ir.model,name:construction_contracting_change_order.model_res_partner
+msgid "Contact"
+msgstr "اتصال"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__analytic_account_id
+msgid "Contract/Analytic Account"
+msgstr "حساب العقد/التحليلي"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Contracts"
+msgstr "العقود"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__date
+msgid "Create Date"
+msgstr "إنشاء التاريخ"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Create Quotation"
+msgstr "إنشاء عرض أسعار"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__create_uid
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__create_date
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__currency_id
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__currency_id
+msgid "Currency"
+msgstr "عملة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__partner_id
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_search_view
+msgid "Customer"
+msgstr "عميل"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Customer Approve"
+msgstr "موافقة العميل"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__customer_approve
+#: model:ir.model.fields.selection,name:construction_contracting_change_order.selection__construction_change_order__state__customer_approved
+msgid "Customer Approved"
+msgstr "تمت الموافقة عليه من قبل العميل"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__customer_approve_date
+msgid "Customer Approved Date"
+msgstr "تاريخ موافقة العميل"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__access_url
+msgid "Customer Portal URL"
+msgstr "رابط بوابة العميل"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_search_view
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__description
+msgid "Description"
+msgstr "وصف"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__discount
+msgid "Discount (%)"
+msgstr "تخفيض (٪)"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__display_name
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields.selection,name:construction_contracting_change_order.selection__construction_change_order__state__done
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Done"
+msgstr "منتهي"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields.selection,name:construction_contracting_change_order.selection__construction_change_order__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط رائعة مثل fa-tasks"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_search_view
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__guarantor_1
+msgid "Guarantor One"
+msgstr "الضامن الأول"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__guarantor_2
+msgid "Guarantor Two"
+msgstr "الضامن الثاني"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__id
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_exception_icon
+msgid "Icon"
+msgstr "رمز"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثناء."
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديد هذا المربع، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__message_has_error
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديد هذا المربع، فقد يكون لبعض الرسائل خطأ في التسليم."
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Internal Notes"
+msgstr "ملاحظات داخلية"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Internal notes"
+msgstr "ملاحظات داخلية"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو تابع"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__is_saleorder
+msgid "Is Sale order"
+msgstr "هل هو أمر بيع"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__task_id
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_search_view
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__write_uid
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__write_date
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__new_estimation_completion_date
+msgid "New Estimation Completion Date"
+msgstr "تاريخ الانتهاء التقديري الجديد"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "تقويم النشاط القادم"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__note
+msgid "Note"
+msgstr "ملحوظة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__name
+msgid "Number"
+msgstr "رقم"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__original_contract_amount
+msgid "Original Contract Amount"
+msgstr "مبلغ العقد الأصلي"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__original_job_completion_date
+msgid "Original Job Completion Date"
+msgstr "تاريخ الانتهاء الأصلي للوظيفة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__access_url
+msgid "Portal Access URL"
+msgstr "عنوان URL للوصول إلى البوابة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__pricelist_id
+msgid "Pricelist"
+msgstr "قائمة الأسعار"
+
+#. module: construction_contracting_change_order
+#: model:ir.actions.report,name:construction_contracting_change_order.construction_contract_change_report
+msgid "Print Change Order"
+msgstr "طباعة تغيير الطلب"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__product_id
+msgid "Product"
+msgstr "منتج"
+
+#. module: construction_contracting_change_order
+#: model:ir.model,name:construction_contracting_change_order.model_project_project
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__project_id
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_search_view
+msgid "Project"
+msgstr "مشروع"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__quantity
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__reason_note
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Reason for Change"
+msgstr "سبب التغيير"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Reject"
+msgstr "يرفض"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields.selection,name:construction_contracting_change_order.selection__construction_change_order__state__reject
+msgid "Rejected"
+msgstr "مرفوض"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__user_id
+msgid "Responsible User / Person"
+msgstr "المستخدم / الشخص المسؤول"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Sale Orders"
+msgstr "أوامر البيع"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__sale_price
+msgid "Sale Price"
+msgstr "سعر البيع"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__quotation_id
+msgid "Sales Quotation"
+msgstr "عرض أسعار المبيعات"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__access_token
+msgid "Security Token"
+msgstr "رمز الأمان"
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Set To Draft"
+msgstr "تعيين إلى المسودة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__state
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_search_view
+msgid "State"
+msgstr "ولاية"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد انقضى بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط له: الأنشطة المستقبلية."
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__subtotal
+msgid "Subtotal"
+msgstr "المجموع الفرعي"
+
+#. module: construction_contracting_change_order
+#: model:ir.model,name:construction_contracting_change_order.model_project_task
+msgid "Task"
+msgstr "مهمة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__amount_tax
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__tax_ids
+msgid "Taxes"
+msgstr "الضرائب"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__term
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.change_order_print
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Terms and Conditions"
+msgstr "الشروط والأحكام"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__total
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__price_total
+msgid "Total"
+msgstr "المجموع"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__total_contract_amount_all_change
+msgid "Total Contract Amount All Change"
+msgstr "إجمالي مبلغ العقد جميع التغييرات"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: construction_contracting_change_order
+#: model_terms:ir.ui.view,arch_db:construction_contracting_change_order.construction_change_order_form_view
+msgid "Unit of Measure"
+msgstr "وحدة القياس"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__amount_untaxed
+msgid "Untaxed Amount"
+msgstr "المبلغ غير الخاضع للضريبة"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order_line__uom_id
+msgid "Uom"
+msgstr "وحدة القياس"
+
+#. module: construction_contracting_change_order
+#. odoo-python
+#: code:addons/construction_contracting_change_order/models/construction_change_order_line.py:0
+#: code:addons/odoo/const/construction_contracting_change_order/models/construction_change_order_line.py:0
+#, python-format
+msgid "Warning for %s"
+msgstr "تحذير لـ %s"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,field_description:construction_contracting_change_order.field_construction_change_order__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: construction_contracting_change_order
+#: model:ir.model.fields,help:construction_contracting_change_order.field_construction_change_order__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصالات الموقع"
+
+#. module: construction_contracting_change_order
+#. odoo-python
+#: code:addons/construction_contracting_change_order/models/construction_change_order.py:0
+#: code:addons/odoo/const/construction_contracting_change_order/models/construction_change_order.py:0
+#, python-format
+msgid "You can not confirm change order without line."
+msgstr "لا يمكنك تأكيد أمر التغيير بدون سطر."
+
+#. module: construction_contracting_change_order
+#. odoo-python
+#: code:addons/construction_contracting_change_order/models/construction_change_order.py:0
+#: code:addons/odoo/const/construction_contracting_change_order/models/construction_change_order.py:0
+#, python-format
+msgid "You can not delete change order."
+msgstr "لا يمكنك حذف أمر التغيير."

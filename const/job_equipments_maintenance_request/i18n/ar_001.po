@@ -1,0 +1,252 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_equipments_maintenance_request
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:58+0000\n"
+"PO-Revision-Date: 2024-11-01 16:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_equipments_maintenance_request
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.maintenance_equipment_wizard_view
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.maintenance_request_wizard_view
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields.selection,name:job_equipments_maintenance_request.selection__maintenance_request_wizard__mainteance_type__corrective
+msgid "Corrective"
+msgstr "تصحيحي"
+
+#. module: job_equipments_maintenance_request
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.maintenance_request_wizard_view
+msgid "Create"
+msgstr "يخلق"
+
+#. module: job_equipments_maintenance_request
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.maintenance_equipment_wizard_view
+msgid "Create Equipment"
+msgstr "إنشاء المعدات"
+
+#. module: job_equipments_maintenance_request
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.job_costing_form_view_inherit_maintenance
+msgid "Create Maintenance Equipment"
+msgstr "إنشاء معدات الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.job_costing_form_view_inherit_maintenance
+msgid "Create Maintenance Request"
+msgstr "إنشاء طلب الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__create_uid
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__create_date
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_project_task__custom_maintenance_request_ids
+msgid "Custom Maintenance Request"
+msgstr "طلب صيانة مخصص"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__display_name
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__maintenance_duration
+msgid "Duration (Hours)"
+msgstr "المدة (ساعات)"
+
+#. module: job_equipments_maintenance_request
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.job_costing_form_view_inherit_maintenance
+msgid "Equipment"
+msgstr "معدات"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__equipment_category_id
+msgid "Equipment Category"
+msgstr "فئة المعدات"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields.selection,name:job_equipments_maintenance_request.selection__maintenance_request_wizard__rating__3
+msgid "High"
+msgstr "عالي"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__id
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment__custom_equipment_job_id
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request__custom_request_job_id
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__write_uid
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__write_date
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields.selection,name:job_equipments_maintenance_request.selection__maintenance_request_wizard__rating__1
+msgid "Low"
+msgstr "قليل"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.ui.menu,name:job_equipments_maintenance_request.menu_job_maintenance
+msgid "Maintenance"
+msgstr "صيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.actions.act_window,name:job_equipments_maintenance_request.maintenance_equipment_action
+#: model:ir.model,name:job_equipments_maintenance_request.model_maintenance_equipment
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__maintenance_equipment_id
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_project_task__maintenance_equipment_id
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.job_costing_form_view_inherit_maintenance
+msgid "Maintenance Equipment"
+msgstr "معدات الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_project_task__maintenance_equipment_count
+msgid "Maintenance Equipment Count"
+msgstr "عدد معدات الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model,name:job_equipments_maintenance_request.model_maintenance_equipment_wizard
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.maintenance_equipment_wizard_view
+msgid "Maintenance Equipment Wizard"
+msgstr "معالج معدات الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_project_task__custom_maintenance_equipment_ids
+#: model:ir.ui.menu,name:job_equipments_maintenance_request.menu_job_cost_maintenance_equipment
+msgid "Maintenance Equipments"
+msgstr "معدات الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.actions.act_window,name:job_equipments_maintenance_request.maintenance_request_action
+#: model:ir.model,name:job_equipments_maintenance_request.model_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_project_task__maintenance_request_id
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.job_costing_form_view_inherit_maintenance
+msgid "Maintenance Request"
+msgstr "طلب الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_project_task__maintenance_request_count
+msgid "Maintenance Request Count"
+msgstr "عدد طلبات الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__custom_maintenance_user_id
+msgid "Maintenance Request Responsible"
+msgstr "مسؤول طلب الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model,name:job_equipments_maintenance_request.model_maintenance_request_wizard
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.maintenance_request_wizard_view
+msgid "Maintenance Request Wizard"
+msgstr "معالج طلب الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.ui.menu,name:job_equipments_maintenance_request.menu_job_cost_maintenance_request
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.job_costing_form_view_inherit_maintenance
+msgid "Maintenance Requests"
+msgstr "طلبات الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__mainteance_team_id
+msgid "Maintenance Team"
+msgstr "فريق الصيانة"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__equipment_model
+msgid "Model"
+msgstr "نموذج"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__equipment_name
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__maintenance_name
+msgid "Name"
+msgstr "اسم"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields.selection,name:job_equipments_maintenance_request.selection__maintenance_request_wizard__rating__2
+msgid "Normal"
+msgstr "طبيعي"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__note
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__note
+msgid "Notes"
+msgstr "ملحوظات"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields.selection,name:job_equipments_maintenance_request.selection__maintenance_request_wizard__mainteance_type__prevantive
+msgid "Prevantive"
+msgstr "سائد"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__rating
+msgid "Priority"
+msgstr "أولوية"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__maintenance_date
+msgid "Schedule Date"
+msgstr "تاريخ الجدول"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_equipment_wizard__equipment_serial_no
+msgid "Serial Number"
+msgstr "رقم سري"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model,name:job_equipments_maintenance_request.model_project_task
+msgid "Task"
+msgstr "مهمة"
+
+#. module: job_equipments_maintenance_request
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.maintenance_equipment_wizard_view
+msgid "This wizard will create Maintenance Equipment."
+msgstr "سوف يقوم هذا المعالج بإنشاء معدات الصيانة."
+
+#. module: job_equipments_maintenance_request
+#: model_terms:ir.ui.view,arch_db:job_equipments_maintenance_request.maintenance_request_wizard_view
+msgid "This wizard will create Maintenance Request."
+msgstr "سوف يقوم هذا المعالج بإنشاء طلب الصيانة."
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields,field_description:job_equipments_maintenance_request.field_maintenance_request_wizard__mainteance_type
+msgid "Type"
+msgstr "يكتب"
+
+#. module: job_equipments_maintenance_request
+#: model:ir.model.fields.selection,name:job_equipments_maintenance_request.selection__maintenance_request_wizard__rating__0
+msgid "Very Low"
+msgstr "منخفض جداً"

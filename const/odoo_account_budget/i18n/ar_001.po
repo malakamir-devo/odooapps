@@ -1,0 +1,412 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_account_budget
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 17:10+0000\n"
+"PO-Revision-Date: 2024-11-01 17:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_account_budget
+#: model_terms:ir.actions.act_window,help:odoo_account_budget.analytic_act_crossovered_budget_view
+msgid ""
+"A budget is a forecast of your company's income and/or expenses\n"
+"                expected for a period in the future. A budget is defined on some\n"
+"                financial accounts and/or analytic accounts (that may represent\n"
+"                projects, departments, categories of products, etc.)"
+msgstr ""
+"الميزانية هي توقعات لإيرادات و/أو نفقات شركتك المتوقعة لفترة في المستقبل. "
+"يتم تحديد الميزانية على بعض الحسابات المالية و/أو الحسابات التحليلية (التي "
+"قد تمثل المشاريع والأقسام وفئات المنتجات وما إلى ذلك)."
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__account_ids
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_budget_post_form
+msgid "Accounts"
+msgstr "الحسابات"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__percentage
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__percentage_stored
+msgid "Achievement"
+msgstr "إنجاز"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_needaction
+msgid "Action Needed"
+msgstr "مطلوب اتخاذ إجراء"
+
+#. module: odoo_account_budget
+#: model:ir.model,name:odoo_account_budget.model_account_analytic_account
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__analytic_account_id
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_line_search
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+msgid "Approve"
+msgstr "يعتمد"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: odoo_account_budget
+#: model:ir.model,name:odoo_account_budget.model_account_analytic_crossovered_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__crossovered_budget_id
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_tree
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_line_search
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_search
+msgid "Budget"
+msgstr "ميزانية"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_account_analytic_account_form_inherit_budget
+msgid "Budget Items"
+msgstr "بنود الميزانية"
+
+#. module: odoo_account_budget
+#: model:ir.model,name:odoo_account_budget.model_account_analytic_crossovered_budget_lines
+msgid "Budget Line"
+msgstr "خط الميزانية"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_account__crossovered_budget_line_ids
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__crossovered_budget_line
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__crossovered_budget_line
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_line_form
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_line_graph_view
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_line_pivot_view
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_line_search
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_line_tree
+msgid "Budget Lines"
+msgstr "خطوط الميزانية"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__name
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+msgid "Budget Name"
+msgstr "اسم الميزانية"
+
+#. module: odoo_account_budget
+#: model:ir.model,name:odoo_account_budget.model_account_analytic_budget_post
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__general_budget_id
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_budget_post_form
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_budget_post_search
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_budget_post_tree
+msgid "Budgetary Position"
+msgstr "الموقف الميزانية"
+
+#. module: odoo_account_budget
+#: model:ir.actions.act_window,name:odoo_account_budget.analytic_open_budget_post_form
+#: model:ir.ui.menu,name:odoo_account_budget.analytic_menu_budget_post_form
+msgid "Budgetary Positions"
+msgstr "المواقف الميزانية"
+
+#. module: odoo_account_budget
+#: model:ir.actions.act_window,name:odoo_account_budget.analytic_act_crossovered_budget_lines_view
+#: model:ir.actions.act_window,name:odoo_account_budget.analytic_act_crossovered_budget_view
+#: model:ir.ui.menu,name:odoo_account_budget.analytic_menu_act_crossovered_budget_lines_view
+#: model:ir.ui.menu,name:odoo_account_budget.analytic_menu_act_crossovered_budget_view
+msgid "Budgets"
+msgstr "الميزانيات"
+
+#. module: odoo_account_budget
+#: model_terms:ir.actions.act_window,help:odoo_account_budget.analytic_act_crossovered_budget_view
+msgid ""
+"By keeping track of where your money goes, you may be less\n"
+"                likely to overspend, and more likely to meet your financial\n"
+"                goals. Forecast a budget by detailing the expected revenue per\n"
+"                analytic account and monitor its evolution based on the actuals\n"
+"                realised during that period."
+msgstr ""
+"من خلال تتبع أين تذهب أموالك، قد تقل احتمالية الإفراط في الإنفاق، وتزداد "
+"احتمالية تحقيق أهدافك المالية. قم بتوقع الميزانية من خلال تفصيل الإيرادات "
+"المتوقعة لكل حساب تحليلي ومراقبة تطورها بناءً على الإيرادات الفعلية المحققة "
+"خلال تلك الفترة."
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+msgid "Cancel Budget"
+msgstr "إلغاء الميزانية"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields.selection,name:odoo_account_budget.selection__account_analytic_crossovered_budget__state__cancel
+msgid "Cancelled"
+msgstr "تم الإلغاء"
+
+#. module: odoo_account_budget
+#: model_terms:ir.actions.act_window,help:odoo_account_budget.analytic_act_crossovered_budget_view
+msgid "Click to create a new budget."
+msgstr "انقر هنا لإنشاء ميزانية جديدة."
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__company_id
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__company_id
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__company_id
+msgid "Company"
+msgstr "شركة"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+msgid "Confirm"
+msgstr "يتأكد"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields.selection,name:odoo_account_budget.selection__account_analytic_crossovered_budget__state__confirm
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__create_uid
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__create_uid
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__create_date
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__create_date
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__currency_id
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__currency_id
+msgid "Currency"
+msgstr "عملة"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__display_name
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__display_name
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields.selection,name:odoo_account_budget.selection__account_analytic_crossovered_budget__state__done
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+msgid "Done"
+msgstr "منتهي"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields.selection,name:odoo_account_budget.selection__account_analytic_crossovered_budget__state__draft
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_search
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_search
+msgid "Draft Budgets"
+msgstr "مشاريع الميزانيات"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__date_to
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__date_to
+msgid "End Date"
+msgstr "تاريخ النهاية"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__id
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__id
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,help:odoo_account_budget.field_account_analytic_crossovered_budget__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديد هذا المربع، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,help:odoo_account_budget.field_account_analytic_crossovered_budget__message_has_error
+#: model:ir.model.fields,help:odoo_account_budget.field_account_analytic_crossovered_budget__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديد هذا المربع، فقد يكون لبعض الرسائل خطأ في التسليم."
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو تابع"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__write_uid
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__write_uid
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__write_date
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__write_date
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_budget_post__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,help:odoo_account_budget.field_account_analytic_crossovered_budget__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,help:odoo_account_budget.field_account_analytic_crossovered_budget__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__paid_date
+msgid "Paid Date"
+msgstr "تاريخ الدفع"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+msgid "Period"
+msgstr "فترة"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__planned_amount
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+msgid "Planned Amount"
+msgstr "المبلغ المخطط له"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__practical_amount
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__practical_amount_stored
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_account_analytic_account_form_inherit_budget
+msgid "Practical Amount"
+msgstr "المبلغ العملي"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+msgid "Reset to Draft"
+msgstr "إعادة التعيين إلى المسودة"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__creating_user_id
+msgid "Responsible"
+msgstr "مسؤول"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__date_from
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__date_from
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__state
+msgid "Status"
+msgstr "حالة"
+
+#. module: odoo_account_budget
+#. odoo-python
+#: code:addons/odoo/const/odoo_account_budget/models/account_budget.py:0
+#: code:addons/odoo_account_budget/models/account_budget.py:0
+#, python-format
+msgid "The budget must have at least one account."
+msgstr "يجب أن تحتوي الميزانية على حساب واحد على الأقل."
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__theoritical_amount
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget_lines__theoritical_amount_stored
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_crossovered_budget_view_form
+msgid "Theoretical Amount"
+msgstr "المبلغ النظري"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_account_analytic_account_form_inherit_budget
+msgid "Theoritical Amount"
+msgstr "المبلغ النظري"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_search
+msgid "To Approve"
+msgstr "للموافقة"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_search
+msgid "To Approve Budgets"
+msgstr "الموافقة على الميزانيات"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields.selection,name:odoo_account_budget.selection__account_analytic_crossovered_budget__state__validate
+msgid "Validated"
+msgstr "تم التحقق من صحتها"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,field_description:odoo_account_budget.field_account_analytic_crossovered_budget__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: odoo_account_budget
+#: model:ir.model.fields,help:odoo_account_budget.field_account_analytic_crossovered_budget__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصالات الموقع"
+
+#. module: odoo_account_budget
+#: model_terms:ir.ui.view,arch_db:odoo_account_budget.analytic_view_crossovered_budget_kanban
+msgid "user_img"
+msgstr "صورة المستخدم"

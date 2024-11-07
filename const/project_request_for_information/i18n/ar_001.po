@@ -1,0 +1,1499 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_request_for_information
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:25+0000\n"
+"PO-Revision-Date: 2024-11-01 16:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.successful_ticket_send
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.support_invalid
+msgid "&amp;times;"
+msgstr "& مرات؛"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid ""
+"<font color=\"#00A09D\">\n"
+"                                    Rating</font>"
+msgstr ""
+"<font color=\"#00A09D\">\n"
+"التقييم</font>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid ""
+"<font color=\"#00A09D\">Comment\n"
+"                                    </font>"
+msgstr ""
+"<font color=\"#00A09D\">التعليق\n"
+"</font>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid ""
+"<font color=\"#00A09D\">Name\n"
+"                                    </font>"
+msgstr ""
+"<font color=\"#00A09D\">الاسم\n"
+"</font>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid ""
+"<select class=\"form-control\" name=\"category\">\n"
+"                                                <option value=\"technical\" selected=\"selected\">Substitution/Construction Modification</option>\n"
+"                                                <option value=\"functional\">Clarification or Additional Information</option>\n"
+"                                                <option value=\"request_information\">Other</option>\n"
+"                                            </select>"
+msgstr ""
+"<select class=\"form-control\" name=\"category\">\n"
+"<option value=\"technical\" selected=\"selected\">الاستبدال/تعديل البناء</option>\n"
+"<option value=\"functional\">التوضيح أو المعلومات الإضافية</option>\n"
+"<option value=\"request_information\">أخرى</option>\n"
+"</select>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid ""
+"<select class=\"form-control\" name=\"priority\">\n"
+"                                                <option value=\"0\" selected=\"selected\">Low</option>\n"
+"                                                <option value=\"1\">Middle</option>\n"
+"                                                <option value=\"2\">High</option>\n"
+"                                            </select>"
+msgstr ""
+"<select class=\"form-control\" name=\"priority\">\n"
+"<option value=\"0\" selected=\"selected\">منخفض</option>\n"
+"<option value=\"1\">متوسط</option>\n"
+"<option value=\"2\">مرتفع</option>\n"
+"</select>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<small class=\"text-end\">Status:</small>"
+msgstr "<small class=\"text-end\">الحالة:</small>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.thanks_mail_send
+msgid ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                        <span>We have received your request.</span>"
+msgstr ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"<span>لقد تلقينا طلبك.</span>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.successful_feedback
+msgid ""
+"<span class=\"hidden-xs\">Go Back</span>\n"
+"                                <span class=\"fa fa-long-arrow-left\"/>"
+msgstr ""
+"<span class=\"hidden-xs\">العودة</span>\n"
+"<span class=\"fa fa-long-arrow-left\"/>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.successful_ticket_send
+msgid ""
+"<span class=\"hidden-xs\">Go Back</span><span class=\"fa fa-long-arrow-"
+"left\"/>"
+msgstr ""
+"<span class=\"hidden-xs\">العودة</span><span class=\"fa fa-long-arrow-"
+"left\"/>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.thanks_mail_send
+msgid "<span class=\"hidden-xs\">Show Request</span>"
+msgstr "<span class=\"hidden-xs\">إظهار الطلب</span>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.successful_feedback
+msgid ""
+"<strong> Your Feedabck have been sent successfully.<br/>\n"
+"                                    Thank you,<br/>\n"
+"                                    Adminstrator\n"
+"                                </strong>"
+msgstr ""
+"<strong>تم إرسال تعليقاتك بنجاح.<br/>\n"
+"شكرًا لك،<br/>\n"
+"\n"
+"المسؤول\n"
+"</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Analytic Account  :</strong>"
+msgstr "<strong>الحساب التحليلي:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Assigned To:</strong>"
+msgstr "<strong>مُعَيَّن إلى:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Assigned to :</strong>"
+msgstr "<strong>مُعَيَّن إلى:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Close Date:</strong>"
+msgstr "<strong>تاريخ الإغلاق:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Closed Date:</strong>"
+msgstr "<strong>تاريخ الإغلاق:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Company:</strong>"
+msgstr "<strong>الشركة:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Create Date:</strong>"
+msgstr "<strong>تاريخ الإنشاء:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Customer/Supplier:</strong>"
+msgstr "<strong>العميل/المورد:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Email :</strong>"
+msgstr "<strong>البريد الإلكتروني:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Is Closed?:</strong>"
+msgstr "<strong>هل مغلق؟:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Job Cost Line:</strong>"
+msgstr "<strong>سطر تكلفة الوظيفة:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Job Cost Sheet:</strong>"
+msgstr "<strong>جدول تكاليف الوظيفة:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Job Cost Sheet</strong>"
+msgstr "<strong>بيان تكلفة الوظيفة</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Job Order:</strong>"
+msgstr "<strong>طلب الوظيفة:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Message and communication history</strong>"
+msgstr "<strong>سجل الرسائل والاتصالات</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Phone :</strong>"
+msgstr "<strong>الهاتف :</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Priority:</strong>"
+msgstr "<strong>الأولوية:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Project:</strong>"
+msgstr "<strong>المشروع:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Project</strong>"
+msgstr "<strong>المشروع</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>RFI Team:</strong>"
+msgstr "<strong>فريق RFI:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Subject:</strong>"
+msgstr "<strong>الموضوع:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Support Team :</strong>"
+msgstr "<strong>فريق الدعم:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "<strong>Team Leader :</strong>"
+msgstr "<strong>قائد الفريق:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Team Leader:</strong>"
+msgstr "<strong>قائد الفريق:</strong>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "<strong>Type:</strong>"
+msgstr "<strong>النوع:</strong>"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__access_warning
+msgid "Access warning"
+msgstr "تحذير الوصول"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_needaction
+msgid "Action Needed"
+msgstr "مطلوب اتخاذ إجراء"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__active
+msgid "Active"
+msgstr "نشيط"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_state
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__kanban_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "رمز نوع النشاط"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+msgid "Add an internal note..."
+msgstr "أضف ملاحظة داخلية..."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__allow_user_ids
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__allow_user_ids
+msgid "Allow Users"
+msgstr "السماح للمستخدمين"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__analytic_account_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__analytic_account_id
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "الخط التحليلي"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__user_id
+msgid "Assign To"
+msgstr "تعيين إلى"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_stage_config__stage_type__assigned
+#: model:request.information.stage.config,name:project_request_for_information.request_information_stage_2
+msgid "Assigned"
+msgstr "مُكَلَّف"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Assigned To"
+msgstr "مُخصص لـ"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__user_id
+msgid "Assigned to"
+msgstr "مُخصص لـ"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid "Attach Files"
+msgstr "إرفاق الملفات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__rating__average
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid "Average"
+msgstr "متوسط"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_account_analytic_line__rfi_billable
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "Billable"
+msgstr "قابلة للفوترة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__category
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Category"
+msgstr "فئة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__category__functional
+msgid "Clarification or Additional Information"
+msgstr "توضيح أو معلومات إضافية"
+
+#. module: project_request_for_information
+#: model_terms:ir.actions.act_window,help:project_request_for_information.request_information_stage_config_action
+msgid "Click to set a new stage in your Request For Information."
+msgstr "انقر هنا لتعيين مرحلة جديدة في طلب المعلومات الخاص بك."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__close_date
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Close Date"
+msgstr "تاريخ الإغلاق"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_stage_config__stage_type__closed
+#: model:request.information.stage.config,name:project_request_for_information.request_information_stage_8
+msgid "Closed"
+msgstr "مغلق"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__close_date
+msgid "Closed Date"
+msgstr "تاريخ الإغلاق"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__color
+msgid "Color Index"
+msgstr "مؤشر الألوان"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__company_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__company_id
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Company"
+msgstr "شركة"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_res_partner
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__partner_id
+msgid "Contact"
+msgstr "اتصال"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.view_create_request_information_simplified
+msgid "Create"
+msgstr "يخلق"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__request_date
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__request_date
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Create Date"
+msgstr "إنشاء التاريخ"
+
+#. module: project_request_for_information
+#: model:website.menu,name:project_request_for_information.request_page_add
+msgid "Create RFI"
+msgstr "إنشاء طلب معلومات"
+
+#. module: project_request_for_information
+#: model:ir.actions.act_window,name:project_request_for_information.create_request_information_stage_simplified
+msgid "Create Request For Information"
+msgstr "إنشاء طلب للحصول على معلومات"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.view_create_request_information_simplified
+msgid "Create Request For informations"
+msgstr "إنشاء طلب للحصول على معلومات"
+
+#. module: project_request_for_information
+#: model:ir.actions.act_window,name:project_request_for_information.create_request_information_stage_simplified_full
+msgid "Create a Request For Information"
+msgstr "إنشاء طلب للحصول على معلومات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__create_uid
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__create_uid
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_subject__create_uid
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__create_uid
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_type__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__create_date
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__create_date
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_subject__create_date
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__create_date
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_type__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_informations
+msgid "Current stage of the request"
+msgstr "المرحلة الحالية للطلب"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_information
+msgid "Current stage of this request"
+msgstr "المرحلة الحالية لهذا الطلب"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__access_url
+msgid "Customer Portal URL"
+msgstr "رابط بوابة العميل"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__partner_id
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Customer/Supplier"
+msgstr "العميل/المورد"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__comment
+msgid "Customer/Supplier Comment"
+msgstr "تعليق العميل/المورد"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__rating
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+msgid "Customer/Supplier Rating"
+msgstr "تقييم العميل/المورد"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_informations
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__description
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "Description"
+msgstr "وصف"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.view_create_request_information_simplified
+msgid "Discard"
+msgstr "ينبذ"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__display_name
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__display_name
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__display_name
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_subject__display_name
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__display_name
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_type__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__email
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__email
+msgid "Emails"
+msgstr "رسائل البريد الإلكتروني"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information_stage_config__requirements
+msgid ""
+"Enter here the internal requirements for this stage (ex: Offer sent to "
+"customer). It will appear as a tooltip over the stage's name."
+msgstr ""
+"أدخل هنا المتطلبات الداخلية لهذه المرحلة (على سبيل المثال: العرض المرسل إلى "
+"العميل). ستظهر على شكل تلميح فوق اسم المرحلة."
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__rating__excellent
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid "Excellent"
+msgstr "ممتاز"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__planned_revenue
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__planned_revenue
+msgid "Expected Revenue"
+msgstr "الإيرادات المتوقعة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information_stage_config__legend_priority
+msgid ""
+"Explanation text to help users using the star and priority mechanism on "
+"stages or issues that are in this stage."
+msgstr ""
+"نص توضيحي لمساعدة المستخدمين على استخدام آلية النجمة والأولوية في المراحل أو"
+" المشكلات الموجودة في هذه المرحلة."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__fold
+msgid "Folded in Request Information"
+msgstr "مطوية في طلب المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط رائعة مثل fa-tasks"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_report__category__functional
+msgid "Functional"
+msgstr "وظيفية"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__rating__good
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid "Good"
+msgstr "جيد"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__priority__2
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_report__priority__2
+msgid "High"
+msgstr "عالي"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "Hours"
+msgstr "ساعات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_subject__id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_type__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_exception_icon
+msgid "Icon"
+msgstr "رمز"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثناء."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديد هذا المربع، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__message_has_error
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديد هذا المربع، فقد يكون لبعض الرسائل خطأ في التسليم."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__note
+msgid "Internal Note"
+msgstr "ملاحظة داخلية"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+msgid "Internal Note..."
+msgstr "ملاحظة داخلية..."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__journal_id
+msgid "Invoice Journal"
+msgstr "دفتر الفواتير"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__is_close
+msgid "Is Closed ?"
+msgstr "هل مغلق؟"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__is_team
+msgid "Is Default Team?"
+msgstr "هل هو فريق افتراضي؟"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو تابع"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__is_close
+msgid "Is Ticket Closed ?"
+msgstr "هل تم إغلاق التذكرة؟"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__job_cost_line_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__job_cost_line_id
+msgid "Job Cost Line"
+msgstr "خط تكلفة الوظيفة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__job_cost_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__job_cost_id
+msgid "Job Cost Sheet"
+msgstr "ورقة تكاليف العمل"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_job_costing
+msgid "Job Costing"
+msgstr "تكلفة الوظيفة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__task_id
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__write_uid
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__write_uid
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_subject__write_uid
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__write_uid
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_type__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__write_date
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__write_date
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_subject__write_date
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__write_date
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_type__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__leader_id
+msgid "Leader"
+msgstr "قائد"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__priority__0
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_report__priority__0
+msgid "Low"
+msgstr "قليل"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__priority__1
+msgid "Middle"
+msgstr "وسط"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid "Multiple files can be attach"
+msgstr "يمكن إرفاق ملفات متعددة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_subject__name
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__name
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_type__name
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "Name"
+msgstr "اسم"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_stage_config__stage_type__needs_more_info
+#: model:request.information.stage.config,name:project_request_for_information.request_information_stage_4
+msgid "Needs More Info"
+msgstr "بحاجة الى مزيد من المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_stage_config__stage_type__needs_reply
+#: model:request.information.stage.config,name:project_request_for_information.request_information_stage_5
+msgid "Needs Reply"
+msgstr "يحتاج إلى رد"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_stage_config__stage_type__new
+#: model:request.information.stage.config,name:project_request_for_information.request_information_stage_1
+msgid "New"
+msgstr "جديد"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "تقويم النشاط القادم"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__date_action
+msgid "Next Activity Date"
+msgstr "تاريخ النشاط القادم"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__kanban_state__green
+msgid "Next activity is planned"
+msgstr "النشاط القادم مخطط له"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__kanban_state__red
+msgid "Next activity late"
+msgstr "النشاط القادم متأخر"
+
+#. module: project_request_for_information
+#. odoo-python
+#: code:addons/odoo/const/project_request_for_information/models/request_information.py:0
+#: code:addons/project_request_for_information/models/request_information.py:0
+#, python-format
+msgid "No Subject"
+msgstr "لا يوجد موضوع"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__kanban_state__grey
+msgid "No next activity planned"
+msgstr "لا يوجد نشاط قادم مخطط له"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_report__priority__1
+msgid "Normal"
+msgstr "طبيعي"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__name
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__name
+msgid "Number"
+msgstr "رقم"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__category__support
+msgid "Other"
+msgstr "آخر"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__phone
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__phone
+msgid "Phone"
+msgstr "هاتف"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__rating__poor
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid "Poor"
+msgstr "فقير"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__access_url
+msgid "Portal Access URL"
+msgstr "عنوان URL للوصول إلى البوابة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_project_project__rfi_price_rate
+#: model:ir.model.fields,field_description:project_request_for_information.field_project_task__rfi_price_rate
+#: model:ir.model.fields,field_description:project_request_for_information.field_res_partner__rfi_price_rate
+#: model:ir.model.fields,field_description:project_request_for_information.field_res_users__rfi_price_rate
+msgid "Price / Rate (Company Currency)"
+msgstr "السعر / المعدل (عملة الشركة)"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__priority
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__priority
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_informations
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Priority"
+msgstr "أولوية"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__legend_priority
+msgid "Priority Management Explanation"
+msgstr "شرح إدارة الأولويات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_project_project__rfi_product_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_project_task__rfi_product_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_res_partner__rfi_product_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_res_users__rfi_product_id
+msgid "Product"
+msgstr "منتج"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_project_project
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__project_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__project_id
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Project"
+msgstr "مشروع"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_partner_form_prize
+msgid "RFI"
+msgstr "طلب معلومات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__rfi_request_answer
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "RFI Answer"
+msgstr "إجابة طلب المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__category
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid "RFI Category"
+msgstr "فئة طلب المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.ui.menu,name:project_request_for_information.menu_request_information_configuration
+msgid "RFI Configuration"
+msgstr "تكوين RFI"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__custome_client_user_id
+msgid "RFI Created User"
+msgstr "تم إنشاء المستخدم بواسطة RFI"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid "RFI Description"
+msgstr "وصف طلب المعلومات"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_informations
+msgid "RFI No."
+msgstr "RFI No."
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid "RFI Priority"
+msgstr "أولوية طلب المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.actions.act_window,name:project_request_for_information.request_information_stage_config_action
+#: model:ir.ui.menu,name:project_request_for_information.menu_item_request_stage_config
+msgid "RFI Stages"
+msgstr "مراحل طلب المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__subject_type_id
+#: model:ir.ui.menu,name:project_request_for_information.menu_type_of_subject
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_informations
+msgid "RFI Subject"
+msgstr "موضوع طلب المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.actions.act_window,name:project_request_for_information.action_request_information_subject
+msgid "RFI Subjects"
+msgstr "مواضيع طلب المعلومات"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+msgid "RFI Survey"
+msgstr "استطلاع طلب المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.actions.act_window,name:project_request_for_information.action_request_information_team
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__team_id
+msgid "RFI Team"
+msgstr "فريق طلب المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.ui.menu,name:project_request_for_information.menu_item_support_team
+msgid "RFI Teams"
+msgstr "فرق طلب المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.actions.act_window,name:project_request_for_information.action_request_information_type
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__type_ticket_id
+msgid "RFI Type"
+msgstr "نوع RFI"
+
+#. module: project_request_for_information
+#: model:ir.ui.menu,name:project_request_for_information.menu_request_ticket_type
+msgid "RFI Types"
+msgstr "أنواع طلبات المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+msgid "Re Open"
+msgstr "إعادة فتح"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_stage_config__stage_type__reopened
+#: model:request.information.stage.config,name:project_request_for_information.request_information_stage_6
+msgid "Reopened"
+msgstr "أعيد فتحه"
+
+#. module: project_request_for_information
+#: model:ir.ui.menu,name:project_request_for_information.menu_request_information_report
+msgid "Reports"
+msgstr "التقارير"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+msgid "Request Answer..."
+msgstr "طلب الإجابة..."
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.view_report_pivot_request_information_pivot
+msgid "Request For Information Pivot"
+msgstr "طلب معلومات المحور"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+msgid "Request For Information Subject"
+msgstr "طلب معلومات الموضوع"
+
+#. module: project_request_for_information
+#: model_terms:ir.actions.act_window,help:project_request_for_information.action_request_information
+msgid "Request For Information."
+msgstr "طلب للحصول على معلومات."
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.view_request_information_graph
+msgid "Request For Informations Graph"
+msgstr "طلب معلومات الرسم البياني"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.view_request_information_pivot
+msgid "Request For Informations Pivot"
+msgstr "طلب معلومات عن المحور"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_account_analytic_line__rfi_request_information_id
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_edit_project_form
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_view_task_form
+msgid "Request Information"
+msgstr "طلب معلومات"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_request_information_subject
+msgid "Request Information Subject"
+msgstr "طلب معلومات الموضوع"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__rfi_survey_ids
+msgid "Request Information Surveys"
+msgstr "طلب معلومات الاستطلاعات"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Request Information Team"
+msgstr "طلب معلومات الفريق"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_request_information_type
+msgid "Request Information Type"
+msgstr "نوع طلب المعلومات"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.job_costing_form_inherit_rfi_request
+msgid "Request Informations"
+msgstr "طلب معلومات"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_request_information_team
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__team_id
+msgid "Request Team"
+msgstr "فريق الطلب"
+
+#. module: project_request_for_information
+#: model:ir.actions.act_window,name:project_request_for_information.action_request_information_user_tree
+#: model:ir.actions.report,name:project_request_for_information.print_request_information
+#: model:ir.model,name:project_request_for_information.model_request_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_project_task__rfi_request_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_survey_survey__rfi_request_id
+#: model:ir.ui.menu,name:project_request_for_information.menu_request_analysis
+#: model:ir.ui.menu,name:project_request_for_information.menu_request_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "Request for Information"
+msgstr "طلب الحصول على معلومات"
+
+#. module: project_request_for_information
+#: model:ir.actions.act_window,name:project_request_for_information.action_request_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_res_partner__rfi_request_information_ids
+#: model:ir.model.fields,field_description:project_request_for_information.field_res_users__rfi_request_information_ids
+#: model:ir.ui.menu,name:project_request_for_information.menu_item_request_information
+msgid "Request for Informations"
+msgstr "طلب معلومات"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_calendar
+msgid "Request for informations"
+msgstr "طلب معلومات"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_partner_form_prize
+msgid "Requests Information"
+msgstr "طلبات المعلومات"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.portal_my_request_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.portal_my_request_project_information
+msgid "Requests for Information"
+msgstr "طلبات الحصول على المعلومات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__requirements
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_team_stage_form
+msgid "Requirements"
+msgstr "متطلبات"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_res_partner__rfi_ticket_count
+#: model:ir.model.fields,field_description:project_request_for_information.field_res_users__rfi_ticket_count
+msgid "Rfi Ticket Count"
+msgstr "عدد تذاكر RFI"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__access_token
+msgid "Security Token"
+msgstr "رمز الأمان"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__sequence
+msgid "Sequence"
+msgstr "تسلسل"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+msgid "Set To Close"
+msgstr "تم ضبطه للإغلاق"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_stage_config__stage_type__solution_suggested
+#: model:request.information.stage.config,name:project_request_for_information.request_information_stage_7
+msgid "Solution Suggested"
+msgstr "الحل المقترح"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.support_invalid
+msgid "Sorry!"
+msgstr "آسف!"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information_stage_config__team_id
+msgid ""
+"Specific team that uses this stage. Other teams will not be able to see or "
+"use this stage."
+msgstr ""
+"فريق محدد يستخدم هذه المرحلة. لن تتمكن الفرق الأخرى من رؤية هذه المرحلة أو "
+"استخدامها."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__stage_id
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.display_request_informations
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_team_stage_form
+msgid "Stage"
+msgstr "منصة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__name
+msgid "Stage Name"
+msgstr "اسم المسرح"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_team_stage_search
+msgid "Stage Search"
+msgstr "البحث عن المرحلة"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_request_information_stage_config
+msgid "Stage of case"
+msgstr "مرحلة القضية"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_team_stage_tree
+msgid "Stages"
+msgstr "مراحل"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "State"
+msgstr "ولاية"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد انقضى بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط له: الأنشطة المستقبلية."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__subject
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__subject_type_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__subject
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Subject"
+msgstr "موضوع"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid "Submit"
+msgstr "يُقدِّم"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__category__technical
+msgid "Substitution/Construction Modification"
+msgstr "الاستبدال/تعديل البناء"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_report__category__support
+msgid "Support"
+msgstr "يدعم"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__team_id
+msgid "Support Team"
+msgstr "فريق الدعم"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_survey_survey
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+msgid "Survey"
+msgstr "استطلاع"
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_project_task
+msgid "Task"
+msgstr "مهمة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__team_leader_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__team_leader_id
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Team Leader"
+msgstr "قائد الفريق"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_team__team_ids
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_team_form_view
+msgid "Team Members"
+msgstr "أعضاء الفريق"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_report__category__technical
+msgid "Technical"
+msgstr "اِصطِلاحِيّ"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.thanks_mail_send
+msgid "Thank You!"
+msgstr "شكرًا لك!"
+
+#. module: project_request_for_information
+#: model:ir.model.constraint,message:project_request_for_information.constraint_request_information_stage_config_stage_uniq
+msgid "The Type must be unique !"
+msgstr "يجب أن يكون النوع فريدًا!"
+
+#. module: project_request_for_information
+#: model_terms:ir.actions.act_window,help:project_request_for_information.action_request_information_user_tree
+msgid ""
+"This report allows you to analyse the performance of your projects and "
+"users. You can analyse the quantities of tasks, the hours spent compared to "
+"the planned hours, the average number of days to open or close a task, etc."
+msgstr ""
+"يتيح لك هذا التقرير تحليل أداء مشاريعك ومستخدميك. يمكنك تحليل كميات المهام، "
+"والساعات المستغرقة مقارنة بالساعات المخطط لها، ومتوسط ​​عدد الأيام اللازمة "
+"لفتح أو إغلاق مهمة، وما إلى ذلك."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information_stage_config__fold
+msgid ""
+"This stage is folded in the kanban view when there are no records in that "
+"stage to display."
+msgstr ""
+"يتم طي هذه المرحلة في عرض كانبان عندما لا توجد سجلات في تلك المرحلة لعرضها."
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information_team__is_team
+msgid ""
+"Tick this box to set this team as default support team when request come "
+"from website"
+msgstr ""
+"حدد هذا المربع لتعيين هذا الفريق كفريق دعم افتراضي عندما يأتي الطلب من موقع "
+"الويب"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Ticket"
+msgstr "تذكرة"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_partner_form_prize
+msgid "Tickets"
+msgstr "التذاكر"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_account_analytic_line__rfi_time_in
+msgid "Time In"
+msgstr "الوقت في"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_account_analytic_line__rfi_time_out
+msgid "Time Out"
+msgstr "نفذ الوقت"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__timesheet_line_ids
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_form_view
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_report
+msgid "Timesheets"
+msgstr "جداول العمل"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__stage_type
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__type_ticket_id
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_stage_config__stage_type
+msgid "Type"
+msgstr "يكتب"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Type of Ticket"
+msgstr "نوع التذكرة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_search_view
+msgid "Unread Messages"
+msgstr "الرسائل غير المقروءة"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information_stage_config__sequence
+msgid "Used to order stages. Lower is better."
+msgstr "يستخدم لترتيب المراحل، فكلما كان المستوى أقل كان أفضل."
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information__rating__very_good
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid "Very Good"
+msgstr "جيد جدًا"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,help:project_request_for_information.field_request_information__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصالات الموقع"
+
+#. module: project_request_for_information
+#: model:ir.model.fields.selection,name:project_request_for_information.selection__request_information_stage_config__stage_type__work_in_progress
+#: model:request.information.stage.config,name:project_request_for_information.request_information_stage_3
+msgid "Work in Progress"
+msgstr "العمل قيد التقدم"
+
+#. module: project_request_for_information
+#. odoo-python
+#: code:addons/odoo/const/project_request_for_information/models/request_information.py:0
+#: code:addons/project_request_for_information/models/request_information.py:0
+#, python-format
+msgid "You can not delete record which are not in draft state."
+msgstr "لا يمكنك حذف السجل الذي ليس في حالة المسودة."
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.support_invalid
+msgid ""
+"You have entered wrong Email ID, we request you to recheck.\n"
+"                                        <br/>"
+msgstr ""
+"لقد أدخلت معرف بريد إلكتروني خاطئ، نرجو منك إعادة التحقق.\n"
+"<br/>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.request_information_feedback
+msgid "Your Comment....."
+msgstr "تعليقك....."
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid "Your Email"
+msgstr "بريدك الإلكتروني"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.successful_ticket_send
+msgid ""
+"Your Message/Attachments have been sent successfully.<br/><br/>\n"
+"                                Thank you,\n"
+"                                <br/>"
+msgstr ""
+"لقد تم إرسال رسالتك/المرفقات بنجاح.<br/><br/>\n"
+"شكرا لك،\n"
+"<br/>"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid "Your Name"
+msgstr "اسمك"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.create_request
+msgid "Your Phone"
+msgstr "هاتفك"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.thanks_mail_send
+msgid "Your request number is"
+msgstr "رقم طلبك هو"
+
+#. module: project_request_for_information
+#. odoo-python
+#: code:addons/odoo/const/project_request_for_information/controllers/main.py:0
+#: code:addons/project_request_for_information/controllers/main.py:0
+#, python-format
+msgid "has send this feedback rating is %s and comment is %s"
+msgstr "تم إرسال هذا التقييم وهو %s والتعليق هو %s"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.message_thread_request_information
+msgid "on"
+msgstr "على"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.thanks_mail_send
+msgid ""
+"please note it for further communication and you will also receive email from our\n"
+"                                        repair team shortly, Please reply to that\n"
+"                                        email for feature conversation."
+msgstr ""
+"يرجى ملاحظة ذلك لمزيد من التواصل وسوف تتلقى أيضًا بريدًا إلكترونيًا من فريق "
+"الإصلاح الخاص بنا قريبًا، يرجى الرد على هذا البريد الإلكتروني لإجراء محادثة "
+"مميزة."
+
+#. module: project_request_for_information
+#: model:ir.model,name:project_request_for_information.model_request_information_report
+msgid "request.information.report"
+msgstr "طلب.معلومات.تقرير"
+
+#. module: project_request_for_information
+#: model_terms:ir.ui.view,arch_db:project_request_for_information.successful_ticket_send
+msgid "show ticket"
+msgstr "تذكرة العرض"
+
+#. module: project_request_for_information
+#: model:ir.model.fields,field_description:project_request_for_information.field_request_information_report__stage_id
+msgid "stage"
+msgstr "منصة"

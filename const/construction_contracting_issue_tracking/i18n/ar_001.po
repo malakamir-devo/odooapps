@@ -1,0 +1,1832 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* construction_contracting_issue_tracking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 15:36+0000\n"
+"PO-Revision-Date: 2024-11-01 15:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_mail_invalid
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.ticket_invalid
+msgid "&amp;times;"
+msgstr "& مرات؛"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.thanks_mail_send
+msgid ""
+".\n"
+"                                        please note it for further communication and you will also receive email from our\n"
+"                                        support team shortly, Please reply to that email for feature conversation."
+msgstr ""
+"يرجى ملاحظة ذلك لمزيد من التواصل وسوف تتلقى أيضًا بريدًا إلكترونيًا من فريق "
+"الدعم الخاص بنا قريبًا، يرجى الرد على هذا البريد الإلكتروني لإجراء محادثة "
+"حول الميزة."
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid ""
+"<font color=\"#00A09D\">\n"
+"                                    Rating</font>"
+msgstr ""
+"<font color=\"#00A09D\">\n"
+"التقييم</font>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid ""
+"<font color=\"#00A09D\">Comment\n"
+"                                    </font>"
+msgstr ""
+"<font color=\"#00A09D\">التعليق\n"
+"</font>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid ""
+"<font color=\"#00A09D\">Issue Name\n"
+"                                    </font>"
+msgstr ""
+"<font color=\"#00A09D\">اسم المشكلة\n"
+"</font>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid ""
+"<font color=\"#00A09D\">Name\n"
+"                                    </font>"
+msgstr ""
+"<font color=\"#00A09D\">الاسم\n"
+"</font>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid ""
+"<select class=\"form-control\" name=\"category\">\n"
+"                                                <option value=\"technical\" selected=\"selected\">Design Deficiencies</option>\n"
+"                                                <option value=\"functional\">Material Deficiencies</option>\n"
+"                                                <option value=\"support\">Construction Deficiencies</option>\n"
+"                                            </select>"
+msgstr ""
+"<select class=\"form-control\" name=\"category\">\n"
+"<option value=\"technical\" selected=\"selected\">عيوب التصميم</option>\n"
+"<option value=\"functional\">عيوب المواد</option>\n"
+"<option value=\"support\">عيوب البناء</option>\n"
+"</select>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid ""
+"<select class=\"form-control\" name=\"priority\">\n"
+"                                                <option value=\"0\" selected=\"selected\">Low</option>\n"
+"                                                <option value=\"1\">Middle</option>\n"
+"                                                <option value=\"2\">High</option>\n"
+"                                            </select>"
+msgstr ""
+"<select class=\"form-control\" name=\"priority\">\n"
+"<option value=\"0\" selected=\"selected\">منخفض</option>\n"
+"<option value=\"1\">متوسط</option>\n"
+"<option value=\"2\">مرتفع</option>\n"
+"</select>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<small class=\"text-end\">Status:</small>"
+msgstr "<small class=\"text-end\">الحالة:</small>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.thanks_mail_send
+msgid ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                        <span>We have received your Issue request.</span>"
+msgstr ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"<span>لقد تلقينا طلبك بشأن المشكلة.</span>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.successful_construction_feedback
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.successful_construction_ticket_send
+msgid ""
+"<span class=\"hidden-xs\">Go Back</span><span class=\"fa fa-long-arrow-"
+"left\"/>"
+msgstr ""
+"<span class=\"hidden-xs\">العودة</span><span class=\"fa fa-long-arrow-"
+"left\"/>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_task_timesheet_invoice_wizard_view
+msgid ""
+"<span class=\"o_form_label\">This wizard will create customer invoice for "
+"selected timesheet lines...</span>"
+msgstr ""
+"<span class=\"o_form_label\">سيقوم هذا المعالج بإنشاء فاتورة عميل لخطوط جدول"
+" العمل المحددة...</span>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Analytic Account  :</strong>"
+msgstr "<strong>الحساب التحليلي:</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Analytic Account</strong>"
+msgstr "<strong>حساب تحليلي</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Assigned To</strong>"
+msgstr "<strong>مُعَيَّن إلى</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Assigned to</strong>"
+msgstr "<strong>مُعَيَّن إلى</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Close Date:</strong>"
+msgstr "<strong>تاريخ الإغلاق:</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Close Date</strong>"
+msgstr "<strong>تاريخ الإغلاق</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Company</strong>"
+msgstr "<strong>الشركة</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Create Date:</strong>"
+msgstr "<strong>تاريخ الإنشاء:</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Create Date</strong>"
+msgstr "<strong>تاريخ الإنشاء</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Customer</strong>"
+msgstr "<strong>العميل</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Department  :</strong>"
+msgstr "<strong>القسم :</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Department</strong>"
+msgstr "<strong>القسم</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Email</strong>"
+msgstr "<strong>البريد الإلكتروني</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Is Issue Closed ?</strong>"
+msgstr "<strong>هل تم إغلاق المشكلة؟</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Is Issue Closed?:</strong>"
+msgstr "<strong>هل تم إغلاق المشكلة؟</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Issue Team :</strong>"
+msgstr "<strong>فريق المشكلة:</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Issue Team</strong>"
+msgstr "<strong>فريق المشكلة</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Job Cost Line</strong>"
+msgstr "<strong>سطر تكلفة الوظيفة</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Job Cost Sheet</strong>"
+msgstr "<strong>بيان تكلفة الوظيفة</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Job Order</strong>"
+msgstr "<strong>طلب الوظيفة</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Message and communication history</strong>"
+msgstr "<strong>سجل الرسائل والاتصالات</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Phone</strong>"
+msgstr "<strong>الهاتف</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Priority:</strong>"
+msgstr "<strong>الأولوية:</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Priority</strong>"
+msgstr "<strong>الأولوية</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Project:</strong>"
+msgstr "<strong>المشروع:</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Project</strong>"
+msgstr "<strong>المشروع</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Team Leader :</strong>"
+msgstr "<strong>قائد الفريق:</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Team Leader</strong>"
+msgstr "<strong>قائد الفريق</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "<strong>Total Hours Spent:</strong>"
+msgstr "<strong>إجمالي الساعات المستغرقة:</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "<strong>Total Hours Spent</strong>"
+msgstr "<strong>إجمالي الساعات المستغرقة</strong>"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__access_warning
+msgid "Access warning"
+msgstr "تحذير الوصول"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_needaction
+msgid "Action Needed"
+msgstr "مطلوب اتخاذ إجراء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__active
+msgid "Active"
+msgstr "نشيط"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_state
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__kanban_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "رمز نوع النشاط"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/controllers/main.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/controllers/main.py:0
+#, python-format
+msgid "All"
+msgstr "الجميع"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__allow_user_ids
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__allow_user_ids
+msgid "Allow Users"
+msgstr "السماح للمستخدمين"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_account_analytic_account
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__analytic_account_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__analytic_account_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__analytic_account_id
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_account
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_account
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_anlytic_accounts
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_anlytic_accounts
+msgid "Analytic Accounts"
+msgstr "الحسابات التحليلية"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "الخط التحليلي"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__user_id
+msgid "Assign To"
+msgstr "تعيين إلى"
+
+#. module: construction_contracting_issue_tracking
+#: model:construction.stage.config,name:construction_contracting_issue_tracking.construction_stage_2
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_stage_config__stage_type__assigned
+msgid "Assigned"
+msgstr "مُكَلَّف"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__user_id
+msgid "Assigned to"
+msgstr "مُخصص لـ"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid "Attach Files"
+msgstr "إرفاق الملفات"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__rating__average
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid "Average"
+msgstr "متوسط"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__balanced_remaining_hours
+msgid "Balance Remaining Hours"
+msgstr "رصيد الساعات المتبقية"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_line__billable
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "Billable"
+msgstr "قابلة للفوترة"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_invoice_search
+msgid "Billable Timesheets"
+msgstr "جداول العمل القابلة للفواتير"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_task_timesheet_invoice_wizard_view
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__category
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__category
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid "Category"
+msgstr "فئة"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.website_search_ticket
+msgid "Check Status"
+msgstr "التحقق من الحالة"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.website_search_ticket
+msgid ""
+"Check status of previously opened tickets. we<br/>\n"
+"                                                       provide archives and history of all support<br/>\n"
+"                                                       your requests compete with responses."
+msgstr ""
+"التحقق من حالة التذاكر المفتوحة سابقًا. نحن نقدم<br/>\n"
+"أرشيفات وسجلات لجميع الدعم<br/>\n"
+"تتنافس طلباتك مع الردود."
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.actions.act_window,help:construction_contracting_issue_tracking.action_construction_stage_config
+msgid "Click to set a new stage in your opportunity pipeline."
+msgstr "انقر هنا لتعيين مرحلة جديدة في خط أنابيب الفرص الخاص بك."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__close_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__close_date
+msgid "Close Date"
+msgstr "تاريخ الإغلاق"
+
+#. module: construction_contracting_issue_tracking
+#: model:construction.stage.config,name:construction_contracting_issue_tracking.construction_stage_8
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_stage_config__stage_type__closed
+msgid "Closed"
+msgstr "مغلق"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__color
+msgid "Color Index"
+msgstr "مؤشر الألوان"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__company_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__company_id
+msgid "Company"
+msgstr "شركة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_configuration
+msgid "Configuration"
+msgstr "إعدادات"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_construction_invoice_line
+msgid "Constrction Invoice Line"
+msgstr "سطر فاتورة البناء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_construction_prepared_purchase_hours
+msgid "Constrction Prepared Purchase Hours"
+msgstr "ساعات شراء البناء الجاهز"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_construction_report
+msgid "Constrction Report"
+msgstr "تقرير البناء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__category__support
+msgid "Construction Deficiencies"
+msgstr "عيوب البناء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__construction_id
+msgid "Construction Invoice Issue"
+msgstr "إصدار فاتورة البناء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_project_task__construction_ticket_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_res_partner__construction_ticket_ids
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_res_users__construction_ticket_ids
+msgid "Construction Issue"
+msgstr "قضية البناء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_construction_type_of_subject
+msgid "Construction Subject Type"
+msgstr "نوع موضوع البناء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_construction_team
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__team_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__team_id
+msgid "Construction Team"
+msgstr "فريق البناء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_construction_ticket_type
+msgid "Construction Ticket Type"
+msgstr "نوع تذكرة البناء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_res_partner
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__partner_id
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "Contact"
+msgstr "اتصال"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__prepared_hours_id
+msgid "Contract"
+msgstr "عقد"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_task_timesheet_invoice_wizard_view
+msgid "Create                                 Invoice"
+msgstr "إنشاء فاتورة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__request_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__request_date
+msgid "Create Date"
+msgstr "إنشاء التاريخ"
+
+#. module: construction_contracting_issue_tracking
+#: model:website.menu,name:construction_contracting_issue_tracking.construction_support_page_add
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_tickets
+msgid "Create Issue"
+msgstr "إنشاء مشكلة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__create_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__create_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__create_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__create_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__create_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket_type__create_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_type_of_subject__create_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_task_timesheet_invoice__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__create_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__create_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__create_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__create_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__create_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket_type__create_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_type_of_subject__create_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_task_timesheet_invoice__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "Current stage of this issue"
+msgstr "المرحلة الحالية لهذه القضية"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__partner_id
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid "Customer"
+msgstr "عميل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__comment
+msgid "Customer Comment"
+msgstr "تعليق العميل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__custom_customer_name
+msgid "Customer Name"
+msgstr "اسم العميل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__access_url
+msgid "Customer Portal URL"
+msgstr "رابط بوابة العميل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__rating
+msgid "Customer Rating"
+msgstr "تقييم العملاء"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_tickets
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__date
+msgid "Date of Sales Order"
+msgstr "تاريخ أمر البيع"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__department_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__department_id
+msgid "Department"
+msgstr "قسم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__description
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "Description"
+msgstr "وصف"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__category__technical
+msgid "Design Deficiencies"
+msgstr "عيوب التصميم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__display_name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__display_name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__display_name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__display_name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__display_name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__display_name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket_type__display_name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_type_of_subject__display_name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_task_timesheet_invoice__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__email
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__email
+msgid "Emails"
+msgstr "رسائل البريد الإلكتروني"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_stage_config__requirements
+msgid ""
+"Enter here the internal requirements for this stage (ex: Offer sent to "
+"customer). It will appear as a tooltip over the stage's name."
+msgstr ""
+"أدخل هنا المتطلبات الداخلية لهذه المرحلة (على سبيل المثال: العرض المرسل إلى "
+"العميل). ستظهر على شكل تلميح فوق اسم المرحلة."
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.ticket_invalid
+msgid "Error!"
+msgstr "خطأ!"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__rating__excellent
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid "Excellent"
+msgstr "ممتاز"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__planned_revenue
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__planned_revenue
+msgid "Expected Revenue"
+msgstr "الإيرادات المتوقعة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_stage_config__legend_priority
+msgid ""
+"Explanation text to help users using the star and priority mechanism on "
+"stages or issues that are in this stage."
+msgstr ""
+"نص توضيحي لمساعدة المستخدمين على استخدام آلية النجمة والأولوية في المراحل أو"
+" المشكلات الموجودة في هذه المرحلة."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__fold
+msgid "Folded in Issue"
+msgstr "مطوية في العدد"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط رائعة مثل fa-tasks"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_report__category__functional
+msgid "Functional"
+msgstr "وظيفية"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__rating__good
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid "Good"
+msgstr "جيد"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.view_construction_report_search
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_report__priority__2
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__priority__2
+msgid "High"
+msgstr "عالي"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "Hours"
+msgstr "ساعات"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket_type__id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_type_of_subject__id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_task_timesheet_invoice__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_exception_icon
+msgid "Icon"
+msgstr "رمز"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثناء."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديد هذا المربع، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__message_has_error
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديد هذا المربع، فقد يكون لبعض الرسائل خطأ في التسليم."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__journal_id
+msgid "Invoice Journal"
+msgstr "دفتر الفواتير"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__invoice_line_ids
+msgid "Invoice Lines"
+msgstr "خطوط الفاتورة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__invoice_id
+msgid "Invoice Reference"
+msgstr "مرجع الفاتورة"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#, python-format
+msgid ""
+"Invoice can not be created since some of Timesheet lines are already "
+"invoiced so please check."
+msgstr ""
+"لا يمكن إنشاء الفاتورة نظرًا لأن بعض أسطر جدول العمل تم إصدار فواتير لها "
+"بالفعل، لذا يرجى التحقق من ذلك."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_line__invoiced_created
+msgid "Invoiced"
+msgstr "تم إصدار الفاتورة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__custom_account_invoice_ids
+msgid "Invoices"
+msgstr "الفواتير"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.view_construction_invoice_report_graph
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.view_construction_invoice_report_pivot
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.view_construction_report_search
+msgid "Invoices Analysis"
+msgstr "تحليل الفواتير"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_ticket_invoice
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_ticket_invoice
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_timesheet_invoice_construction
+msgid "Invoicing"
+msgstr "الفواتير"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__is_team
+msgid "Is Default Team?"
+msgstr "هل هو فريق افتراضي؟"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو تابع"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__is_invoice
+msgid "Is Invoice Create"
+msgstr "هل يتم إنشاء الفاتورة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__is_invoice_created
+msgid "Is Invoice Created"
+msgstr "هل تم إنشاء الفاتورة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__is_close
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__is_close
+msgid "Is Issue Closed ?"
+msgstr "هل تم إغلاق الموضوع؟"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__is_task_created
+msgid "Is Task Created ?"
+msgstr "هل تم إنشاء المهمة؟"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "Issue"
+msgstr "مشكلة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.actions.act_window,name:construction_contracting_issue_tracking.action_construction_user_tree
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_analysis
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_analysis
+msgid "Issue Analysis"
+msgstr "تحليل القضية"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "Issue Details"
+msgstr "تفاصيل المشكلة"
+
+#. module: construction_contracting_issue_tracking
+#: model:res.groups,name:construction_contracting_issue_tracking.group_construction_manager
+msgid "Issue Manager"
+msgstr "مدير المشكلة"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_tickets
+msgid "Issue No"
+msgstr "العدد رقم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.actions.act_window,name:construction_contracting_issue_tracking.action_construction_stage_config
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_ticket_stage_config
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_ticket_stage_config
+msgid "Issue Stages"
+msgstr "مراحل الإصدار"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__team_id
+msgid "Issue Team"
+msgstr "فريق المشكلة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.actions.act_window,name:construction_contracting_issue_tracking.action_construction_team
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_team
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_team
+msgid "Issue Teams"
+msgstr "فرق المشكلة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_res_partner__issue_ticket_count
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_res_users__issue_ticket_count
+msgid "Issue Ticket Count"
+msgstr "عدد التذاكر الصادرة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.actions.act_window,name:construction_contracting_issue_tracking.action_construction_type
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_ticket_type
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_ticket_type
+msgid "Issue Types"
+msgstr "أنواع القضايا"
+
+#. module: construction_contracting_issue_tracking
+#: model:res.groups,name:construction_contracting_issue_tracking.group_construction_user
+msgid "Issue User/Responsible"
+msgstr "المشكلة المستخدم/المسؤول"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.main_construction_ticket
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_tickets
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.edit_project_inherit_construction_issue_button
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.job_costing_form_view_inherit_construction
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.portal_my_construction_ticket
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.portal_my_home_menu_issue_prob
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.view_task_form2_inherit_construction_issue_button
+msgid "Issues"
+msgstr "مشاكل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__jobcost_line_id
+msgid "Job Cost Line"
+msgstr "خط تكلفة الوظيفة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__jobcost_sheet_id
+msgid "Job Cost Sheet"
+msgstr "ورقة تكاليف العمل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_job_costing
+msgid "Job Costing"
+msgstr "تكلفة الوظيفة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__job_order_id
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__write_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__write_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__write_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__write_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__write_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket_type__write_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_type_of_subject__write_uid
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_task_timesheet_invoice__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__write_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__write_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__write_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__write_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__write_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket_type__write_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_type_of_subject__write_date
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_task_timesheet_invoice__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__leader_id
+msgid "Leader"
+msgstr "قائد"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_report__priority__0
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__priority__0
+msgid "Low"
+msgstr "قليل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.actions.act_window,name:construction_contracting_issue_tracking.construction_task_timsheet_wizard_action
+msgid "Make Invoice"
+msgstr "إنشاء فاتورة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__category__functional
+msgid "Material Deficiencies"
+msgstr "نقص المواد"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__priority__1
+msgid "Middle"
+msgstr "وسط"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid "Multiple files can be attach"
+msgstr "يمكن إرفاق ملفات متعددة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket_type__name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_type_of_subject__name
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "Name"
+msgstr "اسم"
+
+#. module: construction_contracting_issue_tracking
+#: model:construction.stage.config,name:construction_contracting_issue_tracking.construction_stage_4
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_stage_config__stage_type__needs_more_info
+msgid "Needs More Info"
+msgstr "بحاجة الى مزيد من المعلومات"
+
+#. module: construction_contracting_issue_tracking
+#: model:construction.stage.config,name:construction_contracting_issue_tracking.construction_stage_5
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_stage_config__stage_type__needs_reply
+msgid "Needs Reply"
+msgstr "يحتاج إلى رد"
+
+#. module: construction_contracting_issue_tracking
+#: model:construction.stage.config,name:construction_contracting_issue_tracking.construction_stage_1
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_stage_config__stage_type__new
+msgid "New"
+msgstr "جديد"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/controllers/main.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/controllers/main.py:0
+#, python-format
+msgid "Newest"
+msgstr "الأحدث"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "تقويم النشاط القادم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__date_action
+msgid "Next Activity Date"
+msgstr "تاريخ النشاط القادم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__kanban_state__green
+msgid "Next activity is planned"
+msgstr "النشاط القادم مخطط له"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__kanban_state__red
+msgid "Next activity late"
+msgstr "النشاط القادم متأخر"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "No"
+msgstr "لا"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#, python-format
+msgid "No Subject"
+msgstr "لا يوجد موضوع"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#, python-format
+msgid "No customer found on some Timesheet lines."
+msgstr "لم يتم العثور على أي عميل في بعض سطور جدول العمل."
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#, python-format
+msgid "No invoices created."
+msgstr "لم يتم إنشاء أي فواتير."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__kanban_state__grey
+msgid "No next activity planned"
+msgstr "لا يوجد نشاط قادم مخطط له"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_report__priority__1
+msgid "Normal"
+msgstr "طبيعي"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__name
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__name
+msgid "Number"
+msgstr "رقم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__phone
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__phone
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid "Phone"
+msgstr "هاتف"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/wizard/weekly_timesheet_report.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/wizard/weekly_timesheet_report.py:0
+#, python-format
+msgid "Please Select Correct Date For one week"
+msgstr "الرجاء تحديد التاريخ الصحيح لمدة أسبوع واحد"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#, python-format
+msgid "Please add invoice lines."
+msgstr "يرجى إضافة أسطر الفاتورة."
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#, python-format
+msgid "Please configure Default Income account for Product."
+msgstr "يرجى تكوين حساب الدخل الافتراضي للمنتج."
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#: code:addons/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/wizard/task_timesheet_invoice.py:0
+#, python-format
+msgid "Please configure an accounting sale journal for this company."
+msgstr "يرجى تكوين دفتر مبيعات محاسبي لهذه الشركة."
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#, python-format
+msgid ""
+"Please define expense account for this product: \"%s\" (id:%d) - or for its "
+"category: \"%s\"."
+msgstr "يرجى تحديد حساب المصروفات لهذا المنتج: \"%s\" (المعرف:%d) - أو لفئته: \"%s\"."
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#, python-format
+msgid "Please set pricelist."
+msgstr "يرجى تحديد قائمة الأسعار."
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#, python-format
+msgid "Please set the Assign To."
+msgstr "يرجى تعيين \"التعيين إلى\"."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__rating__poor
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid "Poor"
+msgstr "فقير"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__access_url
+msgid "Portal Access URL"
+msgstr "عنوان URL للوصول إلى البوابة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_account__prepared_hours_ids
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.view_account_analytic_account_form_inherit_construction
+msgid "Prepaid Hours"
+msgstr "ساعات الدفع المسبق"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.view_account_analytic_account_form_inherit_construction
+msgid "Prepaired Hours"
+msgstr "ساعات التحضير"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_project_project__price_rate
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_project_task__price_rate
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_res_partner__price_rate
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_res_users__price_rate
+msgid "Price / Rate (Company Currency)"
+msgstr "السعر / المعدل (عملة الشركة)"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__priority
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__priority
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_tickets
+msgid "Priority"
+msgstr "أولوية"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__legend_priority
+msgid "Priority Management Explanation"
+msgstr "شرح إدارة الأولويات"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__product_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_project_project__product_id_construction
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_project_task__product_id_construction
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_res_partner__product_id_construction
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_res_users__product_id_construction
+msgid "Product"
+msgstr "منتج"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_project_project
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__project_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__project_id
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.view_construction_report_search
+msgid "Project"
+msgstr "مشروع"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "Project Details"
+msgstr "تفاصيل المشروع"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.actions.report,name:construction_contracting_issue_tracking.print_construction_request
+#: model:ir.model,name:construction_contracting_issue_tracking.model_construction_ticket
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_line__construction_ticket_request_id
+msgid "Project Issue"
+msgstr "قضية المشروع"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_ticket
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_configuration
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_ticket
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_partner_form_prize
+msgid "Project Issues"
+msgstr "قضايا المشروع"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__purchased_hours
+msgid "Purchased Hours"
+msgstr "الساعات المشتراة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__product_uom_qty
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__quantity
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__rating_ids
+msgid "Ratings"
+msgstr "التقييمات"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_account__remaining_hours
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__remaining_hours
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__remaining_hours
+msgid "Remaining Hours"
+msgstr "الساعات المتبقية"
+
+#. module: construction_contracting_issue_tracking
+#: model:construction.stage.config,name:construction_contracting_issue_tracking.construction_stage_6
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_stage_config__stage_type__reopened
+msgid "Reopened"
+msgstr "أعيد فتحه"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_ticket_report
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_construction_ticket_report
+msgid "Reports"
+msgstr "التقارير"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__requirements
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_stage_form
+msgid "Requirements"
+msgstr "متطلبات"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_prepared_purchase_hours__sale_order_id
+msgid "Sales Order"
+msgstr "طلب المبيعات"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/controllers/main.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/controllers/main.py:0
+#, python-format
+msgid "Search <span class=\"nolabel\"> (in Title)</span>"
+msgstr "البحث <span class=\"nolabel\"> (في العنوان)</span>"
+
+#. module: construction_contracting_issue_tracking
+#: model:website.menu,name:construction_contracting_issue_tracking.support_page_search_custom
+msgid "Search Tickets"
+msgstr "البحث عن التذاكر"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/controllers/main.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/controllers/main.py:0
+#, python-format
+msgid "Search in All"
+msgstr "البحث في الكل"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/controllers/main.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/controllers/main.py:0
+#, python-format
+msgid "Search in Issue Number"
+msgstr "البحث في رقم الإصدار"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/controllers/main.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/controllers/main.py:0
+#, python-format
+msgid "Search in date"
+msgstr "البحث في التاريخ"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__access_token
+msgid "Security Token"
+msgstr "رمز الأمان"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__sequence
+msgid "Sequence"
+msgstr "تسلسل"
+
+#. module: construction_contracting_issue_tracking
+#: model:construction.stage.config,name:construction_contracting_issue_tracking.construction_stage_7
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_stage_config__stage_type__solution_suggested
+msgid "Solution Suggested"
+msgstr "الحل المقترح"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_mail_invalid
+msgid "Sorry!"
+msgstr "آسف!"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_stage_config__team_id
+msgid ""
+"Specific team that uses this stage. Other teams will not be able to see or "
+"use this stage."
+msgstr ""
+"فريق محدد يستخدم هذه المرحلة. لن تتمكن الفرق الأخرى من رؤية هذه المرحلة أو "
+"استخدامها."
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/controllers/main.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/controllers/main.py:0
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__stage_id
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_stage_form
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_tickets
+#, python-format
+msgid "Stage"
+msgstr "منصة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__name
+msgid "Stage Name"
+msgstr "اسم المسرح"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_stage_search
+msgid "Stage Search"
+msgstr "البحث عن المرحلة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_construction_stage_config
+msgid "Stage of case"
+msgstr "مرحلة القضية"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_stage_tree
+msgid "Stages"
+msgstr "مراحل"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.actions.act_window,help:construction_contracting_issue_tracking.action_construction_stage_config
+msgid ""
+"Stages allow salespersons to easily track how a specific opportunity\n"
+"            is positioned in the sales cycle."
+msgstr ""
+"تتيح المراحل لمندوبي المبيعات تتبع كيفية وضع فرصة معينة في دورة المبيعات "
+"بسهولة."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد انقضى بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط له: الأنشطة المستقبلية."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__subject
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__subject
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid "Subject"
+msgstr "موضوع"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_ticket_template
+msgid "Submit"
+msgstr "يُقدِّم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_report__category__support
+msgid "Support"
+msgstr "يدعم"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_project_task
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__task_id
+msgid "Task"
+msgstr "مهمة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model,name:construction_contracting_issue_tracking.model_task_timesheet_invoice
+msgid "Task Timesheet Invoice"
+msgstr "فاتورة جدول العمل"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_task_timesheet_invoice_wizard_view
+msgid "Task Timsheet Invoice"
+msgstr "جدول عمل الفاتورة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__custom_project_task_ids
+msgid "Tasks"
+msgstr "المهام"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__tax_id
+msgid "Taxes"
+msgstr "الضرائب"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__team_leader_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__team_leader_id
+msgid "Team Leader"
+msgstr "قائد الفريق"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_team__team_ids
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_team_form_view
+msgid "Team Members"
+msgstr "أعضاء الفريق"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_report__category__technical
+msgid "Technical"
+msgstr "اِصطِلاحِيّ"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.thanks_mail_send
+msgid "Thank You!"
+msgstr "شكرًا لك!"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.constraint,message:construction_contracting_issue_tracking.constraint_construction_stage_config_stage_uniq
+msgid "The Type must be unique !"
+msgstr "يجب أن يكون النوع فريدًا!"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__balanced_remaining_hours
+msgid "This refers to balance remaining hours during working on ticket."
+msgstr "يشير هذا إلى رصيد الساعات المتبقية أثناء العمل على التذكرة."
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.actions.act_window,help:construction_contracting_issue_tracking.action_construction_user_tree
+msgid ""
+"This report allows you to analyse the performance of your projects and "
+"users. You can analyse the quantities of tasks, the hours spent compared to "
+"the planned hours, the average number of days to open or close a task, etc."
+msgstr ""
+"يتيح لك هذا التقرير تحليل أداء مشاريعك ومستخدميك. يمكنك تحليل كميات المهام، "
+"والساعات المستغرقة مقارنة بالساعات المخطط لها، ومتوسط ​​عدد الأيام اللازمة "
+"لفتح أو إغلاق مهمة، وما إلى ذلك."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_stage_config__fold
+msgid ""
+"This stage is folded in the kanban view when there are no records in that "
+"stage to display."
+msgstr ""
+"يتم طي هذه المرحلة في عرض كانبان عندما لا توجد سجلات في تلك المرحلة لعرضها."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_team__is_team
+msgid ""
+"Tick this box to set this team as default support team when request come "
+"from website"
+msgstr ""
+"حدد هذا المربع لتعيين هذا الفريق كفريق دعم افتراضي عندما يأتي الطلب من موقع "
+"الويب"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__custome_client_user_id
+msgid "Ticket Created User"
+msgstr "المستخدم الذي تم إنشاء التذكرة له"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.website_search_ticket
+msgid "Ticket Number"
+msgstr "رقم التذكرة"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.website_search_ticket
+msgid "Ticket Status"
+msgstr "حالة التذكرة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_line__time_in
+msgid "Time In"
+msgstr "الوقت في"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_line__time_out
+msgid "Time Out"
+msgstr "نفذ الوقت"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_account__timesheet_custom_ids
+msgid "Timesheet Custom"
+msgstr "جدول زمني مخصص"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.actions.act_window,name:construction_contracting_issue_tracking.action_construction_support_ticket_invoice
+#: model:ir.actions.act_window,name:construction_contracting_issue_tracking.construction_invoice_action_ts_1
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_construction_timesheet_invoice
+msgid "Timesheet to Invoice"
+msgstr "جدول العمل إلى الفاتورة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__timesheet_line_ids
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_report
+msgid "Timesheets"
+msgstr "جداول العمل"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.sub_menu_construction_ticket_invoice
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.sub_menu_jobcosting_construction_ticket_invoice
+msgid "Timesheets to Invoice"
+msgstr "جداول العمل إلى الفاتورة"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/controllers/main.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/controllers/main.py:0
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_tickets
+#, python-format
+msgid "Title"
+msgstr "عنوان"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_account__total_consumed_hours
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__total_consumed_hours
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__total_consumed_hours
+msgid "Total Consumed Hours"
+msgstr "إجمالي الساعات المستهلكة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__total_spend_hours
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__total_spend_hours
+msgid "Total Hours Spent"
+msgstr "إجمالي الساعات المستغرقة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_account_analytic_account__total_purchase_hours
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__total_purchase_hours
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__total_purchase_hours
+msgid "Total Purchase Hours"
+msgstr "إجمالي ساعات الشراء"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_stage_config__stage_type
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__stage_type
+msgid "Type"
+msgstr "يكتب"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__type_ticket_id
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__type_ticket_id
+msgid "Type of Issue"
+msgstr "نوع المشكلة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.actions.act_window,name:construction_contracting_issue_tracking.action_construction_type_of_subject
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__subject_type_id
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_jobcosting_type_of_subject
+#: model:ir.ui.menu,name:construction_contracting_issue_tracking.menu_type_of_subject
+msgid "Type of Issue Subject"
+msgstr "نوع الموضوع"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__subject_type_id
+msgid "Type of Subject"
+msgstr "نوع الموضوع"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__price_unit
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_invoice_line__product_uom
+msgid "Unit of Measure"
+msgstr "وحدة القياس"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_stage_config__sequence
+msgid "Used to order stages. Lower is better."
+msgstr "يستخدم لترتيب المراحل، فكلما كان المستوى أقل كان أفضل."
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_ticket__rating__very_good
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid "Very Good"
+msgstr "جيد جدًا"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_ticket__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,help:construction_contracting_issue_tracking.field_construction_ticket__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصالات الموقع"
+
+#. module: construction_contracting_issue_tracking
+#: model:construction.stage.config,name:construction_contracting_issue_tracking.construction_stage_3
+#: model:ir.model.fields.selection,name:construction_contracting_issue_tracking.selection__construction_stage_config__stage_type__work_in_progress
+msgid "Work in Progress"
+msgstr "العمل قيد التقدم"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.display_construction_ticket
+msgid "Yes"
+msgstr "نعم"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_support.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/models/helpdesk_supportOLD.py:0
+#, python-format
+msgid "You can not delete record which are not in draft state."
+msgstr "لا يمكنك حذف السجل الذي ليس في حالة المسودة."
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_mail_invalid
+msgid ""
+"You have entered wrong Email ID, we request you to recheck.\n"
+"                                        <br/>"
+msgstr ""
+"لقد أدخلت معرف بريد إلكتروني خاطئ، نرجو منك إعادة التحقق.\n"
+"<br/>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.ticket_invalid
+msgid "You have entered wrong ticket number.<br/>"
+msgstr "لقد أدخلت رقم التذكرة الخطأ."
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_feedback
+msgid "Your Comment....."
+msgstr "تعليقك....."
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.successful_construction_feedback
+msgid ""
+"Your Feedabck have been sent successfully.<br/><br/>\n"
+"                                    Thank you,<br/><br/>\n"
+"                                    Adminstrator"
+msgstr ""
+"لقد تم إرسال تعليقاتك بنجاح.<br/><br/>\n"
+"شكرًا لك،<br/><br/>\n"
+"المسؤول"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.thanks_mail_send
+msgid "Your Issue number is"
+msgstr "رقم الإصدار الخاص بك هو"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.successful_construction_ticket_send
+msgid ""
+"Your Message/Attachments have been sent successfully.<br/><br/>\n"
+"                                Thank you,<br/><br/>"
+msgstr ""
+"لقد تم إرسال رسالتك/المرفقات بنجاح.<br/><br/>\n"
+"شكرا لك،<br/><br/>"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.website_search_ticket
+msgid "e.g TICK-00001"
+msgstr "على سبيل المثال TICK-00001"
+
+#. module: construction_contracting_issue_tracking
+#. odoo-python
+#: code:addons/construction_contracting_issue_tracking/controllers/main.py:0
+#: code:addons/odoo/const/construction_contracting_issue_tracking/controllers/main.py:0
+#, python-format
+msgid "has send this feedback rating is %s and comment is %s"
+msgstr "تم إرسال هذا التقييم وهو %s والتعليق هو %s"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_message_thread_ticket
+msgid "on"
+msgstr "على"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.construction_task_timesheet_invoice_wizard_view
+msgid "or"
+msgstr "أو"
+
+#. module: construction_contracting_issue_tracking
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.successful_construction_feedback
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.successful_construction_ticket_send
+#: model_terms:ir.ui.view,arch_db:construction_contracting_issue_tracking.website_search_ticket
+msgid "show ticket"
+msgstr "تذكرة العرض"
+
+#. module: construction_contracting_issue_tracking
+#: model:ir.model.fields,field_description:construction_contracting_issue_tracking.field_construction_report__stage_id
+msgid "stage"
+msgstr "منصة"
+
+#. module: construction_contracting_issue_tracking
+#: model:res.groups,comment:construction_contracting_issue_tracking.group_construction_user
+msgid "the user will have access to his own data in the Issue application."
+msgstr "سيكون للمستخدم إمكانية الوصول إلى بياناته الخاصة في تطبيق الإصدار."

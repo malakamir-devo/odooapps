@@ -1,0 +1,174 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* job_costing_volumn_trend
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:39+0000\n"
+"PO-Revision-Date: 2024-11-01 16:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__analytic_id
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__timesheet_id
+msgid "Analytic Account line"
+msgstr "خط الحساب التحليلي"
+
+#. module: job_costing_volumn_trend
+#: model:ir.ui.menu,name:job_costing_volumn_trend.menu_job_costing_report_volumn_tread_menu
+msgid "Costing Reports"
+msgstr "تقارير التكاليف"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__partner_id
+msgid "Customer"
+msgstr "عميل"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__date
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__hours
+msgid "Hours"
+msgstr "ساعات"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__direct_id
+msgid "Job Costing"
+msgstr "تكلفة الوظيفة"
+
+#. module: job_costing_volumn_trend
+#: model:ir.ui.menu,name:job_costing_volumn_trend.menu_report_job_costing_tread_menu
+msgid "Job Costing Volume Trends"
+msgstr "اتجاهات حجم تكاليف الوظائف"
+
+#. module: job_costing_volumn_trend
+#: model:ir.actions.act_window,name:job_costing_volumn_trend.job_costing_volumn_trend_report_action_view
+#: model_terms:ir.ui.view,arch_db:job_costing_volumn_trend.job_costing_volumn_trend_report_pivot_view
+#: model_terms:ir.ui.view,arch_db:job_costing_volumn_trend.job_costing_volumn_trend_report_tree_view
+#: model_terms:ir.ui.view,arch_db:job_costing_volumn_trend.view_job_costing_volumn_trend_report_graph_view
+msgid "Job Costing Volumn Trends"
+msgstr "اتجاهات حجم تكاليف الوظائف"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__task_id
+msgid "Job Order"
+msgstr "طلب عمل"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model,name:job_costing_volumn_trend.model_report_job_cost_volumn_trend
+msgid "Job Trend"
+msgstr "اتجاه العمل"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__job_type_id
+msgid "Job Type"
+msgstr "نوع الوظيفة"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields.selection,name:job_costing_volumn_trend.selection__report_job_cost_volumn_trend__job_type__labour
+msgid "Labour"
+msgstr "تَعَب"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields.selection,name:job_costing_volumn_trend.selection__report_job_cost_volumn_trend__job_type__material
+msgid "Material"
+msgstr "مادة"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields.selection,name:job_costing_volumn_trend.selection__report_job_cost_volumn_trend__job_type__overhead
+msgid "Overhead"
+msgstr "النفقات العامة"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__product_qty
+msgid "Planned Quantity"
+msgstr "الكمية المخطط لها"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__product_id
+msgid "Product"
+msgstr "منتج"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__project_id
+msgid "Project"
+msgstr "مشروع"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__purchase_id
+msgid "Purchase Order"
+msgstr "أمر شراء"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__date_order_purchase
+msgid "Purchase Order Date"
+msgstr "تاريخ طلب الشراء"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__purchase_qty
+msgid "Purchase Quantity"
+msgstr "كمية الشراء"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__requisition_qty
+msgid "Requisition Quantity"
+msgstr "كمية الطلب"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__material_requisition_id
+msgid "Requisitions"
+msgstr "الطلبات"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__timesheet_date
+msgid "TImesheet Date"
+msgstr "تاريخ جدول العمل"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__timesheet_quantity
+msgid "Timesheet Quantity"
+msgstr "كمية جدول العمل"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__job_type
+msgid "Type"
+msgstr "يكتب"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__account_invoice_id
+msgid "Vendor Bill"
+msgstr "فاتورة البائع"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__date_invoice
+msgid "Vendor Bill Date"
+msgstr "تاريخ فاتورة البائع"
+
+#. module: job_costing_volumn_trend
+#: model:ir.model.fields,field_description:job_costing_volumn_trend.field_report_job_cost_volumn_trend__vendor_quantity
+msgid "Vendor Quantity"
+msgstr "كمية البائع"

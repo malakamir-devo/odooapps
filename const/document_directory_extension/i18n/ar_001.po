@@ -1,0 +1,286 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* document_directory_extension
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 17:03+0000\n"
+"PO-Revision-Date: 2024-11-01 17:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: document_directory_extension
+#: model:mail.template,body_html:document_directory_extension.email_template_document_attachment
+msgid ""
+"\n"
+"            \n"
+"<p>Hello,</p>\n"
+"\n"
+"<p>Please find attached document for your reference.</p>\n"
+"\n"
+"<p>Thank You,</p>\n"
+"<p><t t-out=\"object.company_id.name\"/></p>\n"
+"\n"
+"<!-- <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n"
+"       <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n"
+"           <strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n"
+"   </div>\n"
+"   <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n"
+"       <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n"
+"           ${object.company_id.partner_id.sudo().with_context(show_address=True, html_format=True).name_get()[0][1] | safe}\n"
+"       </span>\n"
+"       % if object.company_id.phone:\n"
+"           <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n"
+"               Phone:&nbsp; ${object.company_id.phone}\n"
+"           </div>\n"
+"       % endif\n"
+"       % if object.company_id.website:\n"
+"           <div>\n"
+"               Web :&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n"
+"           </div>\n"
+"       %endif\n"
+"       <p></p>\n"
+"   </div> -->\n"
+msgstr ""
+"<p>مرحبًا،</p>\n"
+"\n"
+"<p>يرجى الاطلاع على المستند المرفق للرجوع إليه.</p>\n"
+"\n"
+"<p>شكرًا لك،</p>\n"
+"<p><t t-out=\"object.company_id.name\"/></p>\n"
+"\n"
+"<!-- <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n"
+"<h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n"
+"<strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n"
+"</div>\n"
+"<div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n"
+"<span style=\"color: #222; margin-bottom: 5px; display: block; \">\n"
+"${object.company_id.partner_id.sudo().with_context(show_address=True, html_format=True).name_get()[0][1] | safe}\n"
+"</span>\n"
+"% if object.company_id.phone:\n"
+"<div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n"
+"الهاتف:&nbsp; ${object.company_id.phone}\n"
+"</div>\n"
+"% endif\n"
+"% ​​if object.company_id.website:\n"
+"<div>\n"
+"Web :&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n"
+"</div>\n"
+"%endif\n"
+"<p></p>\n"
+"</div> -->"
+
+#. module: document_directory_extension
+#: model:ir.ui.menu,name:document_directory_extension.menu_document_id
+#: model:ir.ui.menu,name:document_directory_extension.menu_document_under
+msgid "All Documents"
+msgstr "جميع المستندات"
+
+#. module: document_directory_extension
+#: model:ir.model,name:document_directory_extension.model_ir_attachment
+msgid "Attachment"
+msgstr "مرفق"
+
+#. module: document_directory_extension
+#: model:mail.template,name:document_directory_extension.email_template_document_attachment
+msgid "Attachment - Send by Email"
+msgstr "المرفق - أرسل عبر البريد الإلكتروني"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__attachment_ids
+msgid "Attachments"
+msgstr "المرفقات"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__children_ids
+msgid "Childs"
+msgstr "تشايلدز"
+
+#. module: document_directory_extension
+#: model_terms:ir.actions.act_window,help:document_directory_extension.action_document_display
+msgid "Create Document Directory"
+msgstr "إنشاء دليل المستندات"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: document_directory_extension
+#: model:ir.actions.act_window,name:document_directory_extension.action_document_display
+#: model:ir.ui.menu,name:document_directory_extension.menu_document_directories
+#: model:ir.ui.menu,name:document_directory_extension.menu_document_directory
+msgid "Directories"
+msgstr "الدلائل"
+
+#. module: document_directory_extension
+#: model:ir.ui.menu,name:document_directory_extension.menu_document_directory_structure
+msgid "Directories Structure"
+msgstr "هيكل الدلائل"
+
+#. module: document_directory_extension
+#: model:ir.model,name:document_directory_extension.model_document_directory
+#: model:ir.model.fields,field_description:document_directory_extension.field_ir_attachment__directory_id
+#: model:ir.model.fields,field_description:document_directory_extension.field_product_document__directory_id
+#: model:ir.model.fields.selection,name:document_directory_extension.selection__document_directory__dir_type__dir
+msgid "Directory"
+msgstr "دليل"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__code
+msgid "Directory Code"
+msgstr "كود الدليل"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__name
+msgid "Directory Name"
+msgstr "اسم الدليل"
+
+#. module: document_directory_extension
+#. odoo-python
+#: code:addons/document_directory_extension/models/document_directory.py:0
+#: code:addons/odoo/const/document_directory_extension/models/document_directory.py:0
+#, python-format
+msgid "Directory for this model is already created!"
+msgstr "تم إنشاء الدليل لهذا النموذج بالفعل!"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: document_directory_extension
+#: model:ir.ui.menu,name:document_directory_extension.main_document_extension_menu
+msgid "Document"
+msgstr "وثيقة"
+
+#. module: document_directory_extension
+#: model_terms:ir.ui.view,arch_db:document_directory_extension.document_tree_hierarchy_shov
+msgid "Document  Hierarchy"
+msgstr "التسلسل الهرمي للوثائق"
+
+#. module: document_directory_extension
+#: model:ir.actions.act_window,name:document_directory_extension.document_tree_hierarchy
+msgid "Document Directories Hierarchy"
+msgstr "تسلسل هرمي لدلائل المستندات"
+
+#. module: document_directory_extension
+#: model_terms:ir.ui.view,arch_db:document_directory_extension.document_directory_search_view
+msgid "Document Directory search"
+msgstr "البحث في دليل المستندات"
+
+#. module: document_directory_extension
+#: model:res.groups,name:document_directory_extension.group_document_manager
+msgid "Document Manager"
+msgstr "مدير المستندات"
+
+#. module: document_directory_extension
+#: model_terms:ir.ui.view,arch_db:document_directory_extension.document_directory_form_view
+msgid "Documents"
+msgstr "وثائق"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__sequence_id
+msgid "Entry Sequence"
+msgstr "تسلسل الدخول"
+
+#. module: document_directory_extension
+#: model_terms:ir.ui.view,arch_db:document_directory_extension.document_directory_search_view
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__group_ids
+#: model_terms:ir.ui.view,arch_db:document_directory_extension.document_directory_form_view
+msgid "Groups"
+msgstr "المجموعات"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__model_id
+msgid "Model"
+msgstr "نموذج"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_ir_attachment__number
+#: model:ir.model.fields,field_description:document_directory_extension.field_product_document__number
+msgid "Number"
+msgstr "رقم"
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__parent_id
+msgid "Parent Directory"
+msgstr "دليل الوالدين"
+
+#. module: document_directory_extension
+#. odoo-python
+#: code:addons/document_directory_extension/models/document_directory.py:0
+#: code:addons/odoo/const/document_directory_extension/models/document_directory.py:0
+#, python-format
+msgid "Please select Different Parent Directory."
+msgstr "الرجاء تحديد دليل الوالدين المختلف."
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__res_id
+msgid "Resource ID"
+msgstr "معرف المورد"
+
+#. module: document_directory_extension
+#: model_terms:ir.ui.view,arch_db:document_directory_extension.ir_attachment__inherit_form_view
+msgid "Send by Email"
+msgstr "إرسال عبر البريد الإلكتروني"
+
+#. module: document_directory_extension
+#. odoo-python
+#: code:addons/document_directory_extension/models/attachment.py:0
+#: code:addons/document_directory_extension/models/attachment.py:0
+#: code:addons/odoo/const/document_directory_extension/models/attachment.py:0
+#: code:addons/odoo/const/document_directory_extension/models/attachment.py:0
+#, python-format
+msgid "Sorry you don't have access for this document.'"
+msgstr "نأسف لأنه ليس لديك إمكانية الوصول إلى هذه الوثيقة."
+
+#. module: document_directory_extension
+#: model:ir.model.fields,field_description:document_directory_extension.field_document_directory__dir_type
+msgid "Type"
+msgstr "يكتب"
+
+#. module: document_directory_extension
+#: model:ir.model.fields.selection,name:document_directory_extension.selection__document_directory__dir_type__view
+msgid "View"
+msgstr "منظر"
+
+#. module: document_directory_extension
+#: model:mail.template,subject:document_directory_extension.email_template_document_attachment
+msgid "{{object.number}} {{object.name}}"
+msgstr "{{رقم الكائن}} {{اسم الكائن}}"

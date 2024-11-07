@@ -1,0 +1,263 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_customer_progress_billing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 16:47+0000\n"
+"PO-Revision-Date: 2024-11-01 16:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Current Invoiced</strong>"
+msgstr "<strong>الفاتورة الحالية</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Customer Code:</strong>"
+msgstr "<strong>رمز العميل:</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Description:</strong>"
+msgstr "<strong>الوصف:</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Fiscal Position Remark:</strong>"
+msgstr "<strong>ملاحظة حول الموقف المالي:</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Invoice To Date</strong>"
+msgstr "<strong>تاريخ الفاتورة</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Less Paid Amount</strong>"
+msgstr "<strong>المبلغ المدفوع الأقل</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Payment terms:</strong>"
+msgstr "<strong>شروط الدفع:</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Previously Invoiced Due</strong>"
+msgstr "<strong>المستحقات التي تم إصدار فاتورة لها مسبقًا</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Previously Invoiced</strong>"
+msgstr "<strong>تم إصدار الفاتورة مسبقًا</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Progress Bill Date:</strong>"
+msgstr "<strong>تاريخ مشروع القانون التقدمي:</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Progress Bill Title:</strong>"
+msgstr "<strong>عنوان مشروع قانون التقدم:</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Reference:</strong>"
+msgstr "<strong>المرجع:</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Remaining Progress Billing</strong>"
+msgstr "<strong>الفاتورة المتبقية</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>المجموع الفرعي</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Total Due Now</strong>"
+msgstr "<strong>المجموع المستحق الآن</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Total Progress Billing</strong>"
+msgstr "<strong>إجمالي الفواتير التقدمية</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "<strong>Total</strong>"
+msgstr "<strong>المجموع</strong>"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model,name:odoo_customer_progress_billing.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Cancelled Invoice"
+msgstr "الفاتورة الملغاة"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__current_invoice
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__current_invoice
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__current_invoice
+msgid "Current Invoiced"
+msgstr "الفاتورة الحالية"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Description"
+msgstr "وصف"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Disc.(%)"
+msgstr "القرص.(%)"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Draft Invoice"
+msgstr "مسودة الفاتورة"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Invoice"
+msgstr "فاتورة"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__invoice_to_date
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__invoice_to_date
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__invoice_to_date
+msgid "Invoice To Date"
+msgstr "الفاتورة حتى تاريخه"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model,name:odoo_customer_progress_billing.model_account_move
+msgid "Journal Entry"
+msgstr "القيد اليومي"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__less_paid_amount
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__less_paid_amount
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__less_paid_amount
+msgid "Less Paid Amount"
+msgstr "أقل مبلغ مدفوع"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "PRO-FORMA"
+msgstr "نموذج أولي"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__previously_invoice
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__previously_invoice
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__previously_invoice
+msgid "Previously Invoiced"
+msgstr "تم إصدار فاتورة مسبقًا"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__previously_invoice_due
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__previously_invoice_due
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__previously_invoice_due
+msgid "Previously Invoiced Due"
+msgstr "تم إصدار فاتورة مستحقة مسبقًا"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.actions.report,name:odoo_customer_progress_billing.customer_progress_billing_custom
+msgid "Progress Billing"
+msgstr "الفواتير التقدمية"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.customer_progress_bill_add
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Progress Billing Information"
+msgstr "معلومات الفواتير التقدمية"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__progress_bill_title
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__progress_bill_title
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__progress_bill_title
+msgid "Progress Billing Title"
+msgstr "عنوان الفاتورة التقدمية"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__project_id
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__project_id
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__project_id
+msgid "Project"
+msgstr "مشروع"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Refund"
+msgstr "استرداد"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__remaining_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__remaining_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__remaining_progress_billing
+msgid "Remaining Progress Billing"
+msgstr "فاتورة التقدم المتبقية"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "TIN:"
+msgstr "تين:"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Tax Excluded Price"
+msgstr "السعر بدون ضريبة"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Taxes"
+msgstr "الضرائب"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__total_due
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__total_due
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__total_due
+msgid "Total Due Now"
+msgstr "المجموع المستحق الآن"
+
+#. module: odoo_customer_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_analytic_account__total_progress_account
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_bank_statement_line__total_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_move__total_progress_billing
+#: model:ir.model.fields,field_description:odoo_customer_progress_billing.field_account_payment__total_progress_billing
+msgid "Total Progress Billing"
+msgstr "إجمالي الفواتير التقدمية"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Vendor Bill"
+msgstr "فاتورة البائع"
+
+#. module: odoo_customer_progress_billing
+#: model_terms:ir.ui.view,arch_db:odoo_customer_progress_billing.progress_report
+msgid "Vendor Refund"
+msgstr "استرداد الأموال للبائع"
